@@ -1,0 +1,6 @@
+### The SAT Language
+The SAT Language is currently quite simple.  All tokens should be delimited with whitespace.
+The tokens "A", "O", "N" denote the boolean operators "and", "or", and "not", respectively.
+All other alphanumeric strings, including those with '_' or '-' in the middle may be used as
+variable tokens.  Variables do not need to be declared.  Parentheses may be used as expected.
+The operators, in order of precedence, are "not", "and", "or".
