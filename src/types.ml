@@ -14,7 +14,7 @@ end
 include T
 end
 
-module AST = struct
+module Ast = struct
 module T = struct
   type t = Bin of (t * t * Binop.t) | Neg of t | Ident of string with sexp
   let rec to_string = function
@@ -22,5 +22,5 @@ module T = struct
     | Neg ast -> "-" ^ (to_string ast)
     | Ident s -> s
 end
-include t
+include T
 end

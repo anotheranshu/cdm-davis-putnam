@@ -1,4 +1,7 @@
+open Types
+
 type token =
+  | EOF
   | IDENT of (string)
   | NEG
   | OR
