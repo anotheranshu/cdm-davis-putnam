@@ -1,0 +1,620 @@
+"naivecnf.ml" 4 26 34 "naivecnf.ml" 4 26 46
+type(
+  Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list
+)
+ident(
+  def combine_cnfs "naivecnf.ml" 4 26 26 "naivecnf.ml" 1 0 -1
+)
+"naivecnf.ml" 4 26 47 "naivecnf.ml" 4 26 51
+type(
+  Cnf.Literal.Set.t list
+)
+ident(
+  def cnf1 "naivecnf.ml" 4 26 52 "naivecnf.ml" 8 105 190
+)
+"naivecnf.ml" 4 26 52 "naivecnf.ml" 4 26 56
+type(
+  Cnf.Literal.Set.t list
+)
+ident(
+  def cnf2 "naivecnf.ml" 5 59 61 "naivecnf.ml" 8 105 190
+)
+"naivecnf.ml" 5 59 67 "naivecnf.ml" 5 59 71
+type(
+  Cnf.Literal.Set.t list
+)
+ident(
+  int_ref cnf1 "naivecnf.ml" 4 26 47 "naivecnf.ml" 4 26 51
+)
+"naivecnf.ml" 6 77 81 "naivecnf.ml" 6 77 83
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 6 77 87 "naivecnf.ml" 6 77 89
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 7 90 95 "naivecnf.ml" 7 90 96
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  def x "naivecnf.ml" 8 105 111 "naivecnf.ml" 8 105 190
+)
+"naivecnf.ml" 7 90 98 "naivecnf.ml" 7 90 100
+type(
+  Cnf.Literal.Set.t list
+)
+ident(
+  def xs "naivecnf.ml" 8 105 111 "naivecnf.ml" 8 105 190
+)
+"naivecnf.ml" 7 90 95 "naivecnf.ml" 7 90 100
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 8 105 111 "naivecnf.ml" 8 105 122
+type(
+  Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list
+)
+ident(
+  ext_ref Core.Std.List.append
+)
+"naivecnf.ml" 8 105 124 "naivecnf.ml" 8 105 132
+type(
+  Cnf.Literal.Set.t list ->
+  f:(Cnf.Literal.Set.t -> Cnf.Literal.Set.t) -> Cnf.Literal.Set.t list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"naivecnf.ml" 8 105 137 "naivecnf.ml" 8 105 158
+type(
+  Cnf.Literal.Set.t -> Cnf.Literal.Set.t -> Cnf.Literal.Set.t
+)
+ident(
+  ext_ref Types.Cnf.Literal.Set.union
+)
+"naivecnf.ml" 8 105 159 "naivecnf.ml" 8 105 160
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  int_ref x "naivecnf.ml" 7 90 95 "naivecnf.ml" 7 90 96
+)
+"naivecnf.ml" 8 105 137 "naivecnf.ml" 8 105 160
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t -> Cnf.Literal.Set.t
+)
+"naivecnf.ml" 8 105 162 "naivecnf.ml" 8 105 166
+type(
+  Cnf.Literal.Set.t list
+)
+ident(
+  int_ref cnf2 "naivecnf.ml" 4 26 52 "naivecnf.ml" 4 26 56
+)
+"naivecnf.ml" 8 105 124 "naivecnf.ml" 8 105 166
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 8 105 169 "naivecnf.ml" 8 105 181
+type(
+  Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list
+)
+ident(
+  int_ref combine_cnfs "naivecnf.ml" 4 26 34 "naivecnf.ml" 4 26 46
+)
+"naivecnf.ml" 8 105 182 "naivecnf.ml" 8 105 184
+type(
+  Cnf.Literal.Set.t list
+)
+ident(
+  int_ref xs "naivecnf.ml" 7 90 98 "naivecnf.ml" 7 90 100
+)
+"naivecnf.ml" 8 105 185 "naivecnf.ml" 8 105 189
+type(
+  Cnf.Literal.Set.t list
+)
+ident(
+  int_ref cnf2 "naivecnf.ml" 4 26 52 "naivecnf.ml" 4 26 56
+)
+"naivecnf.ml" 8 105 169 "naivecnf.ml" 8 105 189
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 8 105 111 "naivecnf.ml" 8 105 190
+call(
+  tail
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 5 59 61 "naivecnf.ml" 8 105 190
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 4 26 52 "naivecnf.ml" 8 105 190
+type(
+  Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 4 26 47 "naivecnf.ml" 8 105 190
+type(
+  Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 10 192 200 "naivecnf.ml" 10 192 216
+type(
+  Ast.t -> Cnf.Literal.Set.t list
+)
+ident(
+  def transform_to_cnf "naivecnf.ml" 10 192 192 "naivecnf.ml" 1 0 -1
+)
+"naivecnf.ml" 10 192 217 "naivecnf.ml" 10 192 220
+type(
+  Ast.t
+)
+ident(
+  def ast "naivecnf.ml" 11 223 225 "naivecnf.ml" 21 795 893
+)
+"naivecnf.ml" 11 223 231 "naivecnf.ml" 11 223 234
+type(
+  Ast.t
+)
+ident(
+  int_ref ast "naivecnf.ml" 10 192 217 "naivecnf.ml" 10 192 220
+)
+"naivecnf.ml" 12 240 254 "naivecnf.ml" 12 240 255
+type(
+  string
+)
+ident(
+  def s "naivecnf.ml" 12 240 260 "naivecnf.ml" 12 240 306
+)
+"naivecnf.ml" 12 240 244 "naivecnf.ml" 12 240 255
+type(
+  Ast.t
+)
+"naivecnf.ml" 12 240 260 "naivecnf.ml" 12 240 285
+type(
+  Cnf.Literal.t -> Cnf.Literal.Set.t
+)
+ident(
+  ext_ref Types.Cnf.Literal.Set.singleton
+)
+"naivecnf.ml" 12 240 304 "naivecnf.ml" 12 240 305
+type(
+  string
+)
+ident(
+  int_ref s "naivecnf.ml" 12 240 254 "naivecnf.ml" 12 240 255
+)
+"naivecnf.ml" 12 240 287 "naivecnf.ml" 12 240 305
+type(
+  Cnf.Literal.t
+)
+"naivecnf.ml" 12 240 260 "naivecnf.ml" 12 240 306
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 12 240 259 "naivecnf.ml" 12 240 307
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 13 308 329 "naivecnf.ml" 13 308 338
+type(
+  Ast.t
+)
+ident(
+  def child_ast "naivecnf.ml" 13 308 343 "naivecnf.ml" 13 308 369
+)
+"naivecnf.ml" 13 308 321 "naivecnf.ml" 13 308 338
+type(
+  Ast.t
+)
+"naivecnf.ml" 13 308 312 "naivecnf.ml" 13 308 339
+type(
+  Ast.t
+)
+"naivecnf.ml" 13 308 343 "naivecnf.ml" 13 308 359
+type(
+  Ast.t -> Cnf.Literal.Set.t list
+)
+ident(
+  int_ref transform_to_cnf "naivecnf.ml" 10 192 200 "naivecnf.ml" 10 192 216
+)
+"naivecnf.ml" 13 308 360 "naivecnf.ml" 13 308 369
+type(
+  Ast.t
+)
+ident(
+  int_ref child_ast "naivecnf.ml" 13 308 329 "naivecnf.ml" 13 308 338
+)
+"naivecnf.ml" 13 308 343 "naivecnf.ml" 13 308 369
+call(
+  tail
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 14 370 392 "naivecnf.ml" 14 370 396
+type(
+  Ast.t
+)
+ident(
+  def ast1 "naivecnf.ml" 15 420 426 "naivecnf.ml" 15 420 491
+)
+"naivecnf.ml" 14 370 398 "naivecnf.ml" 14 370 402
+type(
+  Ast.t
+)
+ident(
+  def ast2 "naivecnf.ml" 15 420 426 "naivecnf.ml" 15 420 491
+)
+"naivecnf.ml" 14 370 404 "naivecnf.ml" 14 370 413
+type(
+  Binop.t
+)
+"naivecnf.ml" 14 370 383 "naivecnf.ml" 14 370 414
+type(
+  Ast.t
+)
+type(
+  Ast.t * Ast.t * Binop.t
+)
+"naivecnf.ml" 14 370 374 "naivecnf.ml" 14 370 415
+type(
+  Ast.t
+)
+"naivecnf.ml" 15 420 426 "naivecnf.ml" 15 420 442
+type(
+  Ast.t -> Cnf.Literal.Set.t list
+)
+ident(
+  int_ref transform_to_cnf "naivecnf.ml" 10 192 200 "naivecnf.ml" 10 192 216
+)
+"naivecnf.ml" 15 420 461 "naivecnf.ml" 15 420 465
+type(
+  Ast.t
+)
+ident(
+  int_ref ast1 "naivecnf.ml" 14 370 392 "naivecnf.ml" 14 370 396
+)
+"naivecnf.ml" 15 420 453 "naivecnf.ml" 15 420 465
+type(
+  Ast.t
+)
+"naivecnf.ml" 15 420 475 "naivecnf.ml" 15 420 479
+type(
+  Ast.t
+)
+ident(
+  int_ref ast2 "naivecnf.ml" 14 370 398 "naivecnf.ml" 14 370 402
+)
+"naivecnf.ml" 15 420 467 "naivecnf.ml" 15 420 479
+type(
+  Ast.t
+)
+"naivecnf.ml" 15 420 481 "naivecnf.ml" 15 420 489
+type(
+  Binop.t
+)
+"naivecnf.ml" 15 420 444 "naivecnf.ml" 15 420 490
+type(
+  Ast.t * Ast.t * Binop.t
+)
+type(
+  Ast.t
+)
+"naivecnf.ml" 15 420 426 "naivecnf.ml" 15 420 491
+call(
+  tail
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 16 492 514 "naivecnf.ml" 16 492 518
+type(
+  Ast.t
+)
+ident(
+  def ast1 "naivecnf.ml" 17 540 546 "naivecnf.ml" 17 540 612
+)
+"naivecnf.ml" 16 492 520 "naivecnf.ml" 16 492 524
+type(
+  Ast.t
+)
+ident(
+  def ast2 "naivecnf.ml" 17 540 546 "naivecnf.ml" 17 540 612
+)
+"naivecnf.ml" 16 492 526 "naivecnf.ml" 16 492 534
+type(
+  Binop.t
+)
+"naivecnf.ml" 16 492 505 "naivecnf.ml" 16 492 535
+type(
+  Ast.t
+)
+type(
+  Ast.t * Ast.t * Binop.t
+)
+"naivecnf.ml" 16 492 496 "naivecnf.ml" 16 492 536
+type(
+  Ast.t
+)
+"naivecnf.ml" 17 540 546 "naivecnf.ml" 17 540 562
+type(
+  Ast.t -> Cnf.Literal.Set.t list
+)
+ident(
+  int_ref transform_to_cnf "naivecnf.ml" 10 192 200 "naivecnf.ml" 10 192 216
+)
+"naivecnf.ml" 17 540 581 "naivecnf.ml" 17 540 585
+type(
+  Ast.t
+)
+ident(
+  int_ref ast1 "naivecnf.ml" 16 492 514 "naivecnf.ml" 16 492 518
+)
+"naivecnf.ml" 17 540 573 "naivecnf.ml" 17 540 585
+type(
+  Ast.t
+)
+"naivecnf.ml" 17 540 595 "naivecnf.ml" 17 540 599
+type(
+  Ast.t
+)
+ident(
+  int_ref ast2 "naivecnf.ml" 16 492 520 "naivecnf.ml" 16 492 524
+)
+"naivecnf.ml" 17 540 587 "naivecnf.ml" 17 540 599
+type(
+  Ast.t
+)
+"naivecnf.ml" 17 540 601 "naivecnf.ml" 17 540 610
+type(
+  Binop.t
+)
+"naivecnf.ml" 17 540 564 "naivecnf.ml" 17 540 611
+type(
+  Ast.t * Ast.t * Binop.t
+)
+type(
+  Ast.t
+)
+"naivecnf.ml" 17 540 546 "naivecnf.ml" 17 540 612
+call(
+  tail
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 18 613 636 "naivecnf.ml" 18 613 637
+type(
+  string
+)
+ident(
+  def s "naivecnf.ml" 19 642 649 "naivecnf.ml" 19 642 694
+)
+"naivecnf.ml" 18 613 626 "naivecnf.ml" 18 613 637
+type(
+  Ast.t
+)
+"naivecnf.ml" 18 613 617 "naivecnf.ml" 18 613 638
+type(
+  Ast.t
+)
+"naivecnf.ml" 19 642 649 "naivecnf.ml" 19 642 674
+type(
+  Cnf.Literal.t -> Cnf.Literal.Set.t
+)
+ident(
+  ext_ref Types.Cnf.Literal.Set.singleton
+)
+"naivecnf.ml" 19 642 692 "naivecnf.ml" 19 642 693
+type(
+  string
+)
+ident(
+  int_ref s "naivecnf.ml" 18 613 636 "naivecnf.ml" 18 613 637
+)
+"naivecnf.ml" 19 642 676 "naivecnf.ml" 19 642 693
+type(
+  Cnf.Literal.t
+)
+"naivecnf.ml" 19 642 649 "naivecnf.ml" 19 642 694
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 19 642 648 "naivecnf.ml" 19 642 695
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 20 696 709 "naivecnf.ml" 20 696 713
+type(
+  Ast.t
+)
+ident(
+  def ast1 "naivecnf.ml" 20 696 735 "naivecnf.ml" 20 696 794
+)
+"naivecnf.ml" 20 696 715 "naivecnf.ml" 20 696 719
+type(
+  Ast.t
+)
+ident(
+  def ast2 "naivecnf.ml" 20 696 735 "naivecnf.ml" 20 696 794
+)
+"naivecnf.ml" 20 696 721 "naivecnf.ml" 20 696 730
+type(
+  Binop.t
+)
+"naivecnf.ml" 20 696 700 "naivecnf.ml" 20 696 731
+type(
+  Ast.t
+)
+type(
+  Ast.t * Ast.t * Binop.t
+)
+"naivecnf.ml" 20 696 735 "naivecnf.ml" 20 696 746
+type(
+  Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list
+)
+ident(
+  ext_ref Core.Std.List.append
+)
+"naivecnf.ml" 20 696 748 "naivecnf.ml" 20 696 764
+type(
+  Ast.t -> Cnf.Literal.Set.t list
+)
+ident(
+  int_ref transform_to_cnf "naivecnf.ml" 10 192 200 "naivecnf.ml" 10 192 216
+)
+"naivecnf.ml" 20 696 765 "naivecnf.ml" 20 696 769
+type(
+  Ast.t
+)
+ident(
+  int_ref ast1 "naivecnf.ml" 20 696 709 "naivecnf.ml" 20 696 713
+)
+"naivecnf.ml" 20 696 748 "naivecnf.ml" 20 696 769
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 20 696 772 "naivecnf.ml" 20 696 788
+type(
+  Ast.t -> Cnf.Literal.Set.t list
+)
+ident(
+  int_ref transform_to_cnf "naivecnf.ml" 10 192 200 "naivecnf.ml" 10 192 216
+)
+"naivecnf.ml" 20 696 789 "naivecnf.ml" 20 696 793
+type(
+  Ast.t
+)
+ident(
+  int_ref ast2 "naivecnf.ml" 20 696 715 "naivecnf.ml" 20 696 719
+)
+"naivecnf.ml" 20 696 772 "naivecnf.ml" 20 696 793
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 20 696 735 "naivecnf.ml" 20 696 794
+call(
+  tail
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 21 795 808 "naivecnf.ml" 21 795 812
+type(
+  Ast.t
+)
+ident(
+  def ast1 "naivecnf.ml" 21 795 833 "naivecnf.ml" 21 795 893
+)
+"naivecnf.ml" 21 795 814 "naivecnf.ml" 21 795 818
+type(
+  Ast.t
+)
+ident(
+  def ast2 "naivecnf.ml" 21 795 833 "naivecnf.ml" 21 795 893
+)
+"naivecnf.ml" 21 795 820 "naivecnf.ml" 21 795 828
+type(
+  Binop.t
+)
+"naivecnf.ml" 21 795 799 "naivecnf.ml" 21 795 829
+type(
+  Ast.t
+)
+type(
+  Ast.t * Ast.t * Binop.t
+)
+"naivecnf.ml" 21 795 833 "naivecnf.ml" 21 795 845
+type(
+  Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list -> Cnf.Literal.Set.t list
+)
+ident(
+  int_ref combine_cnfs "naivecnf.ml" 4 26 34 "naivecnf.ml" 4 26 46
+)
+"naivecnf.ml" 21 795 847 "naivecnf.ml" 21 795 863
+type(
+  Ast.t -> Cnf.Literal.Set.t list
+)
+ident(
+  int_ref transform_to_cnf "naivecnf.ml" 10 192 200 "naivecnf.ml" 10 192 216
+)
+"naivecnf.ml" 21 795 864 "naivecnf.ml" 21 795 868
+type(
+  Ast.t
+)
+ident(
+  int_ref ast1 "naivecnf.ml" 21 795 808 "naivecnf.ml" 21 795 812
+)
+"naivecnf.ml" 21 795 847 "naivecnf.ml" 21 795 868
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 21 795 871 "naivecnf.ml" 21 795 887
+type(
+  Ast.t -> Cnf.Literal.Set.t list
+)
+ident(
+  int_ref transform_to_cnf "naivecnf.ml" 10 192 200 "naivecnf.ml" 10 192 216
+)
+"naivecnf.ml" 21 795 888 "naivecnf.ml" 21 795 892
+type(
+  Ast.t
+)
+ident(
+  int_ref ast2 "naivecnf.ml" 21 795 814 "naivecnf.ml" 21 795 818
+)
+"naivecnf.ml" 21 795 871 "naivecnf.ml" 21 795 892
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 21 795 833 "naivecnf.ml" 21 795 893
+call(
+  tail
+)
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 11 223 225 "naivecnf.ml" 21 795 893
+type(
+  Cnf.Literal.Set.t list
+)
+"naivecnf.ml" 10 192 217 "naivecnf.ml" 21 795 893
+type(
+  Ast.t -> Cnf.Literal.Set.t list
+)

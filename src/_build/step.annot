@@ -1,0 +1,1791 @@
+"step.ml" 10 387 395 "step.ml" 10 387 408
+type(
+  Cnf.t -> (Asgn_trace.t * Cnf.t) list -> Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  def unravel_stack "step.ml" 10 387 387 "step.ml" 1 0 -1
+)
+"step.ml" 10 387 409 "step.ml" 10 387 412
+type(
+  Cnf.t
+)
+ident(
+  def cnf "step.ml" 10 387 413 "step.ml" 17 707 731
+)
+"step.ml" 10 387 413 "step.ml" 10 387 414
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  def l "step.ml" 11 418 420 "step.ml" 17 707 731
+)
+"step.ml" 11 418 426 "step.ml" 11 418 427
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  int_ref l "step.ml" 10 387 413 "step.ml" 10 387 414
+)
+"step.ml" 12 434 438 "step.ml" 12 434 440
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 12 434 444 "step.ml" 12 434 449
+type(
+  exn -> Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"step.ml" 12 434 470 "step.ml" 12 434 473
+type(
+  Cnf.t
+)
+ident(
+  int_ref cnf "step.ml" 10 387 409 "step.ml" 10 387 412
+)
+"step.ml" 12 434 451 "step.ml" 12 434 473
+type(
+  exn
+)
+"step.ml" 12 434 444 "step.ml" 12 434 474
+type(
+  Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 13 475 498 "step.ml" 13 475 499
+type(
+  bool String.Map.t
+)
+"step.ml" 13 475 480 "step.ml" 13 475 499
+type(
+  Asgn_trace.t
+)
+"step.ml" 13 475 501 "step.ml" 13 475 509
+type(
+  Cnf.t
+)
+ident(
+  def next_cnf "step.ml" 13 475 518 "step.ml" 13 475 543
+)
+"step.ml" 13 475 480 "step.ml" 13 475 509
+type(
+  Asgn_trace.t * Cnf.t
+)
+"step.ml" 13 475 512 "step.ml" 13 475 514
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  def ls "step.ml" 13 475 518 "step.ml" 13 475 543
+)
+"step.ml" 13 475 479 "step.ml" 13 475 514
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 13 475 518 "step.ml" 13 475 531
+type(
+  Cnf.t -> (Asgn_trace.t * Cnf.t) list -> Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  int_ref unravel_stack "step.ml" 10 387 395 "step.ml" 10 387 408
+)
+"step.ml" 13 475 532 "step.ml" 13 475 540
+type(
+  Cnf.t
+)
+ident(
+  int_ref next_cnf "step.ml" 13 475 501 "step.ml" 13 475 509
+)
+"step.ml" 13 475 541 "step.ml" 13 475 543
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  int_ref ls "step.ml" 13 475 512 "step.ml" 13 475 514
+)
+"step.ml" 13 475 518 "step.ml" 13 475 543
+call(
+  tail
+)
+type(
+  Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 14 544 567 "step.ml" 14 544 574
+type(
+  Asgn_trace.choice
+)
+ident(
+  def choices "step.ml" 15 593 599 "step.ml" 17 707 731
+)
+"step.ml" 14 544 549 "step.ml" 14 544 574
+type(
+  Asgn_trace.t
+)
+"step.ml" 14 544 576 "step.ml" 14 544 584
+type(
+  Cnf.t
+)
+ident(
+  def next_cnf "step.ml" 15 593 599 "step.ml" 17 707 731
+)
+"step.ml" 14 544 549 "step.ml" 14 544 584
+type(
+  Asgn_trace.t * Cnf.t
+)
+"step.ml" 14 544 587 "step.ml" 14 544 589
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  def ls "step.ml" 15 593 599 "step.ml" 17 707 731
+)
+"step.ml" 14 544 548 "step.ml" 14 544 589
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 15 593 603 "step.ml" 15 593 610
+type(
+  Asgn_trace.choice
+)
+ident(
+  int_ref choices "step.ml" 14 544 567 "step.ml" 14 544 574
+)
+"step.ml" 15 593 603 "step.ml" 15 593 633
+type(
+  bool
+)
+"step.ml" 15 593 634 "step.ml" 15 593 636
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"step.ml" 15 593 637 "step.ml" 15 593 644
+type(
+  Asgn_trace.choice
+)
+ident(
+  int_ref choices "step.ml" 14 544 567 "step.ml" 14 544 574
+)
+"step.ml" 15 593 637 "step.ml" 15 593 668
+type(
+  bool
+)
+"step.ml" 15 593 603 "step.ml" 15 593 668
+type(
+  bool
+)
+"step.ml" 16 670 681 "step.ml" 16 670 694
+type(
+  Cnf.t -> (Asgn_trace.t * Cnf.t) list -> Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  int_ref unravel_stack "step.ml" 10 387 395 "step.ml" 10 387 408
+)
+"step.ml" 16 670 695 "step.ml" 16 670 703
+type(
+  Cnf.t
+)
+ident(
+  int_ref next_cnf "step.ml" 14 544 576 "step.ml" 14 544 584
+)
+"step.ml" 16 670 704 "step.ml" 16 670 706
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  int_ref ls "step.ml" 14 544 587 "step.ml" 14 544 589
+)
+"step.ml" 16 670 681 "step.ml" 16 670 706
+call(
+  tail
+)
+type(
+  Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 17 707 719 "step.ml" 17 707 727
+type(
+  Cnf.t
+)
+ident(
+  int_ref next_cnf "step.ml" 14 544 576 "step.ml" 14 544 584
+)
+"step.ml" 17 707 729 "step.ml" 17 707 730
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  int_ref l "step.ml" 10 387 413 "step.ml" 10 387 414
+)
+"step.ml" 17 707 719 "step.ml" 17 707 730
+type(
+  Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 15 593 599 "step.ml" 17 707 731
+type(
+  Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 11 418 420 "step.ml" 17 707 731
+type(
+  Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 10 387 413 "step.ml" 17 707 731
+type(
+  (Asgn_trace.t * Cnf.t) list -> Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 10 387 409 "step.ml" 17 707 731
+type(
+  Cnf.t -> (Asgn_trace.t * Cnf.t) list -> Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 19 734 738 "step.ml" 19 734 756
+type(
+  Cnf.Literal.t -> string * bool
+)
+ident(
+  def single_lit_to_asgn "step.ml" 24 853 853 "step.ml" 1 0 -1
+)
+"step.ml" 19 734 757 "step.ml" 19 734 760
+type(
+  Cnf.Literal.t
+)
+ident(
+  def lit "step.ml" 20 763 765 "step.ml" 22 816 851
+)
+"step.ml" 20 763 771 "step.ml" 20 763 774
+type(
+  Cnf.Literal.t
+)
+ident(
+  int_ref lit "step.ml" 19 734 757 "step.ml" 19 734 760
+)
+"step.ml" 21 780 801 "step.ml" 21 780 802
+type(
+  string
+)
+ident(
+  def s "step.ml" 21 780 807 "step.ml" 21 780 814
+)
+"step.ml" 21 780 784 "step.ml" 21 780 802
+type(
+  Cnf.Literal.t
+)
+"step.ml" 21 780 807 "step.ml" 21 780 808
+type(
+  string
+)
+ident(
+  int_ref s "step.ml" 21 780 801 "step.ml" 21 780 802
+)
+"step.ml" 21 780 810 "step.ml" 21 780 814
+type(
+  bool
+)
+"step.ml" 21 780 807 "step.ml" 21 780 814
+type(
+  string * bool
+)
+"step.ml" 22 816 836 "step.ml" 22 816 837
+type(
+  string
+)
+ident(
+  def s "step.ml" 22 816 842 "step.ml" 22 816 850
+)
+"step.ml" 22 816 820 "step.ml" 22 816 837
+type(
+  Cnf.Literal.t
+)
+"step.ml" 22 816 842 "step.ml" 22 816 843
+type(
+  string
+)
+ident(
+  int_ref s "step.ml" 22 816 836 "step.ml" 22 816 837
+)
+"step.ml" 22 816 845 "step.ml" 22 816 850
+type(
+  bool
+)
+"step.ml" 22 816 842 "step.ml" 22 816 850
+type(
+  string * bool
+)
+"step.ml" 20 763 765 "step.ml" 22 816 851
+type(
+  string * bool
+)
+"step.ml" 19 734 757 "step.ml" 22 816 851
+type(
+  Cnf.Literal.t -> string * bool
+)
+"step.ml" 24 853 857 "step.ml" 24 853 875
+type(
+  string * bool -> Cnf.Literal.t
+)
+ident(
+  def asgn_to_single_lit "step.ml" 28 1126 1126 "step.ml" 1 0 -1
+)
+"step.ml" 24 853 877 "step.ml" 24 853 878
+type(
+  string
+)
+ident(
+  def s "step.ml" 24 853 888 "step.ml" 24 853 946
+)
+"step.ml" 24 853 880 "step.ml" 24 853 884
+type(
+  bool
+)
+ident(
+  def asgn "step.ml" 24 853 888 "step.ml" 24 853 946
+)
+"step.ml" 24 853 877 "step.ml" 24 853 884
+type(
+  string * bool
+)
+"step.ml" 24 853 891 "step.ml" 24 853 895
+type(
+  bool
+)
+ident(
+  int_ref asgn "step.ml" 24 853 880 "step.ml" 24 853 884
+)
+"step.ml" 24 853 919 "step.ml" 24 853 920
+type(
+  string
+)
+ident(
+  int_ref s "step.ml" 24 853 877 "step.ml" 24 853 878
+)
+"step.ml" 24 853 902 "step.ml" 24 853 920
+type(
+  Cnf.Literal.t
+)
+"step.ml" 24 853 944 "step.ml" 24 853 945
+type(
+  string
+)
+ident(
+  int_ref s "step.ml" 24 853 877 "step.ml" 24 853 878
+)
+"step.ml" 24 853 928 "step.ml" 24 853 945
+type(
+  Cnf.Literal.t
+)
+"step.ml" 24 853 888 "step.ml" 24 853 946
+type(
+  Cnf.Literal.t
+)
+"step.ml" 24 853 876 "step.ml" 24 853 946
+type(
+  string * bool -> Cnf.Literal.t
+)
+"step.ml" 28 1126 1130 "step.ml" 28 1126 1148
+type(
+  t -> t
+)
+ident(
+  def split_new_variable "step.ml" 57 2212 2212 "step.ml" 1 0 -1
+)
+"step.ml" 28 1126 1149 "step.ml" 28 1126 1154
+type(
+  t
+)
+ident(
+  def state "step.ml" 29 1158 1160 "step.ml" 53 2027 2032
+)
+"step.ml" 29 1158 1164 "step.ml" 29 1158 1176
+type(
+  Cnf.Literal.t
+)
+ident(
+  def next_literal "step.ml" 30 1240 1242 "step.ml" 53 2027 2032
+)
+"step.ml" 29 1158 1179 "step.ml" 29 1158 1202
+type(
+  heuristic ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list -> Cnf.Literal.t
+)
+ident(
+  ext_ref Heuristics.next_literal
+)
+"step.ml" 29 1158 1203 "step.ml" 29 1158 1208
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 28 1126 1149 "step.ml" 28 1126 1154
+)
+"step.ml" 29 1158 1203 "step.ml" 29 1158 1218
+type(
+  heuristic
+)
+"step.ml" 29 1158 1219 "step.ml" 29 1158 1224
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 28 1126 1149 "step.ml" 28 1126 1154
+)
+"step.ml" 29 1158 1219 "step.ml" 29 1158 1236
+type(
+  Cnf.t
+)
+"step.ml" 29 1158 1179 "step.ml" 29 1158 1236
+call(
+  stack
+)
+type(
+  Cnf.Literal.t
+)
+"step.ml" 30 1240 1247 "step.ml" 30 1240 1248
+type(
+  string
+)
+ident(
+  def s "step.ml" 31 1293 1295 "step.ml" 53 2027 2032
+)
+"step.ml" 30 1240 1250 "step.ml" 30 1240 1254
+type(
+  bool
+)
+ident(
+  def asgn "step.ml" 31 1293 1295 "step.ml" 53 2027 2032
+)
+"step.ml" 30 1240 1247 "step.ml" 30 1240 1254
+type(
+  string * bool
+)
+"step.ml" 30 1240 1258 "step.ml" 30 1240 1276
+type(
+  Cnf.Literal.t -> string * bool
+)
+ident(
+  int_ref single_lit_to_asgn "step.ml" 19 734 738 "step.ml" 19 734 756
+)
+"step.ml" 30 1240 1277 "step.ml" 30 1240 1289
+type(
+  Cnf.Literal.t
+)
+ident(
+  int_ref next_literal "step.ml" 29 1158 1164 "step.ml" 29 1158 1176
+)
+"step.ml" 30 1240 1258 "step.ml" 30 1240 1289
+call(
+  stack
+)
+type(
+  string * bool
+)
+"step.ml" 31 1293 1299 "step.ml" 31 1293 1310
+type(
+  Asgn_trace.choice
+)
+ident(
+  def this_choice "step.ml" 36 1488 1490 "step.ml" 53 2027 2032
+)
+"step.ml" 32 1313 1320 "step.ml" 32 1313 1324
+type(
+  bool
+)
+ident(
+  int_ref asgn "step.ml" 30 1240 1250 "step.ml" 30 1240 1254
+)
+"step.ml" 33 1325 1361 "step.ml" 33 1325 1365
+type(
+  bool
+)
+"step.ml" 33 1325 1382 "step.ml" 33 1325 1387
+type(
+  bool
+)
+"step.ml" 33 1325 1400 "step.ml" 33 1325 1401
+type(
+  string
+)
+ident(
+  int_ref s "step.ml" 30 1240 1247 "step.ml" 30 1240 1248
+)
+"step.ml" 33 1325 1346 "step.ml" 33 1325 1402
+type(
+  choice
+)
+"step.ml" 34 1404 1440 "step.ml" 34 1404 1445
+type(
+  bool
+)
+"step.ml" 34 1404 1462 "step.ml" 34 1404 1466
+type(
+  bool
+)
+"step.ml" 34 1404 1479 "step.ml" 34 1404 1480
+type(
+  string
+)
+ident(
+  int_ref s "step.ml" 30 1240 1247 "step.ml" 30 1240 1248
+)
+"step.ml" 34 1404 1425 "step.ml" 34 1404 1481
+type(
+  choice
+)
+"step.ml" 32 1313 1317 "step.ml" 34 1404 1482
+type(
+  Asgn_trace.choice
+)
+"step.ml" 37 1494 1503 "step.ml" 37 1494 1510
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def new_cnf "step.ml" 40 1625 1629 "step.ml" 45 1800 1805
+)
+"step.ml" 37 1494 1512 "step.ml" 37 1494 1513
+type(
+  bool String.Map.t
+)
+"step.ml" 37 1494 1503 "step.ml" 37 1494 1513
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"step.ml" 38 1518 1524 "step.ml" 38 1518 1557
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+ident(
+  ext_ref Cleanup.fixed_literals_to_new_cnf
+)
+"step.ml" 38 1518 1559 "step.ml" 38 1518 1584
+type(
+  Cnf.Literal.t -> Cnf.Literal.Set.t
+)
+ident(
+  ext_ref Types.Cnf.Literal.Set.singleton
+)
+"step.ml" 38 1518 1585 "step.ml" 38 1518 1597
+type(
+  Cnf.Literal.t
+)
+ident(
+  int_ref next_literal "step.ml" 29 1158 1164 "step.ml" 29 1158 1176
+)
+"step.ml" 38 1518 1559 "step.ml" 38 1518 1597
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t
+)
+"step.ml" 38 1518 1599 "step.ml" 38 1518 1604
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 28 1126 1149 "step.ml" 28 1126 1154
+)
+"step.ml" 38 1518 1599 "step.ml" 38 1518 1616
+type(
+  Cnf.t
+)
+"step.ml" 38 1518 1524 "step.ml" 38 1518 1616
+call(
+  stack
+)
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"step.ml" 41 1631 1665 "step.ml" 41 1631 1676
+type(
+  Asgn_trace.choice
+)
+ident(
+  int_ref this_choice "step.ml" 31 1293 1299 "step.ml" 31 1293 1310
+)
+"step.ml" 41 1631 1647 "step.ml" 41 1631 1676
+type(
+  Asgn_trace.t
+)
+"step.ml" 41 1631 1678 "step.ml" 41 1631 1683
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 28 1126 1149 "step.ml" 28 1126 1154
+)
+"step.ml" 41 1631 1678 "step.ml" 41 1631 1695
+type(
+  Cnf.t
+)
+"step.ml" 41 1631 1647 "step.ml" 41 1631 1695
+type(
+  Asgn_trace.t * Cnf.t
+)
+"step.ml" 41 1631 1699 "step.ml" 41 1631 1704
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 28 1126 1149 "step.ml" 28 1126 1154
+)
+"step.ml" 41 1631 1699 "step.ml" 41 1631 1710
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 41 1631 1646 "step.ml" 41 1631 1711
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 42 1714 1734 "step.ml" 42 1714 1741
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref new_cnf "step.ml" 37 1494 1503 "step.ml" 37 1494 1510
+)
+"step.ml" 43 1743 1760 "step.ml" 43 1743 1764
+type(
+  bool
+)
+"step.ml" 44 1766 1784 "step.ml" 44 1766 1789
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 28 1126 1149 "step.ml" 28 1126 1154
+)
+"step.ml" 44 1766 1784 "step.ml" 44 1766 1799
+type(
+  heuristic
+)
+"step.ml" 40 1625 1629 "step.ml" 45 1800 1805
+type(
+  t
+)
+"step.ml" 37 1494 1498 "step.ml" 45 1800 1805
+type(
+  t
+)
+"step.ml" 47 1813 1836 "step.ml" 47 1813 1837
+type(
+  Cnf.t
+)
+"step.ml" 47 1813 1817 "step.ml" 47 1813 1837
+type(
+  exn
+)
+"step.ml" 49 1847 1881 "step.ml" 49 1847 1892
+type(
+  Asgn_trace.choice
+)
+ident(
+  int_ref this_choice "step.ml" 31 1293 1299 "step.ml" 31 1293 1310
+)
+"step.ml" 49 1847 1863 "step.ml" 49 1847 1892
+type(
+  Asgn_trace.t
+)
+"step.ml" 49 1847 1894 "step.ml" 49 1847 1899
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 28 1126 1149 "step.ml" 28 1126 1154
+)
+"step.ml" 49 1847 1894 "step.ml" 49 1847 1911
+type(
+  Cnf.t
+)
+"step.ml" 49 1847 1863 "step.ml" 49 1847 1911
+type(
+  Asgn_trace.t * Cnf.t
+)
+"step.ml" 49 1847 1915 "step.ml" 49 1847 1920
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 28 1126 1149 "step.ml" 28 1126 1154
+)
+"step.ml" 49 1847 1915 "step.ml" 49 1847 1926
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 49 1847 1862 "step.ml" 49 1847 1927
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 50 1930 1950 "step.ml" 50 1930 1955
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 28 1126 1149 "step.ml" 28 1126 1154
+)
+"step.ml" 50 1930 1950 "step.ml" 50 1930 1967
+type(
+  Cnf.t
+)
+"step.ml" 51 1969 1986 "step.ml" 51 1969 1991
+type(
+  bool
+)
+"step.ml" 52 1993 2011 "step.ml" 52 1993 2016
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 28 1126 1149 "step.ml" 28 1126 1154
+)
+"step.ml" 52 1993 2011 "step.ml" 52 1993 2026
+type(
+  heuristic
+)
+"step.ml" 48 1841 1845 "step.ml" 53 2027 2032
+type(
+  t
+)
+"step.ml" 36 1488 1490 "step.ml" 53 2027 2032
+type(
+  t
+)
+"step.ml" 31 1293 1295 "step.ml" 53 2027 2032
+type(
+  t
+)
+"step.ml" 30 1240 1242 "step.ml" 53 2027 2032
+type(
+  t
+)
+"step.ml" 29 1158 1160 "step.ml" 53 2027 2032
+type(
+  t
+)
+"step.ml" 28 1126 1149 "step.ml" 53 2027 2032
+type(
+  t -> t
+)
+"step.ml" 57 2212 2216 "step.ml" 57 2212 2229
+type(
+  t -> t
+)
+ident(
+  def second_choice "step.ml" 87 3441 3441 "step.ml" 1 0 -1
+)
+"step.ml" 57 2212 2230 "step.ml" 57 2212 2235
+type(
+  t
+)
+ident(
+  def state "step.ml" 58 2238 2240 "step.ml" 82 3232 3241
+)
+"step.ml" 58 2238 2246 "step.ml" 58 2238 2251
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 57 2212 2230 "step.ml" 57 2212 2235
+)
+"step.ml" 58 2238 2246 "step.ml" 58 2238 2257
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 59 2263 2267 "step.ml" 59 2263 2269
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 59 2263 2273 "step.ml" 59 2263 2281
+type(
+  string -> t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"step.ml" 59 2263 2282 "step.ml" 59 2263 2321
+type(
+  string
+)
+"step.ml" 59 2263 2273 "step.ml" 59 2263 2321
+call(
+  tail
+)
+type(
+  t
+)
+"step.ml" 60 2322 2345 "step.ml" 60 2322 2346
+type(
+  bool String.Map.t
+)
+"step.ml" 60 2322 2327 "step.ml" 60 2322 2346
+type(
+  Asgn_trace.t
+)
+"step.ml" 60 2322 2348 "step.ml" 60 2322 2349
+type(
+  Cnf.t
+)
+"step.ml" 60 2322 2327 "step.ml" 60 2322 2349
+type(
+  Asgn_trace.t * Cnf.t
+)
+"step.ml" 60 2322 2352 "step.ml" 60 2322 2361
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  def remaining "step.ml" 60 2322 2365 "step.ml" 60 2322 2411
+)
+"step.ml" 60 2322 2326 "step.ml" 60 2322 2361
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 60 2322 2365 "step.ml" 60 2322 2373
+type(
+  string -> t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"step.ml" 60 2322 2374 "step.ml" 60 2322 2411
+type(
+  string
+)
+"step.ml" 60 2322 2365 "step.ml" 60 2322 2411
+call(
+  tail
+)
+type(
+  t
+)
+"step.ml" 61 2412 2435 "step.ml" 61 2412 2441
+type(
+  Asgn_trace.choice
+)
+ident(
+  def choice "step.ml" 62 2462 2468 "step.ml" 82 3232 3241
+)
+"step.ml" 61 2412 2417 "step.ml" 61 2412 2441
+type(
+  Asgn_trace.t
+)
+"step.ml" 61 2412 2443 "step.ml" 61 2412 2446
+type(
+  Cnf.t
+)
+ident(
+  def cnf "step.ml" 62 2462 2468 "step.ml" 82 3232 3241
+)
+"step.ml" 61 2412 2417 "step.ml" 61 2412 2446
+type(
+  Asgn_trace.t * Cnf.t
+)
+"step.ml" 61 2412 2449 "step.ml" 61 2412 2458
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  def remaining "step.ml" 62 2462 2468 "step.ml" 82 3232 3241
+)
+"step.ml" 61 2412 2416 "step.ml" 61 2412 2458
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 62 2462 2472 "step.ml" 62 2462 2476
+type(
+  bool
+)
+ident(
+  def asgn "step.ml" 63 2518 2524 "step.ml" 82 3232 3241
+)
+"step.ml" 62 2462 2479 "step.ml" 62 2462 2482
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"step.ml" 62 2462 2484 "step.ml" 62 2462 2490
+type(
+  Asgn_trace.choice
+)
+ident(
+  int_ref choice "step.ml" 61 2412 2435 "step.ml" 61 2412 2441
+)
+"step.ml" 62 2462 2484 "step.ml" 62 2462 2513
+type(
+  bool
+)
+"step.ml" 62 2462 2479 "step.ml" 62 2462 2514
+type(
+  bool
+)
+"step.ml" 63 2518 2528 "step.ml" 63 2518 2531
+type(
+  Cnf.Literal.t
+)
+ident(
+  def lit "step.ml" 64 2591 2597 "step.ml" 82 3232 3241
+)
+"step.ml" 63 2518 2534 "step.ml" 63 2518 2552
+type(
+  string * bool -> Cnf.Literal.t
+)
+ident(
+  int_ref asgn_to_single_lit "step.ml" 24 853 857 "step.ml" 24 853 875
+)
+"step.ml" 63 2518 2554 "step.ml" 63 2518 2560
+type(
+  Asgn_trace.choice
+)
+ident(
+  int_ref choice "step.ml" 61 2412 2435 "step.ml" 61 2412 2441
+)
+"step.ml" 63 2518 2554 "step.ml" 63 2518 2580
+type(
+  string
+)
+"step.ml" 63 2518 2582 "step.ml" 63 2518 2586
+type(
+  bool
+)
+ident(
+  int_ref asgn "step.ml" 62 2462 2472 "step.ml" 62 2462 2476
+)
+"step.ml" 63 2518 2554 "step.ml" 63 2518 2586
+type(
+  string * bool
+)
+"step.ml" 63 2518 2534 "step.ml" 63 2518 2587
+call(
+  stack
+)
+type(
+  Cnf.Literal.t
+)
+"step.ml" 64 2591 2601 "step.ml" 64 2591 2611
+type(
+  Asgn_trace.choice
+)
+ident(
+  def new_choice "step.ml" 65 2700 2706 "step.ml" 82 3232 3241
+)
+"step.ml" 64 2591 2641 "step.ml" 64 2591 2645
+type(
+  bool
+)
+"step.ml" 64 2591 2662 "step.ml" 64 2591 2666
+type(
+  bool
+)
+"step.ml" 64 2591 2679 "step.ml" 64 2591 2685
+type(
+  choice
+)
+ident(
+  int_ref choice "step.ml" 61 2412 2435 "step.ml" 61 2412 2441
+)
+"step.ml" 64 2591 2679 "step.ml" 64 2591 2694
+type(
+  string
+)
+"step.ml" 64 2591 2626 "step.ml" 64 2591 2695
+type(
+  choice
+)
+"step.ml" 66 2710 2723 "step.ml" 66 2710 2730
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def new_cnf "step.ml" 69 2828 2836 "step.ml" 74 3005 3014
+)
+"step.ml" 66 2710 2732 "step.ml" 66 2710 2733
+type(
+  bool String.Map.t
+)
+"step.ml" 66 2710 2723 "step.ml" 66 2710 2733
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"step.ml" 67 2737 2747 "step.ml" 67 2737 2780
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+ident(
+  ext_ref Cleanup.fixed_literals_to_new_cnf
+)
+"step.ml" 67 2737 2782 "step.ml" 67 2737 2807
+type(
+  Cnf.Literal.t -> Cnf.Literal.Set.t
+)
+ident(
+  ext_ref Types.Cnf.Literal.Set.singleton
+)
+"step.ml" 67 2737 2808 "step.ml" 67 2737 2811
+type(
+  Cnf.Literal.t
+)
+ident(
+  int_ref lit "step.ml" 63 2518 2528 "step.ml" 63 2518 2531
+)
+"step.ml" 67 2737 2782 "step.ml" 67 2737 2811
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t
+)
+"step.ml" 67 2737 2813 "step.ml" 67 2737 2816
+type(
+  Cnf.t
+)
+ident(
+  int_ref cnf "step.ml" 61 2412 2443 "step.ml" 61 2412 2446
+)
+"step.ml" 67 2737 2747 "step.ml" 67 2737 2816
+call(
+  stack
+)
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"step.ml" 70 2838 2876 "step.ml" 70 2838 2886
+type(
+  Asgn_trace.choice
+)
+ident(
+  int_ref new_choice "step.ml" 64 2591 2601 "step.ml" 64 2591 2611
+)
+"step.ml" 70 2838 2858 "step.ml" 70 2838 2886
+type(
+  Asgn_trace.t
+)
+"step.ml" 70 2838 2888 "step.ml" 70 2838 2891
+type(
+  Cnf.t
+)
+ident(
+  int_ref cnf "step.ml" 61 2412 2443 "step.ml" 61 2412 2446
+)
+"step.ml" 70 2838 2858 "step.ml" 70 2838 2891
+type(
+  Asgn_trace.t * Cnf.t
+)
+"step.ml" 70 2838 2894 "step.ml" 70 2838 2903
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  int_ref remaining "step.ml" 61 2412 2449 "step.ml" 61 2412 2458
+)
+"step.ml" 70 2838 2857 "step.ml" 70 2838 2903
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 71 2906 2930 "step.ml" 71 2906 2937
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref new_cnf "step.ml" 66 2710 2723 "step.ml" 66 2710 2730
+)
+"step.ml" 72 2939 2960 "step.ml" 72 2939 2964
+type(
+  bool
+)
+"step.ml" 73 2966 2988 "step.ml" 73 2966 2993
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 57 2212 2230 "step.ml" 57 2212 2235
+)
+"step.ml" 73 2966 2988 "step.ml" 73 2966 3003
+type(
+  heuristic
+)
+"step.ml" 69 2828 2836 "step.ml" 74 3005 3014
+type(
+  t
+)
+"step.ml" 66 2710 2718 "step.ml" 74 3005 3014
+type(
+  t
+)
+"step.ml" 76 3026 3053 "step.ml" 76 3026 3054
+type(
+  Cnf.t
+)
+"step.ml" 76 3026 3034 "step.ml" 76 3026 3054
+type(
+  exn
+)
+"step.ml" 78 3068 3106 "step.ml" 78 3068 3116
+type(
+  Asgn_trace.choice
+)
+ident(
+  int_ref new_choice "step.ml" 64 2591 2601 "step.ml" 64 2591 2611
+)
+"step.ml" 78 3068 3088 "step.ml" 78 3068 3116
+type(
+  Asgn_trace.t
+)
+"step.ml" 78 3068 3118 "step.ml" 78 3068 3121
+type(
+  Cnf.t
+)
+ident(
+  int_ref cnf "step.ml" 61 2412 2443 "step.ml" 61 2412 2446
+)
+"step.ml" 78 3068 3088 "step.ml" 78 3068 3121
+type(
+  Asgn_trace.t * Cnf.t
+)
+"step.ml" 78 3068 3124 "step.ml" 78 3068 3133
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  int_ref remaining "step.ml" 61 2412 2449 "step.ml" 61 2412 2458
+)
+"step.ml" 78 3068 3087 "step.ml" 78 3068 3133
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 79 3136 3160 "step.ml" 79 3136 3163
+type(
+  Cnf.t
+)
+ident(
+  int_ref cnf "step.ml" 61 2412 2443 "step.ml" 61 2412 2446
+)
+"step.ml" 80 3165 3186 "step.ml" 80 3165 3191
+type(
+  bool
+)
+"step.ml" 81 3193 3215 "step.ml" 81 3193 3220
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 57 2212 2230 "step.ml" 57 2212 2235
+)
+"step.ml" 81 3193 3215 "step.ml" 81 3193 3230
+type(
+  heuristic
+)
+"step.ml" 77 3058 3066 "step.ml" 82 3232 3241
+type(
+  t
+)
+"step.ml" 65 2700 2706 "step.ml" 82 3232 3241
+type(
+  t
+)
+"step.ml" 64 2591 2597 "step.ml" 82 3232 3241
+type(
+  t
+)
+"step.ml" 63 2518 2524 "step.ml" 82 3232 3241
+type(
+  t
+)
+"step.ml" 62 2462 2468 "step.ml" 82 3232 3241
+type(
+  t
+)
+"step.ml" 58 2238 2240 "step.ml" 82 3232 3241
+type(
+  t
+)
+"step.ml" 57 2212 2230 "step.ml" 82 3232 3241
+type(
+  t -> t
+)
+"step.ml" 87 3441 3445 "step.ml" 87 3441 3449
+type(
+  t -> t
+)
+ident(
+  def step "step.ml" 101 4207 4207 "step.ml" 1 0 -1
+)
+"step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+type(
+  t
+)
+ident(
+  def state "step.ml" 88 3458 3460 "step.ml" 99 4110 4205
+)
+"step.ml" 88 3458 3460 "step.ml" 88 3458 3466
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"step.ml" 88 3458 3467 "step.ml" 88 3458 3473
+type(
+  (string -> unit, out_channel, unit) format
+)
+"step.ml" 88 3458 3475 "step.ml" 88 3458 3484
+type(
+  t -> string
+)
+ident(
+  ext_ref Types.State.to_string
+)
+"step.ml" 88 3458 3485 "step.ml" 88 3458 3490
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 88 3458 3475 "step.ml" 88 3458 3490
+call(
+  stack
+)
+type(
+  string
+)
+"step.ml" 88 3458 3460 "step.ml" 88 3458 3491
+call(
+  stack
+)
+type(
+  unit
+)
+"step.ml" 89 3493 3498 "step.ml" 89 3493 3503
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 89 3493 3498 "step.ml" 89 3493 3512
+type(
+  bool
+)
+"step.ml" 90 3518 3527 "step.ml" 90 3518 3544
+type(
+  (string, bool, String.comparator_witness) Map.t
+)
+ident(
+  def forced_assignment "step.ml" 91 3602 3606 "step.ml" 95 3901 3964
+)
+"step.ml" 90 3518 3546 "step.ml" 90 3518 3557
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def cleaned_cnf "step.ml" 91 3602 3606 "step.ml" 95 3901 3964
+)
+"step.ml" 90 3518 3527 "step.ml" 90 3518 3557
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"step.ml" 90 3518 3561 "step.ml" 90 3518 3580
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  ext_ref Cleanup.cleanup_cnf
+)
+"step.ml" 90 3518 3581 "step.ml" 90 3518 3586
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 90 3518 3581 "step.ml" 90 3518 3598
+type(
+  Cnf.t
+)
+"step.ml" 90 3518 3561 "step.ml" 90 3518 3598
+call(
+  stack
+)
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"step.ml" 91 3602 3612 "step.ml" 91 3602 3623
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cleaned_cnf "step.ml" 90 3518 3546 "step.ml" 90 3518 3557
+)
+"step.ml" 92 3629 3635 "step.ml" 92 3629 3637
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"step.ml" 92 3629 3642 "step.ml" 92 3629 3647
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 92 3629 3680 "step.ml" 92 3629 3697
+type(
+  (string, bool, String.comparator_witness) Map.t
+)
+ident(
+  int_ref forced_assignment "step.ml" 90 3518 3527 "step.ml" 90 3518 3544
+)
+"step.ml" 92 3629 3662 "step.ml" 92 3629 3697
+type(
+  Asgn_trace.t
+)
+"step.ml" 92 3629 3699 "step.ml" 92 3629 3704
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 92 3629 3699 "step.ml" 92 3629 3716
+type(
+  Cnf.t
+)
+"step.ml" 92 3629 3662 "step.ml" 92 3629 3716
+type(
+  Asgn_trace.t * Cnf.t
+)
+"step.ml" 92 3629 3720 "step.ml" 92 3629 3725
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 92 3629 3720 "step.ml" 92 3629 3731
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 92 3629 3661 "step.ml" 92 3629 3732
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 93 3734 3772 "step.ml" 93 3734 3774
+type(
+  Cnf.t
+)
+"step.ml" 92 3629 3641 "step.ml" 93 3734 3775
+type(
+  t
+)
+"step.ml" 94 3776 3782 "step.ml" 94 3776 3783
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"step.ml" 94 3776 3787 "step.ml" 94 3776 3805
+type(
+  t -> t
+)
+ident(
+  int_ref split_new_variable "step.ml" 28 1126 1130 "step.ml" 28 1126 1148
+)
+"step.ml" 94 3776 3807 "step.ml" 94 3776 3812
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 94 3776 3846 "step.ml" 94 3776 3863
+type(
+  (string, bool, String.comparator_witness) Map.t
+)
+ident(
+  int_ref forced_assignment "step.ml" 90 3518 3527 "step.ml" 90 3518 3544
+)
+"step.ml" 94 3776 3828 "step.ml" 94 3776 3863
+type(
+  Asgn_trace.t
+)
+"step.ml" 94 3776 3865 "step.ml" 94 3776 3870
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 94 3776 3865 "step.ml" 94 3776 3882
+type(
+  Cnf.t
+)
+"step.ml" 94 3776 3828 "step.ml" 94 3776 3882
+type(
+  Asgn_trace.t * Cnf.t
+)
+"step.ml" 94 3776 3886 "step.ml" 94 3776 3891
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 94 3776 3886 "step.ml" 94 3776 3897
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 94 3776 3827 "step.ml" 94 3776 3898
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 95 3901 3952 "step.ml" 95 3901 3963
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cleaned_cnf "step.ml" 90 3518 3546 "step.ml" 90 3518 3557
+)
+"step.ml" 94 3776 3806 "step.ml" 95 3901 3964
+type(
+  t
+)
+"step.ml" 94 3776 3787 "step.ml" 95 3901 3964
+call(
+  tail
+)
+type(
+  t
+)
+"step.ml" 91 3602 3606 "step.ml" 95 3901 3964
+type(
+  t
+)
+"step.ml" 90 3518 3522 "step.ml" 95 3901 3964
+type(
+  t
+)
+"step.ml" 97 3972 3999 "step.ml" 97 3972 4005
+type(
+  Asgn_trace.choice
+)
+ident(
+  def choice "step.ml" 98 4036 4040 "step.ml" 99 4110 4205
+)
+"step.ml" 97 3972 3981 "step.ml" 97 3972 4005
+type(
+  Asgn_trace.t
+)
+"step.ml" 97 3972 4007 "step.ml" 97 3972 4014
+type(
+  Cnf.t
+)
+ident(
+  def old_cnf "step.ml" 98 4036 4040 "step.ml" 99 4110 4205
+)
+"step.ml" 97 3972 3981 "step.ml" 97 3972 4014
+type(
+  Asgn_trace.t * Cnf.t
+)
+"step.ml" 97 3972 4017 "step.ml" 97 3972 4018
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 97 3972 3980 "step.ml" 97 3972 4018
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 97 3972 4021 "step.ml" 97 3972 4026
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 97 3972 4021 "step.ml" 97 3972 4032
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 98 4036 4045 "step.ml" 98 4036 4052
+type(
+  Cnf.t
+)
+ident(
+  def old_cnf "step.ml" 99 4110 4114 "step.ml" 99 4110 4205
+)
+"step.ml" 98 4036 4054 "step.ml" 98 4036 4059
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  def stack "step.ml" 99 4110 4114 "step.ml" 99 4110 4205
+)
+"step.ml" 98 4036 4045 "step.ml" 98 4036 4059
+type(
+  Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 98 4036 4063 "step.ml" 98 4036 4076
+type(
+  Cnf.t -> (Asgn_trace.t * Cnf.t) list -> Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  int_ref unravel_stack "step.ml" 10 387 395 "step.ml" 10 387 408
+)
+"step.ml" 98 4036 4077 "step.ml" 98 4036 4082
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 98 4036 4077 "step.ml" 98 4036 4094
+type(
+  Cnf.t
+)
+"step.ml" 98 4036 4095 "step.ml" 98 4036 4100
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 98 4036 4095 "step.ml" 98 4036 4106
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 98 4036 4063 "step.ml" 98 4036 4106
+call(
+  stack
+)
+type(
+  Cnf.t * (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 99 4110 4114 "step.ml" 99 4110 4127
+type(
+  t -> t
+)
+ident(
+  int_ref second_choice "step.ml" 57 2212 2216 "step.ml" 57 2212 2229
+)
+"step.ml" 99 4110 4143 "step.ml" 99 4110 4150
+type(
+  Cnf.t
+)
+ident(
+  int_ref old_cnf "step.ml" 98 4036 4045 "step.ml" 98 4036 4052
+)
+"step.ml" 99 4110 4163 "step.ml" 99 4110 4168
+type(
+  bool
+)
+"step.ml" 99 4110 4170 "step.ml" 99 4110 4175
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  int_ref stack "step.ml" 98 4036 4054 "step.ml" 98 4036 4059
+)
+"step.ml" 99 4110 4189 "step.ml" 99 4110 4194
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 87 3441 3450 "step.ml" 87 3441 3455
+)
+"step.ml" 99 4110 4189 "step.ml" 99 4110 4204
+type(
+  heuristic
+)
+"step.ml" 99 4110 4128 "step.ml" 99 4110 4205
+type(
+  t
+)
+"step.ml" 99 4110 4114 "step.ml" 99 4110 4205
+call(
+  tail
+)
+type(
+  t
+)
+"step.ml" 98 4036 4040 "step.ml" 99 4110 4205
+type(
+  t
+)
+"step.ml" 97 3972 3976 "step.ml" 99 4110 4205
+type(
+  t
+)
+"step.ml" 89 3493 3495 "step.ml" 99 4110 4205
+type(
+  t
+)
+"step.ml" 88 3458 3460 "step.ml" 99 4110 4205
+type(
+  t
+)
+"step.ml" 87 3441 3450 "step.ml" 99 4110 4205
+type(
+  t -> t
+)
+"step.ml" 101 4207 4211 "step.ml" 101 4207 4215
+type(
+  heuristic -> Cnf.t -> t
+)
+ident(
+  def init "step.ml" 103 4293 4293 "step.ml" 1 0 -1
+)
+"step.ml" 101 4207 4216 "step.ml" 101 4207 4225
+type(
+  heuristic
+)
+ident(
+  def heuristic "step.ml" 101 4207 4226 "step.ml" 101 4207 4291
+)
+"step.ml" 101 4207 4226 "step.ml" 101 4207 4229
+type(
+  Cnf.t
+)
+ident(
+  def cnf "step.ml" 101 4207 4232 "step.ml" 101 4207 4291
+)
+"step.ml" 101 4207 4233 "step.ml" 101 4207 4242
+type(
+  heuristic
+)
+ident(
+  int_ref heuristic "step.ml" 101 4207 4216 "step.ml" 101 4207 4225
+)
+"step.ml" 101 4207 4258 "step.ml" 101 4207 4261
+type(
+  Cnf.t
+)
+ident(
+  int_ref cnf "step.ml" 101 4207 4226 "step.ml" 101 4207 4229
+)
+"step.ml" 101 4207 4274 "step.ml" 101 4207 4278
+type(
+  bool
+)
+"step.ml" 101 4207 4288 "step.ml" 101 4207 4290
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"step.ml" 101 4207 4232 "step.ml" 101 4207 4291
+type(
+  t
+)
+"step.ml" 101 4207 4226 "step.ml" 101 4207 4291
+type(
+  Cnf.t -> t
+)
+"step.ml" 101 4207 4216 "step.ml" 101 4207 4291
+type(
+  heuristic -> Cnf.t -> t
+)
+"step.ml" 103 4293 4301 "step.ml" 103 4293 4306
+type(
+  t -> bool
+)
+ident(
+  def solve "step.ml" 103 4293 4293 "step.ml" 1 0 -1
+)
+"step.ml" 103 4293 4307 "step.ml" 103 4293 4312
+type(
+  t
+)
+ident(
+  def state "step.ml" 104 4315 4317 "step.ml" 109 4404 4437
+)
+"step.ml" 104 4315 4323 "step.ml" 104 4315 4328
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 103 4293 4307 "step.ml" 103 4293 4312
+)
+"step.ml" 104 4315 4323 "step.ml" 104 4315 4340
+type(
+  Cnf.t
+)
+"step.ml" 105 4346 4350 "step.ml" 105 4346 4352
+type(
+  Cnf.t
+)
+"step.ml" 105 4346 4356 "step.ml" 105 4346 4360
+type(
+  bool
+)
+"step.ml" 106 4361 4365 "step.ml" 106 4361 4366
+type(
+  Cnf.t
+)
+"step.ml" 107 4370 4378 "step.ml" 107 4370 4383
+type(
+  t -> bool
+)
+ident(
+  int_ref solve "step.ml" 103 4293 4301 "step.ml" 103 4293 4306
+)
+"step.ml" 107 4370 4385 "step.ml" 107 4370 4389
+type(
+  t -> t
+)
+ident(
+  int_ref step "step.ml" 87 3441 3445 "step.ml" 87 3441 3449
+)
+"step.ml" 107 4370 4390 "step.ml" 107 4370 4395
+type(
+  t
+)
+ident(
+  int_ref state "step.ml" 103 4293 4307 "step.ml" 103 4293 4312
+)
+"step.ml" 107 4370 4385 "step.ml" 107 4370 4395
+call(
+  stack
+)
+type(
+  t
+)
+"step.ml" 107 4370 4378 "step.ml" 107 4370 4396
+call(
+  stack
+)
+type(
+  bool
+)
+"step.ml" 109 4404 4427 "step.ml" 109 4404 4428
+type(
+  Cnf.t
+)
+"step.ml" 109 4404 4408 "step.ml" 109 4404 4428
+type(
+  exn
+)
+"step.ml" 109 4404 4432 "step.ml" 109 4404 4437
+type(
+  bool
+)
+"step.ml" 107 4370 4374 "step.ml" 109 4404 4437
+type(
+  bool
+)
+"step.ml" 104 4315 4317 "step.ml" 109 4404 4437
+type(
+  bool
+)
+"step.ml" 103 4293 4307 "step.ml" 109 4404 4437
+type(
+  t -> bool
+)

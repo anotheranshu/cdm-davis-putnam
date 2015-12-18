@@ -1,4 +1,4 @@
-"types.ml" 5 55 66 "types.ml" 5 55 69
+"types.ml" 5 57 70 "types.ml" 5 57 73
 call(
   tail
 )
@@ -18,13 +18,13 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 5 55 66 "types.ml" 5 55 69
+  int_ref sexp "types.ml" 5 57 70 "types.ml" 5 57 73
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 5 55 62 "types.ml" 5 55 74
+  int_ref _tp_loc "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   string -> Sexp.t -> t
@@ -39,7 +39,7 @@ type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 5 55 66 "types.ml" 5 55 69
+  def sexp "types.ml" 5 57 70 "types.ml" 5 57 73
 )
 type(
   Sexp.t
@@ -74,7 +74,7 @@ type(
 type(
   string
 )
-"types.ml" 5 55 72 "types.ml" 5 55 74
+"types.ml" 5 57 76 "types.ml" 5 57 78
 call(
   tail
 )
@@ -94,13 +94,13 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 5 55 72 "types.ml" 5 55 74
+  int_ref sexp "types.ml" 5 57 76 "types.ml" 5 57 78
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 5 55 62 "types.ml" 5 55 74
+  int_ref _tp_loc "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   string -> Sexp.t -> t
@@ -115,7 +115,7 @@ type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 5 55 72 "types.ml" 5 55 74
+  def sexp "types.ml" 5 57 76 "types.ml" 5 57 78
 )
 type(
   Sexp.t
@@ -150,7 +150,7 @@ type(
 type(
   string
 )
-"types.ml" 5 55 66 "types.ml" 5 55 74
+"types.ml" 5 57 70 "types.ml" 5 57 78
 call(
   tail
 )
@@ -167,13 +167,13 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 5 55 66 "types.ml" 5 55 74
+  int_ref sexp "types.ml" 5 57 70 "types.ml" 5 57 78
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 5 55 62 "types.ml" 5 55 74
+  int_ref _tp_loc "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   string -> Sexp.t -> t
@@ -188,13 +188,13 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 5 55 66 "types.ml" 5 55 74
+  int_ref sexp "types.ml" 5 57 70 "types.ml" 5 57 78
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 5 55 62 "types.ml" 5 55 74
+  int_ref _tp_loc "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   string -> Sexp.t -> t
@@ -209,13 +209,13 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 5 55 66 "types.ml" 5 55 74
+  int_ref sexp "types.ml" 5 57 70 "types.ml" 5 57 78
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 5 55 62 "types.ml" 5 55 74
+  int_ref _tp_loc "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   string -> Sexp.t -> t
@@ -227,13 +227,13 @@ type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 5 55 66 "types.ml" 5 55 74
+  def sexp "types.ml" 5 57 70 "types.ml" 5 57 78
 )
 type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 5 55 66 "types.ml" 5 55 74
+  def sexp "types.ml" 5 57 70 "types.ml" 5 57 78
 )
 type(
   Sexp.t
@@ -245,7 +245,7 @@ type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 5 55 66 "types.ml" 5 55 74
+  def sexp "types.ml" 5 57 70 "types.ml" 5 57 78
 )
 type(
   Sexp.t
@@ -262,7 +262,7 @@ type(
 type(
   Sexp.t list
 )
-"types.ml" 5 55 62 "types.ml" 5 55 74
+"types.ml" 5 57 66 "types.ml" 5 57 78
 call(
   tail
 )
@@ -270,7 +270,7 @@ type(
   t -> Sexp.t
 )
 ident(
-  int_ref sexp_of_t "types.ml" 5 55 62 "types.ml" 5 55 74
+  int_ref sexp_of_t "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   t -> Sexp.t
@@ -285,13 +285,13 @@ type(
   t -> Sexp.t
 )
 ident(
-  def sexp_of_t "types.ml" 5 55 62 "types.ml" 13 238 241
+  def sexp_of_t "types.ml" 5 57 66 "types.ml" 13 259 264
 )
 type(
   Sexp.t -> t
 )
 ident(
-  int_ref t_of_sexp "types.ml" 5 55 62 "types.ml" 5 55 74
+  int_ref t_of_sexp "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   Sexp.t -> t
@@ -309,31 +309,31 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 5 55 62 "types.ml" 5 55 74
+  int_ref sexp "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   Sexp.t -> t
 )
 ident(
-  int_ref __t_of_sexp__ "types.ml" 5 55 62 "types.ml" 5 55 74
+  int_ref __t_of_sexp__ "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 5 55 62 "types.ml" 5 55 74
+  def sexp "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   Sexp.t -> t
 )
 ident(
-  def t_of_sexp "types.ml" 5 55 62 "types.ml" 13 238 241
+  def t_of_sexp "types.ml" 5 57 66 "types.ml" 13 259 264
 )
 type(
   Sexp.t -> t
 )
 ident(
-  int_ref __t_of_sexp__ "types.ml" 5 55 62 "types.ml" 5 55 74
+  int_ref __t_of_sexp__ "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   Sexp.t -> t
@@ -354,13 +354,13 @@ type(
   string
 )
 ident(
-  def _tp_loc "types.ml" 5 55 62 "types.ml" 5 55 74
+  def _tp_loc "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   Sexp.t -> t
 )
 ident(
-  def __t_of_sexp__ "types.ml" 5 55 62 "types.ml" 13 238 241
+  def __t_of_sexp__ "types.ml" 5 57 66 "types.ml" 13 259 264
 )
 type(
   t -> unit
@@ -374,122 +374,122 @@ type(
 type(
   t -> unit
 )
-"types.ml" 6 85 91 "types.ml" 6 85 100
+"types.ml" 6 89 97 "types.ml" 6 89 106
 type(
   t -> string
 )
 ident(
-  def to_string "types.ml" 9 145 147 "types.ml" 13 238 241
+  def to_string "types.ml" 9 155 159 "types.ml" 13 259 264
 )
-"types.ml" 7 112 118 "types.ml" 7 112 121
+"types.ml" 7 118 126 "types.ml" 7 118 129
 type(
   t
 )
-"types.ml" 7 112 125 "types.ml" 7 112 128
+"types.ml" 7 118 133 "types.ml" 7 118 136
 type(
   string
 )
-"types.ml" 8 129 135 "types.ml" 8 129 137
+"types.ml" 8 137 145 "types.ml" 8 137 147
 type(
   t
 )
-"types.ml" 8 129 141 "types.ml" 8 129 144
+"types.ml" 8 137 151 "types.ml" 8 137 154
 type(
   string
 )
-"types.ml" 6 85 103 "types.ml" 8 129 144
+"types.ml" 6 89 109 "types.ml" 8 137 154
 type(
   t -> string
 )
-"types.ml" 9 145 151 "types.ml" 9 145 160
+"types.ml" 9 155 163 "types.ml" 9 155 172
 type(
   string -> t
 )
 ident(
-  def of_string "types.ml" 12 203 237 "types.ml" 13 238 241
+  def of_string "types.ml" 12 221 258 "types.ml" 13 259 264
 )
-"types.ml" 10 172 177 "types.ml" 10 172 180
+"types.ml" 10 184 192 "types.ml" 10 184 195
 type(
   string
 )
-"types.ml" 10 172 184 "types.ml" 10 172 186
+"types.ml" 10 184 199 "types.ml" 10 184 201
 type(
   t
 )
-"types.ml" 11 187 192 "types.ml" 11 187 195
+"types.ml" 11 202 210 "types.ml" 11 202 213
 type(
   string
 )
-"types.ml" 11 187 199 "types.ml" 11 187 202
+"types.ml" 11 202 217 "types.ml" 11 202 220
 type(
   t
 )
-"types.ml" 12 203 208 "types.ml" 12 203 209
+"types.ml" 12 221 229 "types.ml" 12 221 230
 type(
   string
 )
-"types.ml" 12 203 213 "types.ml" 12 203 221
+"types.ml" 12 221 234 "types.ml" 12 221 242
 type(
   string -> t
 )
 ident(
   ext_ref Pervasives.failwith
 )
-"types.ml" 12 203 222 "types.ml" 12 203 237
+"types.ml" 12 221 243 "types.ml" 12 221 258
 type(
   string
 )
-"types.ml" 12 203 213 "types.ml" 12 203 237
+"types.ml" 12 221 234 "types.ml" 12 221 258
 call(
   tail
 )
 type(
   t
 )
-"types.ml" 9 145 163 "types.ml" 12 203 237
+"types.ml" 9 155 175 "types.ml" 12 221 258
 type(
   string -> t
 )
-"types.ml" 19 295 314 "types.ml" 19 295 315
+"types.ml" 19 322 343 "types.ml" 19 322 344
 type(
   t -> Sexp.t
 )
 ident(
-  int_ref sexp_of_t "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref sexp_of_t "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   Sexp.t -> t
 )
 ident(
-  int_ref t_of_sexp "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref t_of_sexp "types.ml" 19 322 331 "types.ml" 19 322 388
 )
-"types.ml" 19 295 318 "types.ml" 19 295 319
+"types.ml" 19 322 347 "types.ml" 19 322 348
 type(
   t -> Sexp.t
 )
 ident(
-  int_ref sexp_of_t "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref sexp_of_t "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   Sexp.t -> t
 )
 ident(
-  int_ref t_of_sexp "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref t_of_sexp "types.ml" 19 322 331 "types.ml" 19 322 388
 )
-"types.ml" 19 295 322 "types.ml" 19 295 329
+"types.ml" 19 322 351 "types.ml" 19 322 358
 type(
   Binop.t -> Sexp.t
 )
 ident(
-  int_ref Binop.sexp_of_t "types.ml" 5 55 62 "types.ml" 5 55 74
+  int_ref Binop.sexp_of_t "types.ml" 5 57 66 "types.ml" 5 57 78
 )
 type(
   Sexp.t -> Binop.t
 )
 ident(
-  int_ref Binop.t_of_sexp "types.ml" 5 55 62 "types.ml" 5 55 74
+  int_ref Binop.t_of_sexp "types.ml" 5 57 66 "types.ml" 5 57 78
 )
-"types.ml" 19 295 314 "types.ml" 19 295 329
+"types.ml" 19 322 343 "types.ml" 19 322 358
 call(
   stack
 )
@@ -524,7 +524,7 @@ type(
   Sexp.t
 )
 ident(
-  int_ref v3 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v3 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t list
@@ -533,7 +533,7 @@ type(
   Sexp.t
 )
 ident(
-  int_ref v2 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v2 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t list
@@ -542,7 +542,7 @@ type(
   Sexp.t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v1 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t list
@@ -557,7 +557,7 @@ type(
   Binop.t
 )
 ident(
-  int_ref v3 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v3 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t
@@ -566,7 +566,7 @@ type(
   t
 )
 ident(
-  int_ref v2 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v2 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t
@@ -575,25 +575,25 @@ type(
   t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v1 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t
 )
 ident(
-  def v3 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v3 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t
 )
 ident(
-  def v2 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v2 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t
 )
 ident(
-  def v1 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v1 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   t * t * Binop.t
@@ -602,19 +602,19 @@ type(
   Binop.t
 )
 ident(
-  def v3 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v3 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   t
 )
 ident(
-  def v2 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v2 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   t
 )
 ident(
-  def v1 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v1 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   t
@@ -626,19 +626,19 @@ type(
   Sexp.t
 )
 ident(
-  int_ref _sexp "types.ml" 19 295 306 "types.ml" 19 295 330
+  int_ref _sexp "types.ml" 19 322 335 "types.ml" 19 322 359
 )
 type(
   string
 )
 ident(
-  int_ref _tag "types.ml" 19 295 306 "types.ml" 19 295 330
+  int_ref _tag "types.ml" 19 322 335 "types.ml" 19 322 359
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref _tp_loc "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   string -> string -> Sexp.t -> t
@@ -653,7 +653,7 @@ type(
   t * t * Binop.t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v1 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   t
@@ -668,7 +668,7 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref sexp "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   int
@@ -677,7 +677,7 @@ type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref _tp_loc "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   string -> int -> Sexp.t -> t * t * Binop.t
@@ -695,19 +695,19 @@ type(
   Binop.t
 )
 ident(
-  int_ref v3 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v3 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   t
 )
 ident(
-  int_ref v2 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v2 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v1 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Binop.t
@@ -716,7 +716,7 @@ type(
   Sexp.t
 )
 ident(
-  int_ref v3 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v3 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   t
@@ -725,7 +725,7 @@ type(
   Sexp.t
 )
 ident(
-  int_ref v2 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v2 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   t
@@ -734,31 +734,31 @@ type(
   Sexp.t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v1 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Binop.t
 )
 ident(
-  def v3 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v3 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   t
 )
 ident(
-  def v2 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v2 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   t
 )
 ident(
-  def v1 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v1 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 19 295 314 "types.ml" 19 295 329
+  def sexp "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t
@@ -779,31 +779,31 @@ type(
   Sexp.t
 )
 ident(
-  def v3 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v3 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t
 )
 ident(
-  def v2 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v2 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t
 )
 ident(
-  def v1 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v1 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 314 "types.ml" 19 295 329
+  int_ref v1 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   t * t * Binop.t
 )
 ident(
-  def v1 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v1 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t list
@@ -818,15 +818,15 @@ type(
   Sexp.t
 )
 ident(
-  def v1 "types.ml" 19 295 314 "types.ml" 19 295 329
+  def v1 "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t list
 )
 ident(
-  int_ref sexp_args "types.ml" 19 295 306 "types.ml" 19 295 330
+  int_ref sexp_args "types.ml" 19 322 335 "types.ml" 19 322 359
 )
-"types.ml" 19 295 306 "types.ml" 19 295 330
+"types.ml" 19 322 335 "types.ml" 19 322 359
 call(
   tail
 )
@@ -840,7 +840,7 @@ type(
   Sexp.t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 306 "types.ml" 19 295 330
+  int_ref v1 "types.ml" 19 322 335 "types.ml" 19 322 359
 )
 type(
   Sexp.t list
@@ -864,13 +864,13 @@ type(
   t * t * Binop.t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 306 "types.ml" 19 295 330
+  int_ref v1 "types.ml" 19 322 335 "types.ml" 19 322 359
 )
 type(
   Sexp.t
 )
 ident(
-  def v1 "types.ml" 19 295 306 "types.ml" 19 295 330
+  def v1 "types.ml" 19 322 335 "types.ml" 19 322 359
 )
 type(
   t
@@ -879,7 +879,7 @@ type(
   t * t * Binop.t
 )
 ident(
-  def v1 "types.ml" 19 295 306 "types.ml" 19 295 330
+  def v1 "types.ml" 19 322 335 "types.ml" 19 322 359
 )
 type(
   t
@@ -888,13 +888,13 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 19 295 306 "types.ml" 19 295 330
+  int_ref sexp "types.ml" 19 322 335 "types.ml" 19 322 359
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref _tp_loc "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   string -> Sexp.t -> t
@@ -906,7 +906,7 @@ type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 19 295 306 "types.ml" 19 295 330
+  def sexp "types.ml" 19 322 335 "types.ml" 19 322 359
 )
 type(
   Sexp.t
@@ -924,7 +924,7 @@ type(
   Sexp.t
 )
 ident(
-  def _sexp "types.ml" 19 295 314 "types.ml" 19 295 329
+  def _sexp "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t
@@ -936,7 +936,7 @@ type(
   Sexp.t list
 )
 ident(
-  def sexp_args "types.ml" 19 295 314 "types.ml" 19 295 329
+  def sexp_args "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   Sexp.t
@@ -945,7 +945,7 @@ type(
   string
 )
 ident(
-  def _tag "types.ml" 19 295 314 "types.ml" 19 295 329
+  def _tag "types.ml" 19 322 343 "types.ml" 19 322 358
 )
 type(
   string
@@ -956,7 +956,7 @@ type(
 type(
   string
 )
-"types.ml" 19 295 340 "types.ml" 19 295 341
+"types.ml" 19 322 369 "types.ml" 19 322 370
 call(
   tail
 )
@@ -967,7 +967,7 @@ type(
   t -> Sexp.t
 )
 ident(
-  int_ref sexp_of_t "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref sexp_of_t "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   t
@@ -979,19 +979,19 @@ type(
   Sexp.t
 )
 ident(
-  int_ref _sexp "types.ml" 19 295 333 "types.ml" 19 295 341
+  int_ref _sexp "types.ml" 19 322 362 "types.ml" 19 322 370
 )
 type(
   string
 )
 ident(
-  int_ref _tag "types.ml" 19 295 333 "types.ml" 19 295 341
+  int_ref _tag "types.ml" 19 322 362 "types.ml" 19 322 370
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref _tp_loc "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   string -> string -> Sexp.t -> t
@@ -1006,7 +1006,7 @@ type(
   t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 340 "types.ml" 19 295 341
+  int_ref v1 "types.ml" 19 322 369 "types.ml" 19 322 370
 )
 type(
   t
@@ -1018,19 +1018,19 @@ type(
   Sexp.t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 340 "types.ml" 19 295 341
+  int_ref v1 "types.ml" 19 322 369 "types.ml" 19 322 370
 )
 type(
   Sexp.t -> t
 )
 ident(
-  int_ref t_of_sexp "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref t_of_sexp "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   t
 )
 ident(
-  def v1 "types.ml" 19 295 340 "types.ml" 19 295 341
+  def v1 "types.ml" 19 322 369 "types.ml" 19 322 370
 )
 type(
   Sexp.t list
@@ -1045,15 +1045,15 @@ type(
   Sexp.t
 )
 ident(
-  def v1 "types.ml" 19 295 340 "types.ml" 19 295 341
+  def v1 "types.ml" 19 322 369 "types.ml" 19 322 370
 )
 type(
   Sexp.t list
 )
 ident(
-  int_ref sexp_args "types.ml" 19 295 333 "types.ml" 19 295 341
+  int_ref sexp_args "types.ml" 19 322 362 "types.ml" 19 322 370
 )
-"types.ml" 19 295 333 "types.ml" 19 295 341
+"types.ml" 19 322 362 "types.ml" 19 322 370
 call(
   stack
 )
@@ -1070,7 +1070,7 @@ type(
   Sexp.t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 333 "types.ml" 19 295 341
+  int_ref v1 "types.ml" 19 322 362 "types.ml" 19 322 370
 )
 type(
   Sexp.t list
@@ -1094,13 +1094,13 @@ type(
   t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 333 "types.ml" 19 295 341
+  int_ref v1 "types.ml" 19 322 362 "types.ml" 19 322 370
 )
 type(
   Sexp.t
 )
 ident(
-  def v1 "types.ml" 19 295 333 "types.ml" 19 295 341
+  def v1 "types.ml" 19 322 362 "types.ml" 19 322 370
 )
 type(
   t
@@ -1109,7 +1109,7 @@ type(
   t
 )
 ident(
-  def v1 "types.ml" 19 295 333 "types.ml" 19 295 341
+  def v1 "types.ml" 19 322 362 "types.ml" 19 322 370
 )
 type(
   t
@@ -1118,13 +1118,13 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 19 295 333 "types.ml" 19 295 341
+  int_ref sexp "types.ml" 19 322 362 "types.ml" 19 322 370
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref _tp_loc "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   string -> Sexp.t -> t
@@ -1136,7 +1136,7 @@ type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 19 295 333 "types.ml" 19 295 341
+  def sexp "types.ml" 19 322 362 "types.ml" 19 322 370
 )
 type(
   Sexp.t
@@ -1154,7 +1154,7 @@ type(
   Sexp.t
 )
 ident(
-  def _sexp "types.ml" 19 295 340 "types.ml" 19 295 341
+  def _sexp "types.ml" 19 322 369 "types.ml" 19 322 370
 )
 type(
   Sexp.t
@@ -1166,7 +1166,7 @@ type(
   Sexp.t list
 )
 ident(
-  def sexp_args "types.ml" 19 295 340 "types.ml" 19 295 341
+  def sexp_args "types.ml" 19 322 369 "types.ml" 19 322 370
 )
 type(
   Sexp.t
@@ -1175,7 +1175,7 @@ type(
   string
 )
 ident(
-  def _tag "types.ml" 19 295 340 "types.ml" 19 295 341
+  def _tag "types.ml" 19 322 369 "types.ml" 19 322 370
 )
 type(
   string
@@ -1186,7 +1186,7 @@ type(
 type(
   string
 )
-"types.ml" 19 295 353 "types.ml" 19 295 359
+"types.ml" 19 322 382 "types.ml" 19 322 388
 call(
   tail
 )
@@ -1209,19 +1209,19 @@ type(
   Sexp.t
 )
 ident(
-  int_ref _sexp "types.ml" 19 295 344 "types.ml" 19 295 359
+  int_ref _sexp "types.ml" 19 322 373 "types.ml" 19 322 388
 )
 type(
   string
 )
 ident(
-  int_ref _tag "types.ml" 19 295 344 "types.ml" 19 295 359
+  int_ref _tag "types.ml" 19 322 373 "types.ml" 19 322 388
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref _tp_loc "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   string -> string -> Sexp.t -> t
@@ -1236,7 +1236,7 @@ type(
   string
 )
 ident(
-  int_ref v1 "types.ml" 19 295 353 "types.ml" 19 295 359
+  int_ref v1 "types.ml" 19 322 382 "types.ml" 19 322 388
 )
 type(
   t
@@ -1248,7 +1248,7 @@ type(
   Sexp.t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 353 "types.ml" 19 295 359
+  int_ref v1 "types.ml" 19 322 382 "types.ml" 19 322 388
 )
 type(
   Sexp.t -> string
@@ -1260,7 +1260,7 @@ type(
   string
 )
 ident(
-  def v1 "types.ml" 19 295 353 "types.ml" 19 295 359
+  def v1 "types.ml" 19 322 382 "types.ml" 19 322 388
 )
 type(
   Sexp.t list
@@ -1275,15 +1275,15 @@ type(
   Sexp.t
 )
 ident(
-  def v1 "types.ml" 19 295 353 "types.ml" 19 295 359
+  def v1 "types.ml" 19 322 382 "types.ml" 19 322 388
 )
 type(
   Sexp.t list
 )
 ident(
-  int_ref sexp_args "types.ml" 19 295 344 "types.ml" 19 295 359
+  int_ref sexp_args "types.ml" 19 322 373 "types.ml" 19 322 388
 )
-"types.ml" 19 295 344 "types.ml" 19 295 359
+"types.ml" 19 322 373 "types.ml" 19 322 388
 call(
   stack
 )
@@ -1300,7 +1300,7 @@ type(
   Sexp.t
 )
 ident(
-  int_ref v1 "types.ml" 19 295 344 "types.ml" 19 295 359
+  int_ref v1 "types.ml" 19 322 373 "types.ml" 19 322 388
 )
 type(
   Sexp.t list
@@ -1324,13 +1324,13 @@ type(
   string
 )
 ident(
-  int_ref v1 "types.ml" 19 295 344 "types.ml" 19 295 359
+  int_ref v1 "types.ml" 19 322 373 "types.ml" 19 322 388
 )
 type(
   Sexp.t
 )
 ident(
-  def v1 "types.ml" 19 295 344 "types.ml" 19 295 359
+  def v1 "types.ml" 19 322 373 "types.ml" 19 322 388
 )
 type(
   t
@@ -1339,7 +1339,7 @@ type(
   string
 )
 ident(
-  def v1 "types.ml" 19 295 344 "types.ml" 19 295 359
+  def v1 "types.ml" 19 322 373 "types.ml" 19 322 388
 )
 type(
   t
@@ -1348,13 +1348,13 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 19 295 344 "types.ml" 19 295 359
+  int_ref sexp "types.ml" 19 322 373 "types.ml" 19 322 388
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref _tp_loc "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   string -> Sexp.t -> t
@@ -1366,7 +1366,7 @@ type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 19 295 344 "types.ml" 19 295 359
+  def sexp "types.ml" 19 322 373 "types.ml" 19 322 388
 )
 type(
   Sexp.t
@@ -1384,7 +1384,7 @@ type(
   Sexp.t
 )
 ident(
-  def _sexp "types.ml" 19 295 353 "types.ml" 19 295 359
+  def _sexp "types.ml" 19 322 382 "types.ml" 19 322 388
 )
 type(
   Sexp.t
@@ -1396,7 +1396,7 @@ type(
   Sexp.t list
 )
 ident(
-  def sexp_args "types.ml" 19 295 353 "types.ml" 19 295 359
+  def sexp_args "types.ml" 19 322 382 "types.ml" 19 322 388
 )
 type(
   Sexp.t
@@ -1405,7 +1405,7 @@ type(
   string
 )
 ident(
-  def _tag "types.ml" 19 295 353 "types.ml" 19 295 359
+  def _tag "types.ml" 19 322 382 "types.ml" 19 322 388
 )
 type(
   string
@@ -1416,7 +1416,7 @@ type(
 type(
   string
 )
-"types.ml" 19 295 306 "types.ml" 19 295 359
+"types.ml" 19 322 335 "types.ml" 19 322 388
 call(
   tail
 )
@@ -1433,13 +1433,13 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 19 295 306 "types.ml" 19 295 359
+  int_ref sexp "types.ml" 19 322 335 "types.ml" 19 322 388
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref _tp_loc "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   string -> Sexp.t -> t
@@ -1454,13 +1454,13 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 19 295 306 "types.ml" 19 295 359
+  int_ref sexp "types.ml" 19 322 335 "types.ml" 19 322 388
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref _tp_loc "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   string -> Sexp.t -> t
@@ -1475,13 +1475,13 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 19 295 306 "types.ml" 19 295 359
+  int_ref sexp "types.ml" 19 322 335 "types.ml" 19 322 388
 )
 type(
   string
 )
 ident(
-  int_ref _tp_loc "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref _tp_loc "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   string -> Sexp.t -> t
@@ -1493,13 +1493,13 @@ type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 19 295 306 "types.ml" 19 295 359
+  def sexp "types.ml" 19 322 335 "types.ml" 19 322 388
 )
 type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 19 295 306 "types.ml" 19 295 359
+  def sexp "types.ml" 19 322 335 "types.ml" 19 322 388
 )
 type(
   Sexp.t
@@ -1511,7 +1511,7 @@ type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 19 295 306 "types.ml" 19 295 359
+  def sexp "types.ml" 19 322 335 "types.ml" 19 322 388
 )
 type(
   Sexp.t
@@ -1528,7 +1528,7 @@ type(
 type(
   Sexp.t list
 )
-"types.ml" 19 295 302 "types.ml" 19 295 359
+"types.ml" 19 322 331 "types.ml" 19 322 388
 call(
   tail
 )
@@ -1536,7 +1536,7 @@ type(
   t -> Sexp.t
 )
 ident(
-  int_ref sexp_of_t "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref sexp_of_t "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   t -> Sexp.t
@@ -1551,19 +1551,19 @@ type(
   t -> Sexp.t
 )
 ident(
-  def sexp_of_t "types.ml" 19 295 302 "types.ml" 24 564 567
+  def sexp_of_t "types.ml" 19 322 331 "types.ml" 24 620 625
 )
 type(
   Sexp.t -> t
 )
 ident(
-  int_ref t_of_sexp "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref t_of_sexp "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   Sexp.t -> t
 )
 ident(
-  int_ref __t_of_sexp__ "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref __t_of_sexp__ "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   Sexp.t -> t
@@ -1584,19 +1584,19 @@ type(
   Sexp.t
 )
 ident(
-  int_ref sexp "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref sexp "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   Sexp.t -> t
 )
 ident(
-  int_ref __t_of_sexp__ "types.ml" 19 295 302 "types.ml" 19 295 359
+  int_ref __t_of_sexp__ "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   Sexp.t
 )
 ident(
-  def sexp "types.ml" 19 295 302 "types.ml" 19 295 359
+  def sexp "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   Sexp.t -> t
@@ -1614,19 +1614,19 @@ type(
   string
 )
 ident(
-  def _tp_loc "types.ml" 19 295 302 "types.ml" 19 295 359
+  def _tp_loc "types.ml" 19 322 331 "types.ml" 19 322 388
 )
 type(
   Sexp.t -> t
 )
 ident(
-  def t_of_sexp "types.ml" 19 295 302 "types.ml" 24 564 567
+  def t_of_sexp "types.ml" 19 322 331 "types.ml" 24 620 625
 )
 type(
   Sexp.t -> t
 )
 ident(
-  def __t_of_sexp__ "types.ml" 19 295 302 "types.ml" 24 564 567
+  def __t_of_sexp__ "types.ml" 19 322 331 "types.ml" 24 620 625
 )
 type(
   t -> unit
@@ -1640,237 +1640,4431 @@ type(
 type(
   t -> unit
 )
-"types.ml" 20 370 380 "types.ml" 20 370 389
+"types.ml" 20 399 411 "types.ml" 20 399 420
 type(
   t -> string
 )
 ident(
-  def to_string "types.ml" 20 370 372 "types.ml" 24 564 567
+  def to_string "types.ml" 20 399 403 "types.ml" 24 620 625
 )
-"types.ml" 21 401 412 "types.ml" 21 401 416
+"types.ml" 21 432 445 "types.ml" 21 432 449
 type(
   t
 )
 ident(
-  def ast1 "types.ml" 21 401 433 "types.ml" 21 401 505
+  def ast1 "types.ml" 21 432 466 "types.ml" 21 432 550
 )
-"types.ml" 21 401 418 "types.ml" 21 401 422
+"types.ml" 21 432 451 "types.ml" 21 432 455
 type(
   t
 )
 ident(
-  def ast2 "types.ml" 21 401 433 "types.ml" 21 401 505
+  def ast2 "types.ml" 21 432 466 "types.ml" 21 432 550
 )
-"types.ml" 21 401 424 "types.ml" 21 401 428
+"types.ml" 21 432 457 "types.ml" 21 432 461
 type(
   Binop.t
 )
 ident(
-  def oper "types.ml" 21 401 433 "types.ml" 21 401 505
+  def oper "types.ml" 21 432 466 "types.ml" 21 432 550
 )
-"types.ml" 21 401 407 "types.ml" 21 401 429
+"types.ml" 21 432 440 "types.ml" 21 432 462
 type(
   t
 )
 type(
   t * t * Binop.t
 )
-"types.ml" 21 401 434 "types.ml" 21 401 443
+"types.ml" 21 432 466 "types.ml" 21 432 469
+type(
+  string
+)
+"types.ml" 21 432 470 "types.ml" 21 432 471
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 21 432 473 "types.ml" 21 432 482
 type(
   t -> string
 )
 ident(
-  int_ref to_string "types.ml" 20 370 380 "types.ml" 20 370 389
+  int_ref to_string "types.ml" 20 399 411 "types.ml" 20 399 420
 )
-"types.ml" 21 401 444 "types.ml" 21 401 448
+"types.ml" 21 432 483 "types.ml" 21 432 487
 type(
   t
 )
 ident(
-  int_ref ast1 "types.ml" 21 401 412 "types.ml" 21 401 416
+  int_ref ast1 "types.ml" 21 432 445 "types.ml" 21 432 449
 )
-"types.ml" 21 401 434 "types.ml" 21 401 448
+"types.ml" 21 432 473 "types.ml" 21 432 487
 call(
   stack
 )
 type(
   string
 )
-"types.ml" 21 401 450 "types.ml" 21 401 451
+"types.ml" 21 432 489 "types.ml" 21 432 490
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"types.ml" 21 401 452 "types.ml" 21 401 455
+"types.ml" 21 432 491 "types.ml" 21 432 494
 type(
   string
 )
-"types.ml" 21 401 456 "types.ml" 21 401 457
+"types.ml" 21 432 495 "types.ml" 21 432 496
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"types.ml" 21 401 459 "types.ml" 21 401 474
+"types.ml" 21 432 498 "types.ml" 21 432 513
 type(
   Binop.t -> string
 )
 ident(
-  int_ref Binop.to_string "types.ml" 6 85 91 "types.ml" 6 85 100
+  int_ref Binop.to_string "types.ml" 6 89 97 "types.ml" 6 89 106
 )
-"types.ml" 21 401 475 "types.ml" 21 401 479
+"types.ml" 21 432 514 "types.ml" 21 432 518
 type(
   Binop.t
 )
 ident(
-  int_ref oper "types.ml" 21 401 424 "types.ml" 21 401 428
+  int_ref oper "types.ml" 21 432 457 "types.ml" 21 432 461
 )
-"types.ml" 21 401 459 "types.ml" 21 401 479
+"types.ml" 21 432 498 "types.ml" 21 432 518
 call(
   stack
 )
 type(
   string
 )
-"types.ml" 21 401 481 "types.ml" 21 401 482
+"types.ml" 21 432 520 "types.ml" 21 432 521
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"types.ml" 21 401 483 "types.ml" 21 401 486
+"types.ml" 21 432 522 "types.ml" 21 432 525
 type(
   string
 )
-"types.ml" 21 401 487 "types.ml" 21 401 488
+"types.ml" 21 432 526 "types.ml" 21 432 527
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"types.ml" 21 401 490 "types.ml" 21 401 499
+"types.ml" 21 432 529 "types.ml" 21 432 538
 type(
   t -> string
 )
 ident(
-  int_ref to_string "types.ml" 20 370 380 "types.ml" 20 370 389
+  int_ref to_string "types.ml" 20 399 411 "types.ml" 20 399 420
 )
-"types.ml" 21 401 500 "types.ml" 21 401 504
+"types.ml" 21 432 539 "types.ml" 21 432 543
 type(
   t
 )
 ident(
-  int_ref ast2 "types.ml" 21 401 418 "types.ml" 21 401 422
+  int_ref ast2 "types.ml" 21 432 451 "types.ml" 21 432 455
 )
-"types.ml" 21 401 490 "types.ml" 21 401 504
+"types.ml" 21 432 529 "types.ml" 21 432 543
 call(
   stack
 )
 type(
   string
 )
-"types.ml" 21 401 483 "types.ml" 21 401 505
+"types.ml" 21 432 545 "types.ml" 21 432 546
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 21 432 547 "types.ml" 21 432 550
+type(
+  string
+)
+"types.ml" 21 432 528 "types.ml" 21 432 550
 call(
   stack
 )
 type(
   string
 )
-"types.ml" 21 401 458 "types.ml" 21 401 505
+"types.ml" 21 432 522 "types.ml" 21 432 550
 call(
   stack
 )
 type(
   string
 )
-"types.ml" 21 401 452 "types.ml" 21 401 505
+"types.ml" 21 432 497 "types.ml" 21 432 550
 call(
   stack
 )
 type(
   string
 )
-"types.ml" 21 401 433 "types.ml" 21 401 505
+"types.ml" 21 432 491 "types.ml" 21 432 550
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 21 432 472 "types.ml" 21 432 550
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 21 432 466 "types.ml" 21 432 550
 call(
   tail
 )
 type(
   string
 )
-"types.ml" 22 506 516 "types.ml" 22 506 519
+"types.ml" 22 551 563 "types.ml" 22 551 566
 type(
   t
 )
 ident(
-  def ast "types.ml" 22 506 523 "types.ml" 22 506 544
+  def ast "types.ml" 22 551 570 "types.ml" 22 551 598
 )
-"types.ml" 22 506 512 "types.ml" 22 506 519
+"types.ml" 22 551 559 "types.ml" 22 551 566
 type(
   t
 )
-"types.ml" 22 506 523 "types.ml" 22 506 526
+"types.ml" 22 551 570 "types.ml" 22 551 574
 type(
   string
 )
-"types.ml" 22 506 527 "types.ml" 22 506 528
+"types.ml" 22 551 575 "types.ml" 22 551 576
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"types.ml" 22 506 530 "types.ml" 22 506 539
+"types.ml" 22 551 578 "types.ml" 22 551 587
 type(
   t -> string
 )
 ident(
-  int_ref to_string "types.ml" 20 370 380 "types.ml" 20 370 389
+  int_ref to_string "types.ml" 20 399 411 "types.ml" 20 399 420
 )
-"types.ml" 22 506 540 "types.ml" 22 506 543
+"types.ml" 22 551 588 "types.ml" 22 551 591
 type(
   t
 )
 ident(
-  int_ref ast "types.ml" 22 506 516 "types.ml" 22 506 519
+  int_ref ast "types.ml" 22 551 563 "types.ml" 22 551 566
 )
-"types.ml" 22 506 530 "types.ml" 22 506 543
+"types.ml" 22 551 578 "types.ml" 22 551 591
 call(
   stack
 )
 type(
   string
 )
-"types.ml" 22 506 523 "types.ml" 22 506 544
+"types.ml" 22 551 593 "types.ml" 22 551 594
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 22 551 595 "types.ml" 22 551 598
+type(
+  string
+)
+"types.ml" 22 551 577 "types.ml" 22 551 598
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 22 551 570 "types.ml" 22 551 598
 call(
   tail
 )
 type(
   string
 )
-"types.ml" 23 545 557 "types.ml" 23 545 558
+"types.ml" 23 599 613 "types.ml" 23 599 614
 type(
   string
 )
 ident(
-  def s "types.ml" 23 545 562 "types.ml" 23 545 563
+  def s "types.ml" 23 599 618 "types.ml" 23 599 619
 )
-"types.ml" 23 545 551 "types.ml" 23 545 558
+"types.ml" 23 599 607 "types.ml" 23 599 614
 type(
   t
 )
-"types.ml" 23 545 562 "types.ml" 23 545 563
+"types.ml" 23 599 618 "types.ml" 23 599 619
 type(
   string
 )
 ident(
-  int_ref s "types.ml" 23 545 557 "types.ml" 23 545 558
+  int_ref s "types.ml" 23 599 613 "types.ml" 23 599 614
 )
-"types.ml" 20 370 392 "types.ml" 23 545 563
+"types.ml" 20 399 423 "types.ml" 23 599 619
+type(
+  t -> string
+)
+"types.ml" 31 711 734 "types.ml" 31 711 740
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  string -> Sexp.t
+)
+ident(
+  ext_ref Core.Std.sexp_of_string
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "types.ml" 31 711 726 "types.ml" 31 711 740
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "types.ml" 31 711 726 "types.ml" 31 711 740
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.stag_incorrect_n_args
+)
+type(
+  t
+)
+type(
+  string
+)
+ident(
+  int_ref v1 "types.ml" 31 711 734 "types.ml" 31 711 740
+)
+type(
+  t
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "types.ml" 31 711 734 "types.ml" 31 711 740
+)
+type(
+  Sexp.t -> string
+)
+ident(
+  ext_ref Core.Std.string_of_sexp
+)
+type(
+  string
+)
+ident(
+  def v1 "types.ml" 31 711 734 "types.ml" 31 711 740
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "types.ml" 31 711 734 "types.ml" 31 711 740
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "types.ml" 31 711 726 "types.ml" 31 711 740
+)
+"types.ml" 31 711 726 "types.ml" 31 711 740
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "types.ml" 31 711 726 "types.ml" 31 711 740
+)
+type(
+  Sexp.t list
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  int_ref v1 "types.ml" 31 711 726 "types.ml" 31 711 740
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "types.ml" 31 711 726 "types.ml" 31 711 740
+)
+type(
+  t
+)
+type(
+  string
+)
+ident(
+  def v1 "types.ml" 31 711 726 "types.ml" 31 711 740
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 31 711 726 "types.ml" 31 711 740
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.stag_takes_args
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 31 711 726 "types.ml" 31 711 740
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "types.ml" 31 711 734 "types.ml" 31 711 740
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "types.ml" 31 711 734 "types.ml" 31 711 740
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "types.ml" 31 711 734 "types.ml" 31 711 740
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+"types.ml" 31 711 750 "types.ml" 31 711 756
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  string -> Sexp.t
+)
+ident(
+  ext_ref Core.Std.sexp_of_string
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "types.ml" 31 711 743 "types.ml" 31 711 756
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "types.ml" 31 711 743 "types.ml" 31 711 756
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.stag_incorrect_n_args
+)
+type(
+  t
+)
+type(
+  string
+)
+ident(
+  int_ref v1 "types.ml" 31 711 750 "types.ml" 31 711 756
+)
+type(
+  t
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "types.ml" 31 711 750 "types.ml" 31 711 756
+)
+type(
+  Sexp.t -> string
+)
+ident(
+  ext_ref Core.Std.string_of_sexp
+)
+type(
+  string
+)
+ident(
+  def v1 "types.ml" 31 711 750 "types.ml" 31 711 756
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "types.ml" 31 711 750 "types.ml" 31 711 756
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "types.ml" 31 711 743 "types.ml" 31 711 756
+)
+"types.ml" 31 711 743 "types.ml" 31 711 756
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "types.ml" 31 711 743 "types.ml" 31 711 756
+)
+type(
+  Sexp.t list
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  int_ref v1 "types.ml" 31 711 743 "types.ml" 31 711 756
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "types.ml" 31 711 743 "types.ml" 31 711 756
+)
+type(
+  t
+)
+type(
+  string
+)
+ident(
+  def v1 "types.ml" 31 711 743 "types.ml" 31 711 756
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 31 711 743 "types.ml" 31 711 756
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.stag_takes_args
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 31 711 743 "types.ml" 31 711 756
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "types.ml" 31 711 750 "types.ml" 31 711 756
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "types.ml" 31 711 750 "types.ml" 31 711 756
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "types.ml" 31 711 750 "types.ml" 31 711 756
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+"types.ml" 31 711 726 "types.ml" 31 711 756
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 31 711 726 "types.ml" 31 711 756
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.unexpected_stag
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 31 711 726 "types.ml" 31 711 756
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.empty_list_invalid_sum
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 31 711 726 "types.ml" 31 711 756
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.nested_list_invalid_sum
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 31 711 726 "types.ml" 31 711 756
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 31 711 726 "types.ml" 31 711 756
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 31 711 726 "types.ml" 31 711 756
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+"types.ml" 31 711 722 "types.ml" 31 711 756
+call(
+  tail
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  def sexp_of_t "types.ml" 31 711 722 "types.ml" 42 1051 1058
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref __t_of_sexp__ "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  def t_of_sexp "types.ml" 31 711 722 "types.ml" 42 1051 1058
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref __t_of_sexp__ "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def _tp_loc "types.ml" 31 711 722 "types.ml" 31 711 756
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  def __t_of_sexp__ "types.ml" 31 711 722 "types.ml" 42 1051 1058
+)
+type(
+  t -> unit
+)
+type(
+  unit
+)
+type(
+  t
+)
+type(
+  t -> unit
+)
+"types.ml" 32 767 777 "types.ml" 32 767 786
+type(
+  t -> string
+)
+ident(
+  def to_string "types.ml" 36 848 854 "types.ml" 42 1051 1058
+)
+"types.ml" 33 798 813 "types.ml" 33 798 814
+type(
+  string
+)
+ident(
+  def s "types.ml" 33 798 818 "types.ml" 33 798 819
+)
+"types.ml" 33 798 808 "types.ml" 33 798 814
+type(
+  t
+)
+"types.ml" 33 798 818 "types.ml" 33 798 819
+type(
+  string
+)
+ident(
+  int_ref s "types.ml" 33 798 813 "types.ml" 33 798 814
+)
+"types.ml" 34 820 834 "types.ml" 34 820 835
+type(
+  string
+)
+ident(
+  def s "types.ml" 34 820 839 "types.ml" 34 820 846
+)
+"types.ml" 34 820 830 "types.ml" 34 820 835
+type(
+  t
+)
+"types.ml" 34 820 839 "types.ml" 34 820 842
+type(
+  string
+)
+"types.ml" 34 820 843 "types.ml" 34 820 844
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 34 820 845 "types.ml" 34 820 846
+type(
+  string
+)
+ident(
+  int_ref s "types.ml" 34 820 834 "types.ml" 34 820 835
+)
+"types.ml" 34 820 839 "types.ml" 34 820 846
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 32 767 789 "types.ml" 34 820 846
+type(
+  t -> string
+)
+"types.ml" 36 848 858 "types.ml" 36 848 865
+type(
+  t -> t -> int
+)
+ident(
+  def compare "types.ml" 41 1005 1050 "types.ml" 42 1051 1058
+)
+"types.ml" 36 848 866 "types.ml" 36 848 867
+type(
+  t
+)
+ident(
+  def x "types.ml" 36 848 868 "types.ml" 41 1005 1050
+)
+"types.ml" 36 848 868 "types.ml" 36 848 869
+type(
+  t
+)
+ident(
+  def y "types.ml" 37 872 880 "types.ml" 41 1005 1050
+)
+"types.ml" 37 872 887 "types.ml" 37 872 888
+type(
+  t
+)
+ident(
+  int_ref x "types.ml" 36 848 866 "types.ml" 36 848 867
+)
+"types.ml" 37 872 890 "types.ml" 37 872 891
+type(
+  t
+)
+ident(
+  int_ref y "types.ml" 36 848 868 "types.ml" 36 848 869
+)
+"types.ml" 37 872 887 "types.ml" 37 872 891
+type(
+  t * t
+)
+"types.ml" 38 898 914 "types.ml" 38 898 915
+type(
+  string
+)
+"types.ml" 38 898 909 "types.ml" 38 898 915
+type(
+  t
+)
+"types.ml" 38 898 921 "types.ml" 38 898 922
+type(
+  string
+)
+"types.ml" 38 898 917 "types.ml" 38 898 922
+type(
+  t
+)
+"types.ml" 38 898 909 "types.ml" 38 898 922
+type(
+  t * t
+)
+"types.ml" 38 898 927 "types.ml" 38 898 929
+type(
+  int
+)
+"types.ml" 39 930 945 "types.ml" 39 930 946
+type(
+  string
+)
+"types.ml" 39 930 941 "types.ml" 39 930 946
+type(
+  t
+)
+"types.ml" 39 930 953 "types.ml" 39 930 954
+type(
+  string
+)
+"types.ml" 39 930 948 "types.ml" 39 930 954
+type(
+  t
+)
+"types.ml" 39 930 941 "types.ml" 39 930 954
+type(
+  t * t
+)
+"types.ml" 39 930 959 "types.ml" 39 930 960
+type(
+  int
+)
+"types.ml" 40 961 976 "types.ml" 40 961 978
+type(
+  string
+)
+ident(
+  def xs "types.ml" 40 961 991 "types.ml" 40 961 1004
+)
+"types.ml" 40 961 972 "types.ml" 40 961 978
+type(
+  t
+)
+"types.ml" 40 961 984 "types.ml" 40 961 986
+type(
+  string
+)
+ident(
+  def ys "types.ml" 40 961 991 "types.ml" 40 961 1004
+)
+"types.ml" 40 961 980 "types.ml" 40 961 986
+type(
+  t
+)
+"types.ml" 40 961 972 "types.ml" 40 961 986
+type(
+  t * t
+)
+"types.ml" 40 961 991 "types.ml" 40 961 998
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"types.ml" 40 961 999 "types.ml" 40 961 1001
+type(
+  string
+)
+ident(
+  int_ref xs "types.ml" 40 961 976 "types.ml" 40 961 978
+)
+"types.ml" 40 961 1002 "types.ml" 40 961 1004
+type(
+  string
+)
+ident(
+  int_ref ys "types.ml" 40 961 984 "types.ml" 40 961 986
+)
+"types.ml" 40 961 991 "types.ml" 40 961 1004
+type(
+  int
+)
+"types.ml" 41 1005 1021 "types.ml" 41 1005 1023
+type(
+  string
+)
+ident(
+  def xs "types.ml" 41 1005 1037 "types.ml" 41 1005 1050
+)
+"types.ml" 41 1005 1016 "types.ml" 41 1005 1023
+type(
+  t
+)
+"types.ml" 41 1005 1030 "types.ml" 41 1005 1032
+type(
+  string
+)
+ident(
+  def ys "types.ml" 41 1005 1037 "types.ml" 41 1005 1050
+)
+"types.ml" 41 1005 1025 "types.ml" 41 1005 1032
+type(
+  t
+)
+"types.ml" 41 1005 1016 "types.ml" 41 1005 1032
+type(
+  t * t
+)
+"types.ml" 41 1005 1037 "types.ml" 41 1005 1044
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"types.ml" 41 1005 1045 "types.ml" 41 1005 1047
+type(
+  string
+)
+ident(
+  int_ref xs "types.ml" 41 1005 1021 "types.ml" 41 1005 1023
+)
+"types.ml" 41 1005 1048 "types.ml" 41 1005 1050
+type(
+  string
+)
+ident(
+  int_ref ys "types.ml" 41 1005 1030 "types.ml" 41 1005 1032
+)
+"types.ml" 41 1005 1037 "types.ml" 41 1005 1050
+type(
+  int
+)
+"types.ml" 37 872 880 "types.ml" 41 1005 1050
+type(
+  int
+)
+"types.ml" 36 848 868 "types.ml" 41 1005 1050
+type(
+  t -> int
+)
+"types.ml" 36 848 866 "types.ml" 41 1005 1050
+type(
+  t -> t -> int
+)
+"types.ml" 44 1073 1085 "types.ml" 44 1073 1103
+call(
+  stack
+)
+"types.ml" 46 1110 1116 "types.ml" 46 1110 1125
+type(
+  (Literal.t, 'a) Set.t list -> string
+)
+ident(
+  def to_string "types.ml" 52 1521 1523 "types.ml" 53 1551 1554
+)
+"types.ml" 46 1110 1126 "types.ml" 46 1110 1129
+type(
+  (Literal.t, 'a) Set.t list
+)
+ident(
+  def cnf "types.ml" 47 1132 1136 "types.ml" 51 1431 1520
+)
+"types.ml" 47 1132 1140 "types.ml" 47 1132 1148
+type(
+  Literal.t list list
+)
+ident(
+  def list_cnf "types.ml" 48 1185 1189 "types.ml" 51 1431 1520
+)
+"types.ml" 47 1132 1151 "types.ml" 47 1132 1159
+type(
+  (Literal.t, 'a) Set.t list ->
+  f:((Literal.t, 'a) Set.t -> Literal.t list) -> Literal.t list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"types.ml" 47 1132 1164 "types.ml" 47 1132 1176
+type(
+  (Literal.t, 'a) Set.t -> Literal.t list
+)
+ident(
+  ext_ref Core.Std.Set.elements
+)
+"types.ml" 47 1132 1178 "types.ml" 47 1132 1181
+type(
+  (Literal.t, 'a) Set.t list
+)
+ident(
+  int_ref cnf "types.ml" 46 1110 1126 "types.ml" 46 1110 1129
+)
+"types.ml" 47 1132 1151 "types.ml" 47 1132 1181
+call(
+  stack
+)
+type(
+  Literal.t list list
+)
+"types.ml" 48 1185 1193 "types.ml" 48 1185 1207
+type(
+  string list list
+)
+ident(
+  def string_clauses "types.ml" 49 1268 1272 "types.ml" 51 1431 1520
+)
+"types.ml" 48 1185 1210 "types.ml" 48 1185 1218
+type(
+  Literal.t list list ->
+  f:(Literal.t list -> string list) -> string list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"types.ml" 48 1185 1223 "types.ml" 48 1185 1231
+type(
+  Literal.t list -> f:(Literal.t -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"types.ml" 48 1185 1236 "types.ml" 48 1185 1253
+type(
+  Literal.t -> string
+)
+ident(
+  int_ref Literal.to_string "types.ml" 32 767 777 "types.ml" 32 767 786
+)
+"types.ml" 48 1185 1223 "types.ml" 48 1185 1254
+call(
+  tail
+)
+type(
+  Literal.t list -> string list
+)
+"types.ml" 48 1185 1256 "types.ml" 48 1185 1264
+type(
+  Literal.t list list
+)
+ident(
+  int_ref list_cnf "types.ml" 47 1132 1140 "types.ml" 47 1132 1148
+)
+"types.ml" 48 1185 1210 "types.ml" 48 1185 1264
+call(
+  stack
+)
+type(
+  string list list
+)
+"types.ml" 49 1268 1276 "types.ml" 49 1268 1288
+type(
+  string list list
+)
+ident(
+  def clauses_sepd "types.ml" 50 1353 1357 "types.ml" 51 1431 1520
+)
+"types.ml" 49 1268 1291 "types.ml" 49 1268 1299
+type(
+  string list list -> f:(string list -> string list) -> string list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"types.ml" 49 1268 1304 "types.ml" 49 1268 1320
+type(
+  string list -> sep:string -> string list
+)
+ident(
+  ext_ref Core.Std.List.intersperse
+)
+"types.ml" 49 1268 1327 "types.ml" 49 1268 1332
+type(
+  string
+)
+"types.ml" 49 1268 1304 "types.ml" 49 1268 1333
+call(
+  tail
+)
+type(
+  string list -> string list
+)
+"types.ml" 49 1268 1335 "types.ml" 49 1268 1349
+type(
+  string list list
+)
+ident(
+  int_ref string_clauses "types.ml" 48 1185 1193 "types.ml" 48 1185 1207
+)
+"types.ml" 49 1268 1291 "types.ml" 49 1268 1349
+call(
+  stack
+)
+type(
+  string list list
+)
+"types.ml" 50 1353 1361 "types.ml" 50 1353 1372
+type(
+  string list
+)
+ident(
+  def all_strings "types.ml" 51 1431 1435 "types.ml" 51 1431 1520
+)
+"types.ml" 50 1353 1375 "types.ml" 50 1353 1383
+type(
+  string list list -> f:(string list -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"types.ml" 50 1353 1388 "types.ml" 50 1353 1397
+type(
+  string list -> init:string -> f:(string -> string -> string) -> string
+)
+ident(
+  ext_ref Core.Std.List.fold
+)
+"types.ml" 50 1353 1404 "types.ml" 50 1353 1406
+type(
+  string
+)
+"types.ml" 50 1353 1410 "types.ml" 50 1353 1413
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 50 1353 1388 "types.ml" 50 1353 1413
+call(
+  tail
+)
+type(
+  string list -> string
+)
+"types.ml" 50 1353 1415 "types.ml" 50 1353 1427
+type(
+  string list list
+)
+ident(
+  int_ref clauses_sepd "types.ml" 49 1268 1276 "types.ml" 49 1268 1288
+)
+"types.ml" 50 1353 1375 "types.ml" 50 1353 1427
+call(
+  stack
+)
+type(
+  string list
+)
+"types.ml" 51 1431 1435 "types.ml" 51 1431 1438
+type(
+  string
+)
+"types.ml" 51 1431 1439 "types.ml" 51 1431 1440
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 51 1431 1442 "types.ml" 51 1431 1451
+type(
+  string list -> init:string -> f:(string -> string -> string) -> string
+)
+ident(
+  ext_ref Core.Std.List.fold
+)
+"types.ml" 51 1431 1458 "types.ml" 51 1431 1460
+type(
+  string
+)
+"types.ml" 51 1431 1464 "types.ml" 51 1431 1467
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 51 1431 1469 "types.ml" 51 1431 1485
+type(
+  string list -> sep:string -> string list
+)
+ident(
+  ext_ref Core.Std.List.intersperse
+)
+"types.ml" 51 1431 1492 "types.ml" 51 1431 1499
+type(
+  string
+)
+"types.ml" 51 1431 1501 "types.ml" 51 1431 1512
+type(
+  string list
+)
+ident(
+  int_ref all_strings "types.ml" 50 1353 1361 "types.ml" 50 1353 1372
+)
+"types.ml" 51 1431 1469 "types.ml" 51 1431 1512
+call(
+  stack
+)
+type(
+  string list
+)
+"types.ml" 51 1431 1442 "types.ml" 51 1431 1513
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 51 1431 1515 "types.ml" 51 1431 1516
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 51 1431 1517 "types.ml" 51 1431 1520
+type(
+  string
+)
+"types.ml" 51 1431 1441 "types.ml" 51 1431 1520
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 51 1431 1435 "types.ml" 51 1431 1520
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 50 1353 1357 "types.ml" 51 1431 1520
+type(
+  string
+)
+"types.ml" 49 1268 1272 "types.ml" 51 1431 1520
+type(
+  string
+)
+"types.ml" 48 1185 1189 "types.ml" 51 1431 1520
+type(
+  string
+)
+"types.ml" 47 1132 1136 "types.ml" 51 1431 1520
+type(
+  string
+)
+"types.ml" 46 1110 1126 "types.ml" 51 1431 1520
+type(
+  (Literal.t, 'a) Set.t list -> string
+)
+"types.ml" 57 1584 1615 "types.ml" 57 1584 1619
+type(
+  bool -> Sexp.t
+)
+ident(
+  ext_ref Core.Std.sexp_of_bool
+)
+type(
+  Sexp.t -> bool
+)
+ident(
+  ext_ref Core.Std.bool_of_sexp
+)
+"types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref bnds "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref bnd "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def bnds "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref arg "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  Sexp.t list
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+ident(
+  def bnd "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  Sexp.t
+)
+type(
+  bool
+)
+ident(
+  int_ref v_true_chosen "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  Sexp.t
+)
+ident(
+  def arg "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  bool
+)
+ident(
+  def v_true_chosen "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  bool * string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool option ref
+)
+ident(
+  int_ref true_chosen_field "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  bool option ref -> bool option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  bool option -> bool option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool
+)
+ident(
+  int_ref true_chosen_value "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def true_chosen_value "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  bool option
+)
+type(
+  bool option ref
+)
+ident(
+  int_ref true_chosen_field "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  bool option ref -> bool option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref duplicates "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string
+)
+ident(
+  int_ref field_name "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref duplicates "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+ident(
+  int_ref fvalue "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  bool option
+)
+type(
+  bool option ref
+)
+ident(
+  int_ref true_chosen_field "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  bool option ref -> bool option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+type(
+  bool
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _field_sexp "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  bool
+)
+ident(
+  def fvalue "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool option ref
+)
+ident(
+  int_ref true_chosen_field "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  bool option ref -> bool option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string
+)
+type(
+  bool option ref
+)
+type(
+  bool option
+)
+type(
+  bool option -> bool option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+type(
+  bool option ref
+)
+ident(
+  def true_chosen_field "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+"types.ml" 57 1584 1636 "types.ml" 57 1584 1640
+type(
+  bool -> Sexp.t
+)
+ident(
+  ext_ref Core.Std.sexp_of_bool
+)
+type(
+  Sexp.t -> bool
+)
+ident(
+  ext_ref Core.Std.bool_of_sexp
+)
+"types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref bnds "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref bnd "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def bnds "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref arg "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  Sexp.t list
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+ident(
+  def bnd "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  Sexp.t
+)
+type(
+  bool
+)
+ident(
+  int_ref v_false_chosen "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  Sexp.t
+)
+ident(
+  def arg "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  bool
+)
+ident(
+  def v_false_chosen "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  bool * string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool option ref
+)
+ident(
+  int_ref false_chosen_field "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  bool option ref -> bool option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  bool option -> bool option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool
+)
+ident(
+  int_ref false_chosen_value "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def false_chosen_value "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  bool option
+)
+type(
+  bool option ref
+)
+ident(
+  int_ref false_chosen_field "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  bool option ref -> bool option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref duplicates "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string
+)
+ident(
+  int_ref field_name "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref duplicates "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+ident(
+  int_ref fvalue "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  bool option
+)
+type(
+  bool option ref
+)
+ident(
+  int_ref false_chosen_field "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  bool option ref -> bool option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+type(
+  bool
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _field_sexp "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  bool
+)
+ident(
+  def fvalue "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool option ref
+)
+ident(
+  int_ref false_chosen_field "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  bool option ref -> bool option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string
+)
+type(
+  bool option ref
+)
+type(
+  bool option
+)
+type(
+  bool option -> bool option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+type(
+  bool option ref
+)
+ident(
+  def false_chosen_field "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+"types.ml" 57 1584 1653 "types.ml" 57 1584 1659
+type(
+  string -> Sexp.t
+)
+ident(
+  ext_ref Core.Std.sexp_of_string
+)
+type(
+  Sexp.t -> string
+)
+ident(
+  ext_ref Core.Std.string_of_sexp
+)
+"types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref bnds "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref bnd "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def bnds "types.ml" 57 1584 1621 "types.ml" 57 1584 1640
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref arg "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t list
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+ident(
+  def bnd "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  int_ref v_variable "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t
+)
+ident(
+  def arg "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  string
+)
+ident(
+  def v_variable "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  bool * string
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string option ref
+)
+ident(
+  int_ref variable_field "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string option -> string option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  string
+)
+ident(
+  int_ref variable_value "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def variable_value "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string option
+)
+type(
+  string option ref
+)
+ident(
+  int_ref variable_field "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref duplicates "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string
+)
+ident(
+  int_ref field_name "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref duplicates "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string
+)
+ident(
+  int_ref fvalue "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  string option
+)
+type(
+  string option ref
+)
+ident(
+  int_ref variable_field "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  string option ref -> string option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _field_sexp "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string
+)
+ident(
+  def fvalue "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  string option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string option ref
+)
+ident(
+  int_ref variable_field "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string
+)
+type(
+  string option ref
+)
+type(
+  string option
+)
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+type(
+  string option ref
+)
+ident(
+  def variable_field "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+"types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref bnds "types.ml" 57 1584 1601 "types.ml" 57 1584 1619
+)
+type(
+  Sexp.t
+)
+type(
+  'a list
+)
+type(
+  'a list
+)
+ident(
+  def bnds "types.ml" 57 1584 1642 "types.ml" 57 1584 1659
+)
+type(
+  choice
+)
+type(
+  choice
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  string -> Sexp.t -> choice
+)
+ident(
+  ext_ref Sexplib.Conv_error.record_list_instead_atom
+)
+type(
+  choice
+)
+type(
+  choice
+)
+type(
+  choice
+)
+type(
+  choice
+)
+type(
+  choice
+)
+type(
+  choice
+)
+type(
+  choice
+)
+type(
+  (bool * string) list
+)
+type(
+  (bool * string) list
+)
+type(
+  (bool * string) list
+)
+type(
+  (bool * string) list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  string -> Sexp.t -> (bool * string) list -> choice
+)
+ident(
+  ext_ref Sexplib.Conv_error.record_undefined_elements
+)
+type(
+  choice
+)
+type(
+  bool option * bool option * string option
+)
+type(
+  bool option * bool option * string option
+)
+type(
+  bool option * bool option * string option
+)
+type(
+  choice
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref extra "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  string -> string list -> Sexp.t -> choice
+)
+ident(
+  ext_ref Sexplib.Conv_error.record_extra_fields
+)
+type(
+  bool
+)
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref extra "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+type(
+  choice
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref duplicates "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  string -> string list -> Sexp.t -> choice
+)
+ident(
+  ext_ref Sexplib.Conv_error.record_duplicate_fields
+)
+type(
+  bool
+)
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref duplicates "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+type(
+  unit
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref field_sexps "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t list -> unit
+)
+ident(
+  int_ref iter "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t list -> unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  string -> Sexp.t -> unit
+)
+ident(
+  ext_ref Sexplib.Conv_error.record_only_pairs_expected
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref tail "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t list -> unit
+)
+ident(
+  int_ref iter "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref extra "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string
+)
+ident(
+  int_ref field_name "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref extra "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+type(
+  bool
+)
+type(
+  bool ref
+)
+ident(
+  ext_ref Sexplib.Conv.record_check_extra_fields
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref field_name "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref tail "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t list -> unit
+)
+ident(
+  int_ref iter "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref extra "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string
+)
+ident(
+  int_ref field_name "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list
+)
+type(
+  string list ref
+)
+ident(
+  int_ref extra "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+type(
+  bool
+)
+type(
+  bool ref
+)
+ident(
+  ext_ref Sexplib.Conv.record_check_extra_fields
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref field_name "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def tail "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def field_name "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def tail "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def _field_sexp "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def field_name "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t list -> unit
+)
+ident(
+  def iter "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref
+)
+type(
+  string list
+)
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+type(
+  string list ref
+)
+type(
+  string list
+)
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+type(
+  string list ref
+)
+ident(
+  def extra "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  string list ref
+)
+ident(
+  def duplicates "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+ident(
+  def field_sexps "types.ml" 57 1584 1601 "types.ml" 57 1584 1659
+)
+"types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+call(
+  tail
+)
+type(
+  choice -> Sexp.t
+)
+ident(
+  int_ref sexp_of_choice "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  choice -> Sexp.t
+)
+type(
+  choice -> Sexp.t
+)
+type(
+  choice -> Sexp.t
+)
+type(
+  choice -> Sexp.t
+)
+ident(
+  def sexp_of_choice "types.ml" 57 1584 1591 "types.ml" 68 2195 2198
+)
+type(
+  Sexp.t -> choice
+)
+ident(
+  int_ref choice_of_sexp "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  Sexp.t -> choice
+)
+type(
+  Sexp.t -> choice
+)
+type(
+  Sexp.t -> choice
+)
+type(
+  choice
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  Sexp.t -> choice
+)
+ident(
+  int_ref __choice_of_sexp__ "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  Sexp.t -> choice
+)
+ident(
+  def choice_of_sexp "types.ml" 57 1584 1591 "types.ml" 68 2195 2198
+)
+type(
+  Sexp.t -> choice
+)
+ident(
+  int_ref __choice_of_sexp__ "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  Sexp.t -> choice
+)
+type(
+  Sexp.t -> choice
+)
+type(
+  Sexp.t -> choice
+)
+type(
+  Sexp.t -> choice
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def _tp_loc "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  Sexp.t -> choice
+)
+ident(
+  def __choice_of_sexp__ "types.ml" 57 1584 1591 "types.ml" 68 2195 2198
+)
+type(
+  choice -> unit
+)
+type(
+  unit
+)
+type(
+  choice
+)
+type(
+  choice -> unit
+)
+"types.ml" 58 1671 1692 "types.ml" 58 1671 1696
+type(
+  bool -> Sexp.t
+)
+ident(
+  ext_ref Core.Std.sexp_of_bool
+)
+type(
+  Sexp.t -> bool
+)
+ident(
+  ext_ref Core.Std.bool_of_sexp
+)
+"types.ml" 58 1671 1697 "types.ml" 58 1671 1709
+type(
+  (bool -> Sexp.t) -> bool String.Map.t -> Sexp.t
+)
+ident(
+  ext_ref Core.Std.String.Map.sexp_of_t
+)
+type(
+  (Sexp.t -> bool) -> Sexp.t -> bool String.Map.t
+)
+ident(
+  ext_ref Core.Std.String.Map.t_of_sexp
+)
+"types.ml" 58 1671 1692 "types.ml" 58 1671 1709
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "types.ml" 58 1671 1682 "types.ml" 58 1671 1709
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "types.ml" 58 1671 1682 "types.ml" 58 1671 1709
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.stag_incorrect_n_args
+)
+type(
+  t
+)
+type(
+  bool String.Map.t
+)
+ident(
+  int_ref v1 "types.ml" 58 1671 1692 "types.ml" 58 1671 1709
+)
+type(
+  t
+)
+type(
+  bool String.Map.t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "types.ml" 58 1671 1692 "types.ml" 58 1671 1709
+)
+type(
+  bool String.Map.t
+)
+ident(
+  def v1 "types.ml" 58 1671 1692 "types.ml" 58 1671 1709
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "types.ml" 58 1671 1692 "types.ml" 58 1671 1709
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "types.ml" 58 1671 1682 "types.ml" 58 1671 1709
+)
+"types.ml" 58 1671 1682 "types.ml" 58 1671 1709
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "types.ml" 58 1671 1682 "types.ml" 58 1671 1709
+)
+type(
+  Sexp.t list
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  bool String.Map.t
+)
+ident(
+  int_ref v1 "types.ml" 58 1671 1682 "types.ml" 58 1671 1709
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "types.ml" 58 1671 1682 "types.ml" 58 1671 1709
+)
+type(
+  t
+)
+type(
+  bool String.Map.t
+)
+ident(
+  def v1 "types.ml" 58 1671 1682 "types.ml" 58 1671 1709
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 58 1671 1682 "types.ml" 58 1671 1709
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.stag_takes_args
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 58 1671 1682 "types.ml" 58 1671 1709
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "types.ml" 58 1671 1692 "types.ml" 58 1671 1709
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "types.ml" 58 1671 1692 "types.ml" 58 1671 1709
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "types.ml" 58 1671 1692 "types.ml" 58 1671 1709
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+"types.ml" 58 1671 1722 "types.ml" 58 1671 1728
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  choice -> Sexp.t
+)
+ident(
+  int_ref sexp_of_choice "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "types.ml" 58 1671 1712 "types.ml" 58 1671 1728
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "types.ml" 58 1671 1712 "types.ml" 58 1671 1728
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.stag_incorrect_n_args
+)
+type(
+  t
+)
+type(
+  choice
+)
+ident(
+  int_ref v1 "types.ml" 58 1671 1722 "types.ml" 58 1671 1728
+)
+type(
+  t
+)
+type(
+  choice
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "types.ml" 58 1671 1722 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t -> choice
+)
+ident(
+  int_ref choice_of_sexp "types.ml" 57 1584 1591 "types.ml" 57 1584 1660
+)
+type(
+  choice
+)
+ident(
+  def v1 "types.ml" 58 1671 1722 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "types.ml" 58 1671 1722 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "types.ml" 58 1671 1712 "types.ml" 58 1671 1728
+)
+"types.ml" 58 1671 1712 "types.ml" 58 1671 1728
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "types.ml" 58 1671 1712 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t list
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  choice
+)
+ident(
+  int_ref v1 "types.ml" 58 1671 1712 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "types.ml" 58 1671 1712 "types.ml" 58 1671 1728
+)
+type(
+  t
+)
+type(
+  choice
+)
+ident(
+  def v1 "types.ml" 58 1671 1712 "types.ml" 58 1671 1728
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 58 1671 1712 "types.ml" 58 1671 1728
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.stag_takes_args
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 58 1671 1712 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "types.ml" 58 1671 1722 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "types.ml" 58 1671 1722 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "types.ml" 58 1671 1722 "types.ml" 58 1671 1728
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+"types.ml" 58 1671 1682 "types.ml" 58 1671 1728
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 58 1671 1682 "types.ml" 58 1671 1728
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.unexpected_stag
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 58 1671 1682 "types.ml" 58 1671 1728
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.empty_list_invalid_sum
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 58 1671 1682 "types.ml" 58 1671 1728
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  ext_ref Sexplib.Conv_error.nested_list_invalid_sum
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 58 1671 1682 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 58 1671 1682 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 58 1671 1682 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+"types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+call(
+  tail
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  def sexp_of_t "types.ml" 58 1671 1678 "types.ml" 68 2195 2198
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref __t_of_sexp__ "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  def t_of_sexp "types.ml" 58 1671 1678 "types.ml" 68 2195 2198
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref __t_of_sexp__ "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def _tp_loc "types.ml" 58 1671 1678 "types.ml" 58 1671 1728
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  def __t_of_sexp__ "types.ml" 58 1671 1678 "types.ml" 68 2195 2198
+)
+type(
+  t -> unit
+)
+type(
+  unit
+)
+type(
+  t
+)
+type(
+  t -> unit
+)
+"types.ml" 60 1740 1746 "types.ml" 60 1740 1755
+type(
+  t -> string
+)
+ident(
+  def to_string "types.ml" 67 2112 2194 "types.ml" 68 2195 2198
+)
+"types.ml" 61 1767 1778 "types.ml" 61 1767 1785
+type(
+  bool String.Map.t
+)
+ident(
+  def mapping "types.ml" 62 1789 1795 "types.ml" 63 1860 1951
+)
+"types.ml" 61 1767 1771 "types.ml" 61 1767 1785
+type(
+  t
+)
+"types.ml" 62 1789 1799 "types.ml" 62 1789 1813
+type(
+  string * bool -> string
+)
+ident(
+  def elem_to_string "types.ml" 63 1860 1866 "types.ml" 63 1860 1951
+)
+"types.ml" 62 1789 1815 "types.ml" 62 1789 1818
+type(
+  string
+)
+ident(
+  def lit "types.ml" 62 1789 1825 "types.ml" 62 1789 1856
+)
+"types.ml" 62 1789 1820 "types.ml" 62 1789 1821
+type(
+  bool
+)
+ident(
+  def b "types.ml" 62 1789 1825 "types.ml" 62 1789 1856
+)
+"types.ml" 62 1789 1815 "types.ml" 62 1789 1821
+type(
+  string * bool
+)
+"types.ml" 62 1789 1825 "types.ml" 62 1789 1839
+type(
+  (string -> bool -> string, unit, string) format -> string -> bool -> string
+)
+ident(
+  ext_ref Core.Std.Printf.sprintf
+)
+"types.ml" 62 1789 1840 "types.ml" 62 1789 1850
+type(
+  (string -> bool -> string, unit, string) format
+)
+"types.ml" 62 1789 1851 "types.ml" 62 1789 1854
+type(
+  string
+)
+ident(
+  int_ref lit "types.ml" 62 1789 1815 "types.ml" 62 1789 1818
+)
+"types.ml" 62 1789 1855 "types.ml" 62 1789 1856
+type(
+  bool
+)
+ident(
+  int_ref b "types.ml" 62 1789 1820 "types.ml" 62 1789 1821
+)
+"types.ml" 62 1789 1825 "types.ml" 62 1789 1856
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 62 1789 1814 "types.ml" 62 1789 1856
+type(
+  string * bool -> string
+)
+"types.ml" 63 1860 1866 "types.ml" 63 1860 1880
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Core.Std.Printf.sprintf
+)
+"types.ml" 63 1860 1881 "types.ml" 63 1860 1893
+type(
+  (string -> string, unit, string) format
+)
+"types.ml" 63 1860 1895 "types.ml" 63 1860 1909
+type(
+  f:(string * bool -> string) -> (string * bool) list -> string
+)
+ident(
+  ext_ref Core.Std.List.to_string
+)
+"types.ml" 63 1860 1913 "types.ml" 63 1860 1927
+type(
+  string * bool -> string
+)
+ident(
+  int_ref elem_to_string "types.ml" 62 1789 1799 "types.ml" 62 1789 1813
+)
+"types.ml" 63 1860 1929 "types.ml" 63 1860 1941
+type(
+  (string, bool, String.comparator_witness) Map.t -> (string * bool) list
+)
+ident(
+  ext_ref Core.Std.Map.to_alist
+)
+"types.ml" 63 1860 1942 "types.ml" 63 1860 1949
+type(
+  bool String.Map.t
+)
+ident(
+  int_ref mapping "types.ml" 61 1767 1778 "types.ml" 61 1767 1785
+)
+"types.ml" 63 1860 1929 "types.ml" 63 1860 1949
+call(
+  stack
+)
+type(
+  (string * bool) list
+)
+"types.ml" 63 1860 1895 "types.ml" 63 1860 1950
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 63 1860 1866 "types.ml" 63 1860 1951
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 62 1789 1795 "types.ml" 63 1860 1951
+type(
+  string
+)
+"types.ml" 64 1952 1964 "types.ml" 64 1952 1975
+type(
+  bool
+)
+ident(
+  def true_chosen "types.ml" 65 2004 2010 "types.ml" 67 2112 2194
+)
+"types.ml" 64 1952 1977 "types.ml" 64 1952 1989
+type(
+  bool
+)
+ident(
+  def false_chosen "types.ml" 65 2004 2010 "types.ml" 67 2112 2194
+)
+"types.ml" 64 1952 1991 "types.ml" 64 1952 1999
+type(
+  string
+)
+ident(
+  def variable "types.ml" 65 2004 2010 "types.ml" 67 2112 2194
+)
+"types.ml" 64 1952 1963 "types.ml" 64 1952 2000
+type(
+  choice
+)
+"types.ml" 64 1952 1956 "types.ml" 64 1952 2000
+type(
+  t
+)
+"types.ml" 65 2004 2014 "types.ml" 65 2004 2022
+type(
+  int
+)
+ident(
+  def true_num "types.ml" 66 2057 2063 "types.ml" 67 2112 2194
+)
+"types.ml" 65 2004 2028 "types.ml" 65 2004 2039
+type(
+  bool
+)
+ident(
+  int_ref true_chosen "types.ml" 64 1952 1964 "types.ml" 64 1952 1975
+)
+"types.ml" 65 2004 2045 "types.ml" 65 2004 2046
+type(
+  int
+)
+"types.ml" 65 2004 2052 "types.ml" 65 2004 2053
+type(
+  int
+)
+"types.ml" 65 2004 2025 "types.ml" 65 2004 2053
+type(
+  int
+)
+"types.ml" 66 2057 2067 "types.ml" 66 2057 2076
+type(
+  int
+)
+ident(
+  def false_num "types.ml" 67 2112 2118 "types.ml" 67 2112 2194
+)
+"types.ml" 66 2057 2082 "types.ml" 66 2057 2094
+type(
+  bool
+)
+ident(
+  int_ref false_chosen "types.ml" 64 1952 1977 "types.ml" 64 1952 1989
+)
+"types.ml" 66 2057 2100 "types.ml" 66 2057 2101
+type(
+  int
+)
+"types.ml" 66 2057 2107 "types.ml" 66 2057 2108
+type(
+  int
+)
+"types.ml" 66 2057 2079 "types.ml" 66 2057 2108
+type(
+  int
+)
+"types.ml" 67 2112 2118 "types.ml" 67 2112 2132
+type(
+  (string -> int -> int -> string, unit, string) format ->
+  string -> int -> int -> string
+)
+ident(
+  ext_ref Core.Std.Printf.sprintf
+)
+"types.ml" 67 2112 2133 "types.ml" 67 2112 2166
+type(
+  (string -> int -> int -> string, unit, string) format
+)
+"types.ml" 67 2112 2167 "types.ml" 67 2112 2175
+type(
+  string
+)
+ident(
+  int_ref variable "types.ml" 64 1952 1991 "types.ml" 64 1952 1999
+)
+"types.ml" 67 2112 2176 "types.ml" 67 2112 2184
+type(
+  int
+)
+ident(
+  int_ref true_num "types.ml" 65 2004 2014 "types.ml" 65 2004 2022
+)
+"types.ml" 67 2112 2185 "types.ml" 67 2112 2194
+type(
+  int
+)
+ident(
+  int_ref false_num "types.ml" 66 2057 2067 "types.ml" 66 2057 2076
+)
+"types.ml" 67 2112 2118 "types.ml" 67 2112 2194
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 66 2057 2063 "types.ml" 67 2112 2194
+type(
+  string
+)
+"types.ml" 65 2004 2010 "types.ml" 67 2112 2194
+type(
+  string
+)
+"types.ml" 60 1740 1758 "types.ml" 67 2112 2194
+type(
+  t -> string
+)
+"types.ml" 78 2725 2731 "types.ml" 78 2725 2751
+type(
+  Asgn_trace.t * (Cnf.Literal.t, 'a) Set.t list -> string
+)
+ident(
+  def stack_elem_to_string "types.ml" 81 2874 2876 "types.ml" 87 3311 3314
+)
+"types.ml" 78 2725 2753 "types.ml" 78 2725 2762
+type(
+  Asgn_trace.t
+)
+ident(
+  def asgn_elem "types.ml" 79 2771 2775 "types.ml" 79 2771 2872
+)
+"types.ml" 78 2725 2764 "types.ml" 78 2725 2767
+type(
+  (Cnf.Literal.t, 'a) Set.t list
+)
+ident(
+  def cnf "types.ml" 79 2771 2775 "types.ml" 79 2771 2872
+)
+"types.ml" 78 2725 2753 "types.ml" 78 2725 2767
+type(
+  Asgn_trace.t * (Cnf.Literal.t, 'a) Set.t list
+)
+"types.ml" 79 2771 2775 "types.ml" 79 2771 2789
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.Printf.sprintf
+)
+"types.ml" 79 2771 2790 "types.ml" 79 2771 2819
+type(
+  (string -> string -> string, unit, string) format
+)
+"types.ml" 79 2771 2821 "types.ml" 79 2771 2841
+type(
+  Asgn_trace.t -> string
+)
+ident(
+  int_ref Asgn_trace.to_string "types.ml" 60 1740 1746 "types.ml" 60 1740 1755
+)
+"types.ml" 79 2771 2842 "types.ml" 79 2771 2851
+type(
+  Asgn_trace.t
+)
+ident(
+  int_ref asgn_elem "types.ml" 78 2725 2753 "types.ml" 78 2725 2762
+)
+"types.ml" 79 2771 2821 "types.ml" 79 2771 2851
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 79 2771 2854 "types.ml" 79 2771 2867
+type(
+  (Cnf.Literal.t, 'a) Set.t list -> string
+)
+ident(
+  int_ref Cnf.to_string "types.ml" 46 1110 1116 "types.ml" 46 1110 1125
+)
+"types.ml" 79 2771 2868 "types.ml" 79 2771 2871
+type(
+  (Cnf.Literal.t, 'a) Set.t list
+)
+ident(
+  int_ref cnf "types.ml" 78 2725 2764 "types.ml" 78 2725 2767
+)
+"types.ml" 79 2771 2854 "types.ml" 79 2771 2871
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 79 2771 2775 "types.ml" 79 2771 2872
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 78 2725 2752 "types.ml" 79 2771 2872
+type(
+  Asgn_trace.t * (Cnf.Literal.t, 'a) Set.t list -> string
+)
+"types.ml" 81 2874 2880 "types.ml" 81 2874 2889
+type(
+  t -> string
+)
+ident(
+  def to_string "types.ml" 86 3154 3310 "types.ml" 87 3311 3314
+)
+"types.ml" 81 2874 2890 "types.ml" 81 2874 2891
+type(
+  t
+)
+ident(
+  def s "types.ml" 82 2894 2898 "types.ml" 86 3154 3310
+)
+"types.ml" 82 2894 2902 "types.ml" 82 2894 2914
+type(
+  string
+)
+ident(
+  def stack_string "types.ml" 83 2969 2973 "types.ml" 86 3154 3310
+)
+"types.ml" 82 2894 2917 "types.ml" 82 2894 2931
+type(
+  f:(Asgn_trace.t *
+     (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list -> string) ->
+  (Asgn_trace.t * (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list)
+  list -> string
+)
+ident(
+  ext_ref Core.Std.List.to_string
+)
+"types.ml" 82 2894 2936 "types.ml" 82 2894 2956
+type(
+  Asgn_trace.t * (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  string
+)
+ident(
+  int_ref stack_elem_to_string "types.ml" 78 2725 2731 "types.ml" 78 2725 2751
+)
+"types.ml" 82 2894 2958 "types.ml" 82 2894 2959
+type(
+  t
+)
+ident(
+  int_ref s "types.ml" 81 2874 2890 "types.ml" 81 2874 2891
+)
+"types.ml" 82 2894 2958 "types.ml" 82 2894 2965
+type(
+  (Asgn_trace.t * (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list)
+  list
+)
+"types.ml" 82 2894 2917 "types.ml" 82 2894 2965
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 83 2969 2976 "types.ml" 83 2969 2977
+type(
+  t
+)
+ident(
+  int_ref s "types.ml" 81 2874 2890 "types.ml" 81 2874 2891
+)
+"types.ml" 83 2969 2976 "types.ml" 83 2969 2986
+type(
+  bool
+)
+"types.ml" 84 2992 2996 "types.ml" 84 2992 3010
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.Printf.sprintf
+)
+"types.ml" 84 2992 3011 "types.ml" 84 2992 3101
+type(
+  (string -> string -> string, unit, string) format
+)
+"types.ml" 84 2992 3103 "types.ml" 84 2992 3116
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list -> string
+)
+ident(
+  int_ref Cnf.to_string "types.ml" 46 1110 1116 "types.ml" 46 1110 1125
+)
+"types.ml" 84 2992 3117 "types.ml" 84 2992 3118
+type(
+  t
+)
+ident(
+  int_ref s "types.ml" 81 2874 2890 "types.ml" 81 2874 2891
+)
+"types.ml" 84 2992 3117 "types.ml" 84 2992 3130
+type(
+  Cnf.t
+)
+"types.ml" 84 2992 3103 "types.ml" 84 2992 3130
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 84 2992 3132 "types.ml" 84 2992 3144
+type(
+  string
+)
+ident(
+  int_ref stack_string "types.ml" 82 2894 2902 "types.ml" 82 2894 2914
+)
+"types.ml" 84 2992 2996 "types.ml" 84 2992 3144
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 86 3154 3158 "types.ml" 86 3154 3172
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.Printf.sprintf
+)
+"types.ml" 86 3154 3173 "types.ml" 86 3154 3267
+type(
+  (string -> string -> string, unit, string) format
+)
+"types.ml" 86 3154 3269 "types.ml" 86 3154 3282
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list -> string
+)
+ident(
+  int_ref Cnf.to_string "types.ml" 46 1110 1116 "types.ml" 46 1110 1125
+)
+"types.ml" 86 3154 3283 "types.ml" 86 3154 3284
+type(
+  t
+)
+ident(
+  int_ref s "types.ml" 81 2874 2890 "types.ml" 81 2874 2891
+)
+"types.ml" 86 3154 3283 "types.ml" 86 3154 3296
+type(
+  Cnf.t
+)
+"types.ml" 86 3154 3269 "types.ml" 86 3154 3296
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 86 3154 3298 "types.ml" 86 3154 3310
+type(
+  string
+)
+ident(
+  int_ref stack_string "types.ml" 82 2894 2902 "types.ml" 82 2894 2914
+)
+"types.ml" 86 3154 3158 "types.ml" 86 3154 3310
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 83 2969 2973 "types.ml" 86 3154 3310
+type(
+  string
+)
+"types.ml" 82 2894 2898 "types.ml" 86 3154 3310
+type(
+  string
+)
+"types.ml" 81 2874 2890 "types.ml" 86 3154 3310
 type(
   t -> string
 )

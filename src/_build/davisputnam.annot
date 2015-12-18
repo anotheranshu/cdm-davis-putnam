@@ -3,189 +3,343 @@ type(
   string -> unit -> unit
 )
 ident(
-  def process_file "davisputnam.ml" 15 251 251 "davisputnam.ml" 1 0 -1
+  def process_file "davisputnam.ml" 15 453 453 "davisputnam.ml" 1 0 -1
 )
 "davisputnam.ml" 3 15 32 "davisputnam.ml" 3 15 40
 type(
   string
 )
 ident(
-  def filename "davisputnam.ml" 3 15 41 "davisputnam.ml" 9 215 241
+  def filename "davisputnam.ml" 3 15 41 "davisputnam.ml" 12 414 448
 )
 "davisputnam.ml" 3 15 41 "davisputnam.ml" 3 15 43
 type(
   unit
 )
-"davisputnam.ml" 5 53 61 "davisputnam.ml" 5 53 64
+"davisputnam.ml" 4 46 52 "davisputnam.ml" 4 46 55
 type(
   in_channel
 )
 ident(
-  def inx "davisputnam.ml" 6 97 101 "davisputnam.ml" 8 189 214
+  def inx "davisputnam.ml" 5 88 90 "davisputnam.ml" 12 414 448
 )
-"davisputnam.ml" 5 53 67 "davisputnam.ml" 5 53 84
+"davisputnam.ml" 4 46 58 "davisputnam.ml" 4 46 75
 type(
   ?binary:bool -> string -> in_channel
 )
 ident(
   ext_ref Core.Std.In_channel.create
 )
-"davisputnam.ml" 5 53 85 "davisputnam.ml" 5 53 93
+"davisputnam.ml" 4 46 76 "davisputnam.ml" 4 46 84
 type(
   string
 )
 ident(
   int_ref filename "davisputnam.ml" 3 15 32 "davisputnam.ml" 3 15 40
 )
-"davisputnam.ml" 5 53 67 "davisputnam.ml" 5 53 93
+"davisputnam.ml" 4 46 58 "davisputnam.ml" 4 46 84
 call(
   stack
 )
 type(
   in_channel
 )
-"davisputnam.ml" 6 97 105 "davisputnam.ml" 6 97 111
+"davisputnam.ml" 5 88 94 "davisputnam.ml" 5 88 100
 type(
   Lexing.lexbuf
 )
 ident(
-  def lexbuf "davisputnam.ml" 7 141 145 "davisputnam.ml" 8 189 214
+  def lexbuf "davisputnam.ml" 6 130 132 "davisputnam.ml" 12 414 448
 )
-"davisputnam.ml" 6 97 114 "davisputnam.ml" 6 97 133
+"davisputnam.ml" 5 88 103 "davisputnam.ml" 5 88 122
 type(
   in_channel -> Lexing.lexbuf
 )
 ident(
   ext_ref Lexing.from_channel
 )
-"davisputnam.ml" 6 97 134 "davisputnam.ml" 6 97 137
+"davisputnam.ml" 5 88 123 "davisputnam.ml" 5 88 126
 type(
   in_channel
 )
 ident(
-  int_ref inx "davisputnam.ml" 5 53 61 "davisputnam.ml" 5 53 64
+  int_ref inx "davisputnam.ml" 4 46 52 "davisputnam.ml" 4 46 55
 )
-"davisputnam.ml" 6 97 114 "davisputnam.ml" 6 97 137
+"davisputnam.ml" 5 88 103 "davisputnam.ml" 5 88 126
 call(
   stack
 )
 type(
   Lexing.lexbuf
 )
-"davisputnam.ml" 7 141 149 "davisputnam.ml" 7 141 152
+"davisputnam.ml" 6 130 136 "davisputnam.ml" 6 130 139
 type(
   Types.Ast.t
 )
 ident(
-  def ast "davisputnam.ml" 8 189 193 "davisputnam.ml" 8 189 214
+  def ast "davisputnam.ml" 7 176 178 "davisputnam.ml" 12 414 448
 )
-"davisputnam.ml" 7 141 155 "davisputnam.ml" 7 141 166
+"davisputnam.ml" 6 130 142 "davisputnam.ml" 6 130 153
 type(
   (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Types.Ast.t
 )
 ident(
   ext_ref Parser.main
 )
-"davisputnam.ml" 7 141 167 "davisputnam.ml" 7 141 178
+"davisputnam.ml" 6 130 154 "davisputnam.ml" 6 130 165
 type(
   Lexing.lexbuf -> Parser.token
 )
 ident(
   ext_ref Lexer.token
 )
-"davisputnam.ml" 7 141 179 "davisputnam.ml" 7 141 185
+"davisputnam.ml" 6 130 166 "davisputnam.ml" 6 130 172
 type(
   Lexing.lexbuf
 )
 ident(
-  int_ref lexbuf "davisputnam.ml" 6 97 105 "davisputnam.ml" 6 97 111
+  int_ref lexbuf "davisputnam.ml" 5 88 94 "davisputnam.ml" 5 88 100
 )
-"davisputnam.ml" 7 141 155 "davisputnam.ml" 7 141 185
+"davisputnam.ml" 6 130 142 "davisputnam.ml" 6 130 172
 call(
   stack
 )
 type(
   Types.Ast.t
 )
-"davisputnam.ml" 8 189 193 "davisputnam.ml" 8 189 199
+"davisputnam.ml" 7 176 178 "davisputnam.ml" 7 176 184
 type(
-  (unit, out_channel, unit) format -> unit
+  (string -> unit, out_channel, unit) format -> string -> unit
 )
 ident(
   ext_ref Core.Std.printf
 )
-"davisputnam.ml" 8 189 200 "davisputnam.ml" 8 189 214
+"davisputnam.ml" 7 176 185 "davisputnam.ml" 7 176 199
 type(
-  (unit, out_channel, unit) format
+  (string -> unit, out_channel, unit) format
 )
-"davisputnam.ml" 8 189 193 "davisputnam.ml" 8 189 214
+"davisputnam.ml" 7 176 201 "davisputnam.ml" 7 176 220
+type(
+  Types.Ast.t -> string
+)
+ident(
+  ext_ref Types.Ast.to_string
+)
+"davisputnam.ml" 7 176 221 "davisputnam.ml" 7 176 224
+type(
+  Types.Ast.t
+)
+ident(
+  int_ref ast "davisputnam.ml" 6 130 136 "davisputnam.ml" 6 130 139
+)
+"davisputnam.ml" 7 176 201 "davisputnam.ml" 7 176 224
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 7 176 178 "davisputnam.ml" 7 176 225
 call(
   stack
 )
 type(
   unit
 )
-"davisputnam.ml" 7 141 145 "davisputnam.ml" 8 189 214
+"davisputnam.ml" 8 227 233 "davisputnam.ml" 8 227 236
 type(
-  unit
-)
-"davisputnam.ml" 6 97 101 "davisputnam.ml" 8 189 214
-type(
-  unit
-)
-"davisputnam.ml" 5 53 57 "davisputnam.ml" 8 189 214
-type(
-  unit
-)
-"davisputnam.ml" 9 215 222 "davisputnam.ml" 9 215 231
-type(
-  exn
-)
-"davisputnam.ml" 9 215 235 "davisputnam.ml" 9 215 239
-type(
-  int -> unit
+  Types.Cnf.Literal.Set.t list
 )
 ident(
-  ext_ref Pervasives.exit
+  def cnf "davisputnam.ml" 9 272 274 "davisputnam.ml" 12 414 448
 )
-"davisputnam.ml" 9 215 240 "davisputnam.ml" 9 215 241
+"davisputnam.ml" 8 227 239 "davisputnam.ml" 8 227 264
 type(
-  int
+  Types.Ast.t -> Types.Cnf.Literal.Set.t list
 )
-"davisputnam.ml" 9 215 235 "davisputnam.ml" 9 215 241
+ident(
+  ext_ref Naivecnf.transform_to_cnf
+)
+"davisputnam.ml" 8 227 265 "davisputnam.ml" 8 227 268
+type(
+  Types.Ast.t
+)
+ident(
+  int_ref ast "davisputnam.ml" 6 130 136 "davisputnam.ml" 6 130 139
+)
+"davisputnam.ml" 8 227 239 "davisputnam.ml" 8 227 268
+call(
+  stack
+)
+type(
+  Types.Cnf.Literal.Set.t list
+)
+"davisputnam.ml" 9 272 274 "davisputnam.ml" 9 272 280
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"davisputnam.ml" 9 272 281 "davisputnam.ml" 9 272 303
+type(
+  (string -> unit, out_channel, unit) format
+)
+"davisputnam.ml" 9 272 305 "davisputnam.ml" 9 272 324
+type(
+  (Types.Cnf.Literal.t, Types.Cnf.Literal.comparator_witness) Set.t list ->
+  string
+)
+ident(
+  ext_ref Types.Cnf.to_string
+)
+"davisputnam.ml" 9 272 325 "davisputnam.ml" 9 272 328
+type(
+  Types.Cnf.Literal.Set.t list
+)
+ident(
+  int_ref cnf "davisputnam.ml" 8 227 233 "davisputnam.ml" 8 227 236
+)
+"davisputnam.ml" 9 272 305 "davisputnam.ml" 9 272 328
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 9 272 274 "davisputnam.ml" 9 272 329
+call(
+  stack
+)
+type(
+  unit
+)
+"davisputnam.ml" 10 331 336 "davisputnam.ml" 10 331 346
+type(
+  Types.State.t -> bool
+)
+ident(
+  ext_ref Step.solve
+)
+"davisputnam.ml" 10 331 348 "davisputnam.ml" 10 331 357
+type(
+  Types.State.heuristic -> Types.Cnf.t -> Types.State.t
+)
+ident(
+  ext_ref Step.init
+)
+"davisputnam.ml" 10 331 358 "davisputnam.ml" 10 331 375
+type(
+  Types.State.heuristic
+)
+"davisputnam.ml" 10 331 376 "davisputnam.ml" 10 331 379
+type(
+  Types.Cnf.Literal.Set.t list
+)
+ident(
+  int_ref cnf "davisputnam.ml" 8 227 233 "davisputnam.ml" 8 227 236
+)
+"davisputnam.ml" 10 331 348 "davisputnam.ml" 10 331 379
+call(
+  stack
+)
+type(
+  Types.State.t
+)
+"davisputnam.ml" 10 331 336 "davisputnam.ml" 10 331 380
+call(
+  stack
+)
+type(
+  bool
+)
+"davisputnam.ml" 11 381 388 "davisputnam.ml" 11 381 394
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"davisputnam.ml" 11 381 395 "davisputnam.ml" 11 381 413
+type(
+  (unit, out_channel, unit) format
+)
+"davisputnam.ml" 11 381 388 "davisputnam.ml" 11 381 413
 call(
   tail
 )
 type(
   unit
 )
-"davisputnam.ml" 4 46 48 "davisputnam.ml" 9 215 241
+"davisputnam.ml" 12 414 421 "davisputnam.ml" 12 414 427
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"davisputnam.ml" 12 414 428 "davisputnam.ml" 12 414 448
+type(
+  (unit, out_channel, unit) format
+)
+"davisputnam.ml" 12 414 421 "davisputnam.ml" 12 414 448
+call(
+  tail
+)
 type(
   unit
 )
-"davisputnam.ml" 3 15 41 "davisputnam.ml" 9 215 241
+"davisputnam.ml" 10 331 333 "davisputnam.ml" 12 414 448
+type(
+  unit
+)
+"davisputnam.ml" 9 272 274 "davisputnam.ml" 12 414 448
+type(
+  unit
+)
+"davisputnam.ml" 8 227 229 "davisputnam.ml" 12 414 448
+type(
+  unit
+)
+"davisputnam.ml" 7 176 178 "davisputnam.ml" 12 414 448
+type(
+  unit
+)
+"davisputnam.ml" 6 130 132 "davisputnam.ml" 12 414 448
+type(
+  unit
+)
+"davisputnam.ml" 5 88 90 "davisputnam.ml" 12 414 448
+type(
+  unit
+)
+"davisputnam.ml" 4 46 48 "davisputnam.ml" 12 414 448
+type(
+  unit
+)
+"davisputnam.ml" 3 15 41 "davisputnam.ml" 12 414 448
 type(
   unit -> unit
 )
-"davisputnam.ml" 3 15 32 "davisputnam.ml" 9 215 241
+"davisputnam.ml" 3 15 32 "davisputnam.ml" 12 414 448
 type(
   string -> unit -> unit
 )
-"davisputnam.ml" 15 251 255 "davisputnam.ml" 15 251 259
+"davisputnam.ml" 15 453 457 "davisputnam.ml" 15 453 461
 type(
   (string -> unit -> unit, unit -> unit) Command.Spec.t
 )
 ident(
-  def spec "davisputnam.ml" 22 335 335 "davisputnam.ml" 1 0 -1
+  def spec "davisputnam.ml" 22 537 537 "davisputnam.ml" 1 0 -1
 )
-"davisputnam.ml" 17 289 291 "davisputnam.ml" 17 289 296
+"davisputnam.ml" 17 491 493 "davisputnam.ml" 17 491 498
 type(
   (string -> unit -> unit, string -> unit -> unit) t
 )
 ident(
   ext_ref Core.Std.Command.Spec.empty
 )
-"davisputnam.ml" 18 297 299 "davisputnam.ml" 18 297 301
+"davisputnam.ml" 18 499 501 "davisputnam.ml" 18 499 503
 type(
   (string -> unit -> unit, string -> unit -> unit) t ->
   string param -> (string -> unit -> unit, unit -> unit) t
@@ -193,108 +347,108 @@ type(
 ident(
   ext_ref Core.Std.Command.Spec.( +> )
 )
-"davisputnam.ml" 18 297 302 "davisputnam.ml" 18 297 306
+"davisputnam.ml" 18 499 504 "davisputnam.ml" 18 499 508
 type(
   string anons -> string param
 )
 ident(
   ext_ref Core.Std.Command.Spec.anon
 )
-"davisputnam.ml" 18 297 308 "davisputnam.ml" 18 297 318
+"davisputnam.ml" 18 499 510 "davisputnam.ml" 18 499 520
 type(
   string
 )
-"davisputnam.ml" 18 297 319 "davisputnam.ml" 18 297 321
+"davisputnam.ml" 18 499 521 "davisputnam.ml" 18 499 523
 type(
   string -> string Arg_type.t -> string anons
 )
 ident(
   ext_ref Core.Std.Command.Spec.( %: )
 )
-"davisputnam.ml" 18 297 322 "davisputnam.ml" 18 297 328
+"davisputnam.ml" 18 499 524 "davisputnam.ml" 18 499 530
 type(
   string Arg_type.t
 )
 ident(
   ext_ref Core.Std.Command.Spec.string
 )
-"davisputnam.ml" 18 297 308 "davisputnam.ml" 18 297 328
+"davisputnam.ml" 18 499 510 "davisputnam.ml" 18 499 530
 call(
   stack
 )
 type(
   string anons
 )
-"davisputnam.ml" 18 297 302 "davisputnam.ml" 18 297 329
+"davisputnam.ml" 18 499 504 "davisputnam.ml" 18 499 531
 call(
   stack
 )
 type(
   string param
 )
-"davisputnam.ml" 17 289 291 "davisputnam.ml" 18 297 329
+"davisputnam.ml" 17 491 493 "davisputnam.ml" 18 499 531
 call(
   stack
 )
 type(
   (string -> unit -> unit, unit -> unit) t
 )
-"davisputnam.ml" 22 335 339 "davisputnam.ml" 22 335 346
+"davisputnam.ml" 22 537 541 "davisputnam.ml" 22 537 548
 type(
   Command.t
 )
 ident(
-  def command "davisputnam.ml" 30 547 547 "davisputnam.ml" 1 0 -1
+  def command "davisputnam.ml" 30 749 749 "davisputnam.ml" 1 0 -1
 )
-"davisputnam.ml" 23 349 351 "davisputnam.ml" 23 349 364
+"davisputnam.ml" 23 551 553 "davisputnam.ml" 23 551 566
 type(
   (string -> unit -> unit, unit) Command.basic_command
 )
 ident(
   ext_ref Core.Std.Command.basic
 )
-"davisputnam.ml" 24 365 378 "davisputnam.ml" 24 365 434
+"davisputnam.ml" 24 567 580 "davisputnam.ml" 24 567 636
 type(
   string
 )
-"davisputnam.ml" 25 435 452 "davisputnam.ml" 25 435 454
+"davisputnam.ml" 25 637 654 "davisputnam.ml" 25 637 656
 type(
   unit
 )
-"davisputnam.ml" 25 435 458 "davisputnam.ml" 25 435 514
+"davisputnam.ml" 25 637 660 "davisputnam.ml" 25 637 716
 type(
   string
 )
-"davisputnam.ml" 25 435 452 "davisputnam.ml" 25 435 514
+"davisputnam.ml" 25 637 654 "davisputnam.ml" 25 637 716
 type(
   unit -> string
 )
-"davisputnam.ml" 26 516 520 "davisputnam.ml" 26 516 524
+"davisputnam.ml" 26 718 722 "davisputnam.ml" 26 718 726
 type(
   (string -> unit -> unit, unit -> unit) Command.Spec.t
 )
 ident(
-  int_ref spec "davisputnam.ml" 15 251 255 "davisputnam.ml" 15 251 259
+  int_ref spec "davisputnam.ml" 15 453 457 "davisputnam.ml" 15 453 461
 )
-"davisputnam.ml" 27 525 529 "davisputnam.ml" 27 525 541
+"davisputnam.ml" 27 727 731 "davisputnam.ml" 27 727 743
 type(
   string -> unit -> unit
 )
 ident(
   int_ref process_file "davisputnam.ml" 3 15 19 "davisputnam.ml" 3 15 31
 )
-"davisputnam.ml" 23 349 351 "davisputnam.ml" 27 525 541
+"davisputnam.ml" 23 551 553 "davisputnam.ml" 27 727 743
 call(
   stack
 )
 type(
   Command.t
 )
-"davisputnam.ml" 30 547 551 "davisputnam.ml" 30 547 553
+"davisputnam.ml" 30 749 753 "davisputnam.ml" 30 749 755
 type(
   unit
 )
-"davisputnam.ml" 30 547 556 "davisputnam.ml" 30 547 567
+"davisputnam.ml" 30 749 758 "davisputnam.ml" 30 749 769
 type(
   ?version:string ->
   ?build_info:string ->
@@ -304,22 +458,22 @@ type(
 ident(
   ext_ref Core.Std.Command.run
 )
-"davisputnam.ml" 30 547 577 "davisputnam.ml" 30 547 582
+"davisputnam.ml" 30 749 779 "davisputnam.ml" 30 749 784
 type(
   string
 )
-"davisputnam.ml" 30 547 595 "davisputnam.ml" 30 547 600
+"davisputnam.ml" 30 749 797 "davisputnam.ml" 30 749 802
 type(
   string
 )
-"davisputnam.ml" 30 547 601 "davisputnam.ml" 30 547 608
+"davisputnam.ml" 30 749 803 "davisputnam.ml" 30 749 810
 type(
   Command.t
 )
 ident(
-  int_ref command "davisputnam.ml" 22 335 339 "davisputnam.ml" 22 335 346
+  int_ref command "davisputnam.ml" 22 537 541 "davisputnam.ml" 22 537 548
 )
-"davisputnam.ml" 30 547 556 "davisputnam.ml" 30 547 608
+"davisputnam.ml" 30 749 758 "davisputnam.ml" 30 749 810
 call(
   stack
 )

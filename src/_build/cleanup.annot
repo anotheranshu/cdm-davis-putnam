@@ -1,0 +1,1772 @@
+"cleanup.ml" 6 57 61 "cleanup.ml" 6 57 73
+type(
+  Cnf.Literal.t -> Cnf.Literal.t
+)
+ident(
+  def reverse_term "cleanup.ml" 15 561 561 "cleanup.ml" 1 0 -1
+)
+"cleanup.ml" 6 57 74 "cleanup.ml" 6 57 75
+type(
+  Cnf.Literal.t
+)
+ident(
+  def v "cleanup.ml" 7 78 80 "cleanup.ml" 9 137 180
+)
+"cleanup.ml" 7 78 86 "cleanup.ml" 7 78 87
+type(
+  Cnf.Literal.t
+)
+ident(
+  int_ref v "cleanup.ml" 6 57 74 "cleanup.ml" 6 57 75
+)
+"cleanup.ml" 8 93 114 "cleanup.ml" 8 93 115
+type(
+  string
+)
+ident(
+  def s "cleanup.ml" 8 93 119 "cleanup.ml" 8 93 136
+)
+"cleanup.ml" 8 93 97 "cleanup.ml" 8 93 115
+type(
+  Cnf.Literal.t
+)
+"cleanup.ml" 8 93 135 "cleanup.ml" 8 93 136
+type(
+  string
+)
+ident(
+  int_ref s "cleanup.ml" 8 93 114 "cleanup.ml" 8 93 115
+)
+"cleanup.ml" 8 93 119 "cleanup.ml" 8 93 136
+type(
+  Cnf.Literal.t
+)
+"cleanup.ml" 9 137 157 "cleanup.ml" 9 137 158
+type(
+  string
+)
+ident(
+  def s "cleanup.ml" 9 137 162 "cleanup.ml" 9 137 180
+)
+"cleanup.ml" 9 137 141 "cleanup.ml" 9 137 158
+type(
+  Cnf.Literal.t
+)
+"cleanup.ml" 9 137 179 "cleanup.ml" 9 137 180
+type(
+  string
+)
+ident(
+  int_ref s "cleanup.ml" 9 137 157 "cleanup.ml" 9 137 158
+)
+"cleanup.ml" 9 137 162 "cleanup.ml" 9 137 180
+type(
+  Cnf.Literal.t
+)
+"cleanup.ml" 7 78 80 "cleanup.ml" 9 137 180
+type(
+  Cnf.Literal.t
+)
+"cleanup.ml" 6 57 74 "cleanup.ml" 9 137 180
+type(
+  Cnf.Literal.t -> Cnf.Literal.t
+)
+"cleanup.ml" 15 561 565 "cleanup.ml" 15 561 590
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+ident(
+  def fixed_literals_to_new_cnf "cleanup.ml" 47 2043 2043 "cleanup.ml" 1 0 -1
+)
+"cleanup.ml" 15 561 591 "cleanup.ml" 15 561 601
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  def fixed_lits "cleanup.ml" 15 561 602 "cleanup.ml" 25 1230 1258
+)
+"cleanup.ml" 15 561 602 "cleanup.ml" 15 561 609
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def old_cnf "cleanup.ml" 16 612 614 "cleanup.ml" 25 1230 1258
+)
+"cleanup.ml" 16 612 618 "cleanup.ml" 16 612 628
+type(
+  bool String.Map.t
+)
+ident(
+  def assignment "cleanup.ml" 19 783 785 "cleanup.ml" 25 1230 1258
+)
+"cleanup.ml" 16 612 631 "cleanup.ml" 16 612 654
+type(
+  (string * bool) list -> bool String.Map.t
+)
+ident(
+  ext_ref Core.Std.String.Map.of_alist_exn
+)
+"cleanup.ml" 17 655 660 "cleanup.ml" 17 655 668
+type(
+  Cnf.Literal.t list ->
+  f:(Cnf.Literal.t -> string * bool) -> (string * bool) list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"cleanup.ml" 17 655 670 "cleanup.ml" 17 655 682
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> Cnf.Literal.t list
+)
+ident(
+  ext_ref Core.Std.Set.elements
+)
+"cleanup.ml" 17 655 683 "cleanup.ml" 17 655 693
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  int_ref fixed_lits "cleanup.ml" 15 561 591 "cleanup.ml" 15 561 601
+)
+"cleanup.ml" 17 655 670 "cleanup.ml" 17 655 693
+call(
+  stack
+)
+type(
+  Cnf.Literal.t list
+)
+"cleanup.ml" 17 655 726 "cleanup.ml" 17 655 727
+type(
+  string
+)
+ident(
+  def s "cleanup.ml" 17 655 732 "cleanup.ml" 17 655 740
+)
+"cleanup.ml" 17 655 710 "cleanup.ml" 17 655 727
+type(
+  Cnf.Literal.t
+)
+"cleanup.ml" 17 655 732 "cleanup.ml" 17 655 733
+type(
+  string
+)
+ident(
+  int_ref s "cleanup.ml" 17 655 726 "cleanup.ml" 17 655 727
+)
+"cleanup.ml" 17 655 735 "cleanup.ml" 17 655 740
+type(
+  bool
+)
+"cleanup.ml" 17 655 732 "cleanup.ml" 17 655 740
+type(
+  string * bool
+)
+"cleanup.ml" 17 655 761 "cleanup.ml" 17 655 762
+type(
+  string
+)
+ident(
+  def s "cleanup.ml" 17 655 767 "cleanup.ml" 17 655 774
+)
+"cleanup.ml" 17 655 744 "cleanup.ml" 17 655 762
+type(
+  Cnf.Literal.t
+)
+"cleanup.ml" 17 655 767 "cleanup.ml" 17 655 768
+type(
+  string
+)
+ident(
+  int_ref s "cleanup.ml" 17 655 761 "cleanup.ml" 17 655 762
+)
+"cleanup.ml" 17 655 770 "cleanup.ml" 17 655 774
+type(
+  bool
+)
+"cleanup.ml" 17 655 767 "cleanup.ml" 17 655 774
+type(
+  string * bool
+)
+"cleanup.ml" 17 655 699 "cleanup.ml" 17 655 775
+type(
+  Cnf.Literal.t -> string * bool
+)
+"cleanup.ml" 17 655 660 "cleanup.ml" 17 655 776
+call(
+  stack
+)
+type(
+  (string * bool) list
+)
+"cleanup.ml" 16 612 631 "cleanup.ml" 17 655 777
+call(
+  stack
+)
+type(
+  bool String.Map.t
+)
+"cleanup.ml" 19 783 789 "cleanup.ml" 19 783 807
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> bool
+)
+ident(
+  def clause_unsatisfied "cleanup.ml" 20 867 869 "cleanup.ml" 25 1230 1258
+)
+"cleanup.ml" 19 783 808 "cleanup.ml" 19 783 814
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  def clause "cleanup.ml" 19 783 818 "cleanup.ml" 19 783 862
+)
+"cleanup.ml" 19 783 818 "cleanup.ml" 19 783 828
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> int
+)
+ident(
+  ext_ref Core.Std.Set.length
+)
+"cleanup.ml" 19 783 830 "cleanup.ml" 19 783 839
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  ext_ref Core.Std.Set.inter
+)
+"cleanup.ml" 19 783 840 "cleanup.ml" 19 783 850
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  int_ref fixed_lits "cleanup.ml" 15 561 591 "cleanup.ml" 15 561 601
+)
+"cleanup.ml" 19 783 851 "cleanup.ml" 19 783 857
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  int_ref clause "cleanup.ml" 19 783 808 "cleanup.ml" 19 783 814
+)
+"cleanup.ml" 19 783 830 "cleanup.ml" 19 783 857
+call(
+  stack
+)
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+"cleanup.ml" 19 783 818 "cleanup.ml" 19 783 858
+call(
+  stack
+)
+type(
+  int
+)
+"cleanup.ml" 19 783 859 "cleanup.ml" 19 783 860
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"cleanup.ml" 19 783 861 "cleanup.ml" 19 783 862
+type(
+  int
+)
+"cleanup.ml" 19 783 818 "cleanup.ml" 19 783 862
+type(
+  bool
+)
+"cleanup.ml" 19 783 808 "cleanup.ml" 19 783 863
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> bool
+)
+"cleanup.ml" 20 867 873 "cleanup.ml" 20 867 890
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def remaining_clauses "cleanup.ml" 21 938 940 "cleanup.ml" 25 1230 1258
+)
+"cleanup.ml" 20 867 893 "cleanup.ml" 20 867 904
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  f:((Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> bool) ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  ext_ref Core.Std.List.filter
+)
+"cleanup.ml" 20 867 908 "cleanup.ml" 20 867 926
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> bool
+)
+ident(
+  int_ref clause_unsatisfied "cleanup.ml" 19 783 789 "cleanup.ml" 19 783 807
+)
+"cleanup.ml" 20 867 927 "cleanup.ml" 20 867 934
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref old_cnf "cleanup.ml" 15 561 602 "cleanup.ml" 15 561 609
+)
+"cleanup.ml" 20 867 893 "cleanup.ml" 20 867 934
+call(
+  stack
+)
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 21 938 944 "cleanup.ml" 21 938 962
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  def rejected_variables "cleanup.ml" 22 1045 1047 "cleanup.ml" 25 1230 1258
+)
+"cleanup.ml" 21 938 965 "cleanup.ml" 21 938 988
+type(
+  Cnf.Literal.t list -> Cnf.Literal.Set.t
+)
+ident(
+  ext_ref Types.Cnf.Literal.Set.of_list
+)
+"cleanup.ml" 21 938 990 "cleanup.ml" 21 938 998
+type(
+  Cnf.Literal.t list ->
+  f:(Cnf.Literal.t -> Cnf.Literal.t) -> Cnf.Literal.t list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"cleanup.ml" 21 938 1002 "cleanup.ml" 21 938 1014
+type(
+  Cnf.Literal.t -> Cnf.Literal.t
+)
+ident(
+  int_ref reverse_term "cleanup.ml" 6 57 61 "cleanup.ml" 6 57 73
+)
+"cleanup.ml" 21 938 1016 "cleanup.ml" 21 938 1028
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> Cnf.Literal.t list
+)
+ident(
+  ext_ref Core.Std.Set.elements
+)
+"cleanup.ml" 21 938 1029 "cleanup.ml" 21 938 1039
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  int_ref fixed_lits "cleanup.ml" 15 561 591 "cleanup.ml" 15 561 601
+)
+"cleanup.ml" 21 938 1016 "cleanup.ml" 21 938 1039
+call(
+  stack
+)
+type(
+  Cnf.Literal.t list
+)
+"cleanup.ml" 21 938 990 "cleanup.ml" 21 938 1040
+call(
+  stack
+)
+type(
+  Cnf.Literal.t list
+)
+"cleanup.ml" 21 938 965 "cleanup.ml" 21 938 1041
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t
+)
+"cleanup.ml" 22 1045 1051 "cleanup.ml" 22 1045 1058
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def new_cnf "cleanup.ml" 23 1136 1138 "cleanup.ml" 25 1230 1258
+)
+"cleanup.ml" 22 1045 1061 "cleanup.ml" 22 1045 1069
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  f:((Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+     (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t) ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"cleanup.ml" 22 1045 1078 "cleanup.ml" 22 1045 1079
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  def s "cleanup.ml" 22 1045 1083 "cleanup.ml" 22 1045 1112
+)
+"cleanup.ml" 22 1045 1083 "cleanup.ml" 22 1045 1091
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  ext_ref Core.Std.Set.diff
+)
+"cleanup.ml" 22 1045 1092 "cleanup.ml" 22 1045 1093
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  int_ref s "cleanup.ml" 22 1045 1078 "cleanup.ml" 22 1045 1079
+)
+"cleanup.ml" 22 1045 1094 "cleanup.ml" 22 1045 1112
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  int_ref rejected_variables "cleanup.ml" 21 938 944 "cleanup.ml" 21 938 962
+)
+"cleanup.ml" 22 1045 1083 "cleanup.ml" 22 1045 1112
+call(
+  tail
+)
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+"cleanup.ml" 22 1045 1078 "cleanup.ml" 22 1045 1112
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+"cleanup.ml" 22 1045 1114 "cleanup.ml" 22 1045 1131
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref remaining_clauses "cleanup.ml" 20 867 873 "cleanup.ml" 20 867 890
+)
+"cleanup.ml" 22 1045 1061 "cleanup.ml" 22 1045 1131
+call(
+  stack
+)
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 23 1136 1142 "cleanup.ml" 23 1136 1153
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  f:((Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.List.exists
+)
+"cleanup.ml" 23 1136 1154 "cleanup.ml" 23 1136 1161
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref new_cnf "cleanup.ml" 22 1045 1051 "cleanup.ml" 22 1045 1058
+)
+"cleanup.ml" 23 1136 1170 "cleanup.ml" 23 1136 1171
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  def s "cleanup.ml" 23 1136 1175 "cleanup.ml" 23 1136 1191
+)
+"cleanup.ml" 23 1136 1175 "cleanup.ml" 23 1136 1185
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> int
+)
+ident(
+  ext_ref Core.Std.Set.length
+)
+"cleanup.ml" 23 1136 1186 "cleanup.ml" 23 1136 1187
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  int_ref s "cleanup.ml" 23 1136 1170 "cleanup.ml" 23 1136 1171
+)
+"cleanup.ml" 23 1136 1175 "cleanup.ml" 23 1136 1187
+call(
+  stack
+)
+type(
+  int
+)
+"cleanup.ml" 23 1136 1188 "cleanup.ml" 23 1136 1189
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"cleanup.ml" 23 1136 1190 "cleanup.ml" 23 1136 1191
+type(
+  int
+)
+"cleanup.ml" 23 1136 1175 "cleanup.ml" 23 1136 1191
+type(
+  bool
+)
+"cleanup.ml" 23 1136 1170 "cleanup.ml" 23 1136 1191
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> bool
+)
+"cleanup.ml" 23 1136 1142 "cleanup.ml" 23 1136 1192
+call(
+  stack
+)
+type(
+  bool
+)
+"cleanup.ml" 24 1199 1203 "cleanup.ml" 24 1199 1208
+type(
+  exn ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"cleanup.ml" 24 1199 1221 "cleanup.ml" 24 1199 1228
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref old_cnf "cleanup.ml" 15 561 602 "cleanup.ml" 15 561 609
+)
+"cleanup.ml" 24 1199 1210 "cleanup.ml" 24 1199 1228
+type(
+  exn
+)
+"cleanup.ml" 24 1199 1203 "cleanup.ml" 24 1199 1229
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 25 1230 1238 "cleanup.ml" 25 1230 1245
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref new_cnf "cleanup.ml" 22 1045 1051 "cleanup.ml" 22 1045 1058
+)
+"cleanup.ml" 25 1230 1247 "cleanup.ml" 25 1230 1257
+type(
+  bool String.Map.t
+)
+ident(
+  int_ref assignment "cleanup.ml" 16 612 618 "cleanup.ml" 16 612 628
+)
+"cleanup.ml" 25 1230 1238 "cleanup.ml" 25 1230 1257
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 23 1136 1138 "cleanup.ml" 25 1230 1258
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 22 1045 1047 "cleanup.ml" 25 1230 1258
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 21 938 940 "cleanup.ml" 25 1230 1258
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 20 867 869 "cleanup.ml" 25 1230 1258
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 19 783 785 "cleanup.ml" 25 1230 1258
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 16 612 614 "cleanup.ml" 25 1230 1258
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 15 561 602 "cleanup.ml" 25 1230 1258
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 15 561 591 "cleanup.ml" 25 1230 1258
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 47 2043 2047 "cleanup.ml" 47 2043 2070
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+ident(
+  def unit_clause_elimination "cleanup.ml" 55 2484 2484 "cleanup.ml" 1 0 -1
+)
+"cleanup.ml" 47 2043 2071 "cleanup.ml" 47 2043 2074
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def cnf "cleanup.ml" 48 2077 2079 "cleanup.ml" 53 2435 2481
+)
+"cleanup.ml" 48 2077 2083 "cleanup.ml" 48 2077 2095
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def unit_clauses "cleanup.ml" 49 2154 2156 "cleanup.ml" 53 2435 2481
+)
+"cleanup.ml" 48 2077 2098 "cleanup.ml" 48 2077 2109
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  f:((Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> bool) ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  ext_ref Core.Std.List.filter
+)
+"cleanup.ml" 48 2077 2110 "cleanup.ml" 48 2077 2113
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cnf "cleanup.ml" 47 2043 2071 "cleanup.ml" 47 2043 2074
+)
+"cleanup.ml" 48 2077 2122 "cleanup.ml" 48 2077 2125
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  def set "cleanup.ml" 48 2077 2129 "cleanup.ml" 48 2077 2149
+)
+"cleanup.ml" 48 2077 2130 "cleanup.ml" 48 2077 2140
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> int
+)
+ident(
+  ext_ref Core.Std.Set.length
+)
+"cleanup.ml" 48 2077 2141 "cleanup.ml" 48 2077 2144
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  int_ref set "cleanup.ml" 48 2077 2122 "cleanup.ml" 48 2077 2125
+)
+"cleanup.ml" 48 2077 2130 "cleanup.ml" 48 2077 2144
+call(
+  stack
+)
+type(
+  int
+)
+"cleanup.ml" 48 2077 2146 "cleanup.ml" 48 2077 2147
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"cleanup.ml" 48 2077 2148 "cleanup.ml" 48 2077 2149
+type(
+  int
+)
+"cleanup.ml" 48 2077 2129 "cleanup.ml" 48 2077 2149
+type(
+  bool
+)
+"cleanup.ml" 48 2077 2122 "cleanup.ml" 48 2077 2149
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> bool
+)
+"cleanup.ml" 48 2077 2098 "cleanup.ml" 48 2077 2150
+call(
+  stack
+)
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 49 2154 2160 "cleanup.ml" 49 2154 2169
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  def unit_vars "cleanup.ml" 50 2248 2250 "cleanup.ml" 53 2435 2481
+)
+"cleanup.ml" 49 2154 2172 "cleanup.ml" 49 2154 2186
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  init:Cnf.Literal.Set.t ->
+  f:(Cnf.Literal.Set.t ->
+     (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+     Cnf.Literal.Set.t) ->
+  Cnf.Literal.Set.t
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"cleanup.ml" 49 2154 2187 "cleanup.ml" 49 2154 2199
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref unit_clauses "cleanup.ml" 48 2077 2083 "cleanup.ml" 48 2077 2095
+)
+"cleanup.ml" 49 2154 2207 "cleanup.ml" 49 2154 2228
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  ext_ref Types.Cnf.Literal.Set.empty
+)
+"cleanup.ml" 49 2154 2234 "cleanup.ml" 49 2154 2243
+type(
+  Cnf.Literal.Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> Cnf.Literal.Set.t
+)
+ident(
+  ext_ref Core.Std.Set.union
+)
+"cleanup.ml" 49 2154 2172 "cleanup.ml" 49 2154 2244
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t
+)
+"cleanup.ml" 50 2248 2254 "cleanup.ml" 50 2248 2267
+type(
+  Cnf.Literal.t -> bool
+)
+ident(
+  def is_unsolvable "cleanup.ml" 51 2314 2316 "cleanup.ml" 53 2435 2481
+)
+"cleanup.ml" 50 2248 2268 "cleanup.ml" 50 2248 2271
+type(
+  Cnf.Literal.t
+)
+ident(
+  def var "cleanup.ml" 50 2248 2274 "cleanup.ml" 50 2248 2310
+)
+"cleanup.ml" 50 2248 2274 "cleanup.ml" 50 2248 2281
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  Cnf.Literal.t -> bool
+)
+ident(
+  ext_ref Core.Std.Set.mem
+)
+"cleanup.ml" 50 2248 2282 "cleanup.ml" 50 2248 2291
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  int_ref unit_vars "cleanup.ml" 49 2154 2160 "cleanup.ml" 49 2154 2169
+)
+"cleanup.ml" 50 2248 2293 "cleanup.ml" 50 2248 2305
+type(
+  Cnf.Literal.t -> Cnf.Literal.t
+)
+ident(
+  int_ref reverse_term "cleanup.ml" 6 57 61 "cleanup.ml" 6 57 73
+)
+"cleanup.ml" 50 2248 2306 "cleanup.ml" 50 2248 2309
+type(
+  Cnf.Literal.t
+)
+ident(
+  int_ref var "cleanup.ml" 50 2248 2268 "cleanup.ml" 50 2248 2271
+)
+"cleanup.ml" 50 2248 2293 "cleanup.ml" 50 2248 2309
+call(
+  stack
+)
+type(
+  Cnf.Literal.t
+)
+"cleanup.ml" 50 2248 2274 "cleanup.ml" 50 2248 2310
+call(
+  tail
+)
+type(
+  bool
+)
+"cleanup.ml" 50 2248 2268 "cleanup.ml" 50 2248 2310
+type(
+  Cnf.Literal.t -> bool
+)
+"cleanup.ml" 51 2314 2320 "cleanup.ml" 51 2314 2334
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  init:bool -> f:(Cnf.Literal.t -> bool -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.Set.fold_right
+)
+"cleanup.ml" 51 2314 2335 "cleanup.ml" 51 2314 2344
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  int_ref unit_vars "cleanup.ml" 49 2154 2160 "cleanup.ml" 49 2154 2169
+)
+"cleanup.ml" 51 2314 2351 "cleanup.ml" 51 2314 2356
+type(
+  bool
+)
+"cleanup.ml" 51 2314 2365 "cleanup.ml" 51 2314 2368
+type(
+  Cnf.Literal.t
+)
+ident(
+  def var "cleanup.ml" 51 2314 2369 "cleanup.ml" 51 2314 2402
+)
+"cleanup.ml" 51 2314 2369 "cleanup.ml" 51 2314 2372
+type(
+  bool
+)
+ident(
+  def old "cleanup.ml" 51 2314 2376 "cleanup.ml" 51 2314 2402
+)
+"cleanup.ml" 51 2314 2376 "cleanup.ml" 51 2314 2379
+type(
+  bool
+)
+ident(
+  int_ref old "cleanup.ml" 51 2314 2369 "cleanup.ml" 51 2314 2372
+)
+"cleanup.ml" 51 2314 2380 "cleanup.ml" 51 2314 2382
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"cleanup.ml" 51 2314 2384 "cleanup.ml" 51 2314 2397
+type(
+  Cnf.Literal.t -> bool
+)
+ident(
+  int_ref is_unsolvable "cleanup.ml" 50 2248 2254 "cleanup.ml" 50 2248 2267
+)
+"cleanup.ml" 51 2314 2398 "cleanup.ml" 51 2314 2401
+type(
+  Cnf.Literal.t
+)
+ident(
+  int_ref var "cleanup.ml" 51 2314 2365 "cleanup.ml" 51 2314 2368
+)
+"cleanup.ml" 51 2314 2384 "cleanup.ml" 51 2314 2401
+call(
+  tail
+)
+type(
+  bool
+)
+"cleanup.ml" 51 2314 2376 "cleanup.ml" 51 2314 2402
+type(
+  bool
+)
+"cleanup.ml" 51 2314 2369 "cleanup.ml" 51 2314 2402
+type(
+  bool -> bool
+)
+"cleanup.ml" 51 2314 2365 "cleanup.ml" 51 2314 2402
+type(
+  Cnf.Literal.t -> bool -> bool
+)
+"cleanup.ml" 51 2314 2320 "cleanup.ml" 51 2314 2403
+call(
+  stack
+)
+type(
+  bool
+)
+"cleanup.ml" 52 2405 2412 "cleanup.ml" 52 2405 2417
+type(
+  exn ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"cleanup.ml" 52 2405 2430 "cleanup.ml" 52 2405 2433
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cnf "cleanup.ml" 47 2043 2071 "cleanup.ml" 47 2043 2074
+)
+"cleanup.ml" 52 2405 2419 "cleanup.ml" 52 2405 2433
+type(
+  exn
+)
+"cleanup.ml" 52 2405 2412 "cleanup.ml" 52 2405 2434
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 53 2435 2442 "cleanup.ml" 53 2435 2467
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+ident(
+  int_ref fixed_literals_to_new_cnf "cleanup.ml" 15 561 565 "cleanup.ml" 15 561 590
+)
+"cleanup.ml" 53 2435 2468 "cleanup.ml" 53 2435 2477
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  int_ref unit_vars "cleanup.ml" 49 2154 2160 "cleanup.ml" 49 2154 2169
+)
+"cleanup.ml" 53 2435 2478 "cleanup.ml" 53 2435 2481
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cnf "cleanup.ml" 47 2043 2071 "cleanup.ml" 47 2043 2074
+)
+"cleanup.ml" 53 2435 2442 "cleanup.ml" 53 2435 2481
+call(
+  tail
+)
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 51 2314 2316 "cleanup.ml" 53 2435 2481
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 50 2248 2250 "cleanup.ml" 53 2435 2481
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 49 2154 2156 "cleanup.ml" 53 2435 2481
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 48 2077 2079 "cleanup.ml" 53 2435 2481
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 47 2043 2071 "cleanup.ml" 53 2435 2481
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 55 2484 2488 "cleanup.ml" 55 2484 2512
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+ident(
+  def pure_literal_elimination "cleanup.ml" 62 3002 3002 "cleanup.ml" 1 0 -1
+)
+"cleanup.ml" 55 2484 2513 "cleanup.ml" 55 2484 2516
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def cnf "cleanup.ml" 56 2519 2521 "cleanup.ml" 59 2830 2875
+)
+"cleanup.ml" 56 2519 2525 "cleanup.ml" 56 2519 2537
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  def all_literals "cleanup.ml" 57 2607 2609 "cleanup.ml" 59 2830 2875
+)
+"cleanup.ml" 56 2519 2540 "cleanup.ml" 56 2519 2554
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  init:Cnf.Literal.Set.t ->
+  f:(Cnf.Literal.Set.t ->
+     (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+     Cnf.Literal.Set.t) ->
+  Cnf.Literal.Set.t
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"cleanup.ml" 56 2519 2555 "cleanup.ml" 56 2519 2558
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cnf "cleanup.ml" 55 2484 2513 "cleanup.ml" 55 2484 2516
+)
+"cleanup.ml" 56 2519 2566 "cleanup.ml" 56 2519 2587
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  ext_ref Types.Cnf.Literal.Set.empty
+)
+"cleanup.ml" 56 2519 2593 "cleanup.ml" 56 2519 2602
+type(
+  Cnf.Literal.Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> Cnf.Literal.Set.t
+)
+ident(
+  ext_ref Core.Std.Set.union
+)
+"cleanup.ml" 56 2519 2540 "cleanup.ml" 56 2519 2603
+call(
+  stack
+)
+type(
+  Cnf.Literal.Set.t
+)
+"cleanup.ml" 57 2607 2613 "cleanup.ml" 57 2607 2626
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  def pure_literals "cleanup.ml" 58 2718 2720 "cleanup.ml" 59 2830 2875
+)
+"cleanup.ml" 57 2607 2629 "cleanup.ml" 57 2607 2639
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  f:(Cnf.Literal.t -> bool) ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  ext_ref Core.Std.Set.filter
+)
+"cleanup.ml" 57 2607 2640 "cleanup.ml" 57 2607 2652
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  int_ref all_literals "cleanup.ml" 56 2519 2525 "cleanup.ml" 56 2519 2537
+)
+"cleanup.ml" 57 2607 2661 "cleanup.ml" 57 2607 2664
+type(
+  Cnf.Literal.t
+)
+ident(
+  def var "cleanup.ml" 57 2607 2668 "cleanup.ml" 57 2607 2713
+)
+"cleanup.ml" 57 2607 2668 "cleanup.ml" 57 2607 2671
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"cleanup.ml" 57 2607 2673 "cleanup.ml" 57 2607 2680
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  Cnf.Literal.t -> bool
+)
+ident(
+  ext_ref Core.Std.Set.mem
+)
+"cleanup.ml" 57 2607 2681 "cleanup.ml" 57 2607 2693
+type(
+  Cnf.Literal.Set.t
+)
+ident(
+  int_ref all_literals "cleanup.ml" 56 2519 2525 "cleanup.ml" 56 2519 2537
+)
+"cleanup.ml" 57 2607 2695 "cleanup.ml" 57 2607 2707
+type(
+  Cnf.Literal.t -> Cnf.Literal.t
+)
+ident(
+  int_ref reverse_term "cleanup.ml" 6 57 61 "cleanup.ml" 6 57 73
+)
+"cleanup.ml" 57 2607 2708 "cleanup.ml" 57 2607 2711
+type(
+  Cnf.Literal.t
+)
+ident(
+  int_ref var "cleanup.ml" 57 2607 2661 "cleanup.ml" 57 2607 2664
+)
+"cleanup.ml" 57 2607 2695 "cleanup.ml" 57 2607 2711
+call(
+  stack
+)
+type(
+  Cnf.Literal.t
+)
+"cleanup.ml" 57 2607 2673 "cleanup.ml" 57 2607 2712
+call(
+  stack
+)
+type(
+  bool
+)
+"cleanup.ml" 57 2607 2668 "cleanup.ml" 57 2607 2713
+type(
+  bool
+)
+"cleanup.ml" 57 2607 2661 "cleanup.ml" 57 2607 2713
+type(
+  Cnf.Literal.t -> bool
+)
+"cleanup.ml" 57 2607 2629 "cleanup.ml" 57 2607 2714
+call(
+  stack
+)
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+"cleanup.ml" 58 2718 2720 "cleanup.ml" 58 2718 2726
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"cleanup.ml" 58 2718 2727 "cleanup.ml" 58 2718 2755
+type(
+  (string -> unit, out_channel, unit) format
+)
+"cleanup.ml" 58 2718 2757 "cleanup.ml" 58 2718 2771
+type(
+  f:(Cnf.Literal.t -> string) -> Cnf.Literal.t list -> string
+)
+ident(
+  ext_ref Core.Std.List.to_string
+)
+"cleanup.ml" 58 2718 2776 "cleanup.ml" 58 2718 2797
+type(
+  Cnf.Literal.t -> string
+)
+ident(
+  ext_ref Types.Cnf.Literal.to_string
+)
+"cleanup.ml" 58 2718 2800 "cleanup.ml" 58 2718 2812
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t -> Cnf.Literal.t list
+)
+ident(
+  ext_ref Core.Std.Set.elements
+)
+"cleanup.ml" 58 2718 2813 "cleanup.ml" 58 2718 2826
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  int_ref pure_literals "cleanup.ml" 57 2607 2613 "cleanup.ml" 57 2607 2626
+)
+"cleanup.ml" 58 2718 2800 "cleanup.ml" 58 2718 2826
+call(
+  stack
+)
+type(
+  Cnf.Literal.t list
+)
+"cleanup.ml" 58 2718 2757 "cleanup.ml" 58 2718 2827
+call(
+  stack
+)
+type(
+  string
+)
+"cleanup.ml" 58 2718 2720 "cleanup.ml" 58 2718 2828
+call(
+  stack
+)
+type(
+  unit
+)
+"cleanup.ml" 59 2830 2832 "cleanup.ml" 59 2830 2857
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+ident(
+  int_ref fixed_literals_to_new_cnf "cleanup.ml" 15 561 565 "cleanup.ml" 15 561 590
+)
+"cleanup.ml" 59 2830 2858 "cleanup.ml" 59 2830 2871
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t
+)
+ident(
+  int_ref pure_literals "cleanup.ml" 57 2607 2613 "cleanup.ml" 57 2607 2626
+)
+"cleanup.ml" 59 2830 2872 "cleanup.ml" 59 2830 2875
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cnf "cleanup.ml" 55 2484 2513 "cleanup.ml" 55 2484 2516
+)
+"cleanup.ml" 59 2830 2832 "cleanup.ml" 59 2830 2875
+call(
+  tail
+)
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 58 2718 2720 "cleanup.ml" 59 2830 2875
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 57 2607 2609 "cleanup.ml" 59 2830 2875
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 56 2519 2521 "cleanup.ml" 59 2830 2875
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 55 2484 2513 "cleanup.ml" 59 2830 2875
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 62 3002 3010 "cleanup.ml" 62 3002 3021
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def cleanup_cnf "cleanup.ml" 62 3002 3002 "cleanup.ml" 1 0 -1
+)
+"cleanup.ml" 62 3002 3022 "cleanup.ml" 62 3002 3025
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def cnf "cleanup.ml" 63 3028 3030 "cleanup.ml" 80 3605 3629
+)
+"cleanup.ml" 63 3028 3034 "cleanup.ml" 63 3028 3035
+type(
+  key:'a -> [< `Both of 'b | `Left of 'c | `Right of 'c ] -> 'c option
+)
+ident(
+  def f "cleanup.ml" 69 3160 3162 "cleanup.ml" 80 3605 3629
+)
+"cleanup.ml" 63 3028 3041 "cleanup.ml" 63 3028 3042
+type(
+  [< `Both of 'b | `Left of 'c | `Right of 'c ] as 'd
+)
+ident(
+  def v "cleanup.ml" 64 3046 3050 "cleanup.ml" 67 3130 3154
+)
+"cleanup.ml" 64 3046 3056 "cleanup.ml" 64 3046 3057
+type(
+  'd
+)
+ident(
+  int_ref v "cleanup.ml" 63 3028 3041 "cleanup.ml" 63 3028 3042
+)
+"cleanup.ml" 65 3063 3075 "cleanup.ml" 65 3063 3076
+type(
+  'b
+)
+"cleanup.ml" 65 3063 3069 "cleanup.ml" 65 3063 3076
+type(
+  'd
+)
+"cleanup.ml" 65 3063 3080 "cleanup.ml" 65 3063 3088
+type(
+  string -> 'c option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"cleanup.ml" 65 3063 3089 "cleanup.ml" 65 3063 3105
+type(
+  string
+)
+"cleanup.ml" 65 3063 3080 "cleanup.ml" 65 3063 3105
+call(
+  tail
+)
+type(
+  'c option
+)
+"cleanup.ml" 66 3106 3118 "cleanup.ml" 66 3106 3119
+type(
+  'c
+)
+ident(
+  def x "cleanup.ml" 66 3106 3123 "cleanup.ml" 66 3106 3129
+)
+"cleanup.ml" 66 3106 3112 "cleanup.ml" 66 3106 3119
+type(
+  'd
+)
+"cleanup.ml" 66 3106 3128 "cleanup.ml" 66 3106 3129
+type(
+  'c
+)
+ident(
+  int_ref x "cleanup.ml" 66 3106 3118 "cleanup.ml" 66 3106 3119
+)
+"cleanup.ml" 66 3106 3123 "cleanup.ml" 66 3106 3129
+type(
+  'c option
+)
+"cleanup.ml" 67 3130 3143 "cleanup.ml" 67 3130 3144
+type(
+  'c
+)
+ident(
+  def x "cleanup.ml" 67 3130 3148 "cleanup.ml" 67 3130 3154
+)
+"cleanup.ml" 67 3130 3136 "cleanup.ml" 67 3130 3144
+type(
+  'd
+)
+"cleanup.ml" 67 3130 3153 "cleanup.ml" 67 3130 3154
+type(
+  'c
+)
+ident(
+  int_ref x "cleanup.ml" 67 3130 3143 "cleanup.ml" 67 3130 3144
+)
+"cleanup.ml" 67 3130 3148 "cleanup.ml" 67 3130 3154
+type(
+  'c option
+)
+"cleanup.ml" 64 3046 3050 "cleanup.ml" 67 3130 3154
+type(
+  'c option
+)
+"cleanup.ml" 63 3028 3041 "cleanup.ml" 67 3130 3154
+type(
+  'd -> 'c option
+)
+"cleanup.ml" 63 3028 3036 "cleanup.ml" 67 3130 3154
+type(
+  key:'a -> 'd -> 'c option
+)
+type(
+  'a
+)
+ident(
+  def key "cleanup.ml" 63 3028 3041 "cleanup.ml" 67 3130 3154
+)
+"cleanup.ml" 69 3160 3167 "cleanup.ml" 69 3160 3171
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def cnf1 "cleanup.ml" 70 3219 3221 "cleanup.ml" 80 3605 3629
+)
+"cleanup.ml" 69 3160 3173 "cleanup.ml" 69 3160 3184
+type(
+  bool String.Map.t
+)
+ident(
+  def assignment1 "cleanup.ml" 70 3219 3221 "cleanup.ml" 80 3605 3629
+)
+"cleanup.ml" 69 3160 3167 "cleanup.ml" 69 3160 3184
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 69 3160 3188 "cleanup.ml" 69 3160 3211
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+ident(
+  int_ref unit_clause_elimination "cleanup.ml" 47 2043 2047 "cleanup.ml" 47 2043 2070
+)
+"cleanup.ml" 69 3160 3212 "cleanup.ml" 69 3160 3215
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cnf "cleanup.ml" 62 3002 3022 "cleanup.ml" 62 3002 3025
+)
+"cleanup.ml" 69 3160 3188 "cleanup.ml" 69 3160 3215
+call(
+  stack
+)
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 70 3219 3221 "cleanup.ml" 70 3219 3227
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"cleanup.ml" 70 3219 3228 "cleanup.ml" 70 3219 3263
+type(
+  (string -> unit, out_channel, unit) format
+)
+"cleanup.ml" 70 3219 3265 "cleanup.ml" 70 3219 3278
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list -> string
+)
+ident(
+  ext_ref Types.Cnf.to_string
+)
+"cleanup.ml" 70 3219 3279 "cleanup.ml" 70 3219 3283
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cnf1 "cleanup.ml" 69 3160 3167 "cleanup.ml" 69 3160 3171
+)
+"cleanup.ml" 70 3219 3265 "cleanup.ml" 70 3219 3283
+call(
+  stack
+)
+type(
+  string
+)
+"cleanup.ml" 70 3219 3221 "cleanup.ml" 70 3219 3284
+call(
+  stack
+)
+type(
+  unit
+)
+"cleanup.ml" 71 3287 3294 "cleanup.ml" 71 3287 3298
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def cnf2 "cleanup.ml" 72 3348 3350 "cleanup.ml" 80 3605 3629
+)
+"cleanup.ml" 71 3287 3300 "cleanup.ml" 71 3287 3311
+type(
+  bool String.Map.t
+)
+ident(
+  def assignment2 "cleanup.ml" 72 3348 3350 "cleanup.ml" 80 3605 3629
+)
+"cleanup.ml" 71 3287 3294 "cleanup.ml" 71 3287 3311
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 71 3287 3315 "cleanup.ml" 71 3287 3339
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+ident(
+  int_ref pure_literal_elimination "cleanup.ml" 55 2484 2488 "cleanup.ml" 55 2484 2512
+)
+"cleanup.ml" 71 3287 3340 "cleanup.ml" 71 3287 3344
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cnf1 "cleanup.ml" 69 3160 3167 "cleanup.ml" 69 3160 3171
+)
+"cleanup.ml" 71 3287 3315 "cleanup.ml" 71 3287 3344
+call(
+  stack
+)
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list *
+  bool String.Map.t
+)
+"cleanup.ml" 72 3348 3350 "cleanup.ml" 72 3348 3356
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"cleanup.ml" 72 3348 3357 "cleanup.ml" 72 3348 3377
+type(
+  (unit, out_channel, unit) format
+)
+"cleanup.ml" 72 3348 3350 "cleanup.ml" 72 3348 3377
+call(
+  stack
+)
+type(
+  unit
+)
+"cleanup.ml" 73 3379 3385 "cleanup.ml" 73 3379 3395
+type(
+  (string, bool, String.comparator_witness) Map.t
+)
+ident(
+  def assignment "cleanup.ml" 76 3445 3447 "cleanup.ml" 80 3605 3629
+)
+"cleanup.ml" 74 3399 3403 "cleanup.ml" 74 3399 3412
+type(
+  (string, bool, String.comparator_witness) Map.t ->
+  (string, bool, String.comparator_witness) Map.t ->
+  f:(key:string ->
+     [ `Both of bool * bool | `Left of bool | `Right of bool ] -> bool option) ->
+  (string, bool, String.comparator_witness) Map.t
+)
+ident(
+  ext_ref Core.Std.Map.merge
+)
+"cleanup.ml" 74 3399 3413 "cleanup.ml" 74 3399 3424
+type(
+  bool String.Map.t
+)
+ident(
+  int_ref assignment1 "cleanup.ml" 69 3160 3173 "cleanup.ml" 69 3160 3184
+)
+"cleanup.ml" 74 3399 3425 "cleanup.ml" 74 3399 3436
+type(
+  bool String.Map.t
+)
+ident(
+  int_ref assignment2 "cleanup.ml" 71 3287 3300 "cleanup.ml" 71 3287 3311
+)
+"cleanup.ml" 74 3399 3437 "cleanup.ml" 74 3399 3439
+type(
+  key:string ->
+  [ `Both of bool * bool | `Left of bool | `Right of bool ] -> bool option
+)
+ident(
+  int_ref f "cleanup.ml" 63 3028 3034 "cleanup.ml" 63 3028 3035
+)
+"cleanup.ml" 74 3399 3403 "cleanup.ml" 74 3399 3439
+call(
+  stack
+)
+type(
+  (string, bool, String.comparator_witness) Map.t
+)
+"cleanup.ml" 76 3445 3451 "cleanup.ml" 76 3445 3461
+type(
+  (string, bool, String.comparator_witness) Map.t -> int
+)
+ident(
+  ext_ref Core.Std.Map.length
+)
+"cleanup.ml" 76 3445 3462 "cleanup.ml" 76 3445 3472
+type(
+  (string, bool, String.comparator_witness) Map.t
+)
+ident(
+  int_ref assignment "cleanup.ml" 73 3379 3385 "cleanup.ml" 73 3379 3395
+)
+"cleanup.ml" 76 3445 3451 "cleanup.ml" 76 3445 3472
+call(
+  stack
+)
+type(
+  int
+)
+"cleanup.ml" 76 3445 3473 "cleanup.ml" 76 3445 3474
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"cleanup.ml" 76 3445 3475 "cleanup.ml" 76 3445 3476
+type(
+  int
+)
+"cleanup.ml" 76 3445 3451 "cleanup.ml" 76 3445 3476
+type(
+  bool
+)
+"cleanup.ml" 78 3486 3495 "cleanup.ml" 78 3486 3511
+type(
+  (string, bool, String.comparator_witness) Map.t
+)
+ident(
+  def child_assignment "cleanup.ml" 79 3547 3552 "cleanup.ml" 79 3547 3603
+)
+"cleanup.ml" 78 3486 3513 "cleanup.ml" 78 3486 3522
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  def final_cnf "cleanup.ml" 79 3547 3552 "cleanup.ml" 79 3547 3603
+)
+"cleanup.ml" 78 3486 3495 "cleanup.ml" 78 3486 3522
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 78 3486 3526 "cleanup.ml" 78 3486 3537
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cleanup_cnf "cleanup.ml" 62 3002 3010 "cleanup.ml" 62 3002 3021
+)
+"cleanup.ml" 78 3486 3538 "cleanup.ml" 78 3486 3542
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cnf2 "cleanup.ml" 71 3287 3294 "cleanup.ml" 71 3287 3298
+)
+"cleanup.ml" 78 3486 3526 "cleanup.ml" 78 3486 3542
+call(
+  stack
+)
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 79 3547 3552 "cleanup.ml" 79 3547 3561
+type(
+  (string, bool, String.comparator_witness) Map.t ->
+  (string, bool, String.comparator_witness) Map.t ->
+  f:(key:string ->
+     [ `Both of bool * bool | `Left of bool | `Right of bool ] -> bool option) ->
+  (string, bool, String.comparator_witness) Map.t
+)
+ident(
+  ext_ref Core.Std.Map.merge
+)
+"cleanup.ml" 79 3547 3562 "cleanup.ml" 79 3547 3572
+type(
+  (string, bool, String.comparator_witness) Map.t
+)
+ident(
+  int_ref assignment "cleanup.ml" 73 3379 3385 "cleanup.ml" 73 3379 3395
+)
+"cleanup.ml" 79 3547 3573 "cleanup.ml" 79 3547 3589
+type(
+  (string, bool, String.comparator_witness) Map.t
+)
+ident(
+  int_ref child_assignment "cleanup.ml" 78 3486 3495 "cleanup.ml" 78 3486 3511
+)
+"cleanup.ml" 79 3547 3590 "cleanup.ml" 79 3547 3592
+type(
+  key:string ->
+  [ `Both of bool * bool | `Left of bool | `Right of bool ] -> bool option
+)
+ident(
+  int_ref f "cleanup.ml" 63 3028 3034 "cleanup.ml" 63 3028 3035
+)
+"cleanup.ml" 79 3547 3552 "cleanup.ml" 79 3547 3592
+call(
+  stack
+)
+type(
+  (string, bool, String.comparator_witness) Map.t
+)
+"cleanup.ml" 79 3547 3594 "cleanup.ml" 79 3547 3603
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref final_cnf "cleanup.ml" 78 3486 3513 "cleanup.ml" 78 3486 3522
+)
+"cleanup.ml" 79 3547 3552 "cleanup.ml" 79 3547 3603
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 78 3486 3490 "cleanup.ml" 79 3547 3604
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 80 3605 3613 "cleanup.ml" 80 3605 3623
+type(
+  (string, bool, String.comparator_witness) Map.t
+)
+ident(
+  int_ref assignment "cleanup.ml" 73 3379 3385 "cleanup.ml" 73 3379 3395
+)
+"cleanup.ml" 80 3605 3625 "cleanup.ml" 80 3605 3628
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+ident(
+  int_ref cnf "cleanup.ml" 62 3002 3022 "cleanup.ml" 62 3002 3025
+)
+"cleanup.ml" 80 3605 3613 "cleanup.ml" 80 3605 3628
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 76 3445 3447 "cleanup.ml" 80 3605 3629
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 73 3379 3381 "cleanup.ml" 80 3605 3629
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 72 3348 3350 "cleanup.ml" 80 3605 3629
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 71 3287 3289 "cleanup.ml" 80 3605 3629
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 70 3219 3221 "cleanup.ml" 80 3605 3629
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 69 3160 3162 "cleanup.ml" 80 3605 3629
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 63 3028 3030 "cleanup.ml" 80 3605 3629
+type(
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)
+"cleanup.ml" 62 3002 3022 "cleanup.ml" 80 3605 3629
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  (string, bool, String.comparator_witness) Map.t *
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list
+)

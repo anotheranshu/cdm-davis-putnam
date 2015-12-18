@@ -1,0 +1,711 @@
+"heuristics.ml" 5 101 105 "heuristics.ml" 5 101 121
+type(
+  (Cnf.Literal.t, 'a) Set.t list -> Cnf.Literal.t
+)
+ident(
+  def most_unsatisfied "heuristics.ml" 20 770 770 "heuristics.ml" 1 0 -1
+)
+"heuristics.ml" 5 101 122 "heuristics.ml" 5 101 125
+type(
+  (Cnf.Literal.t, 'a) Set.t list
+)
+ident(
+  def cnf "heuristics.ml" 6 128 130 "heuristics.ml" 17 668 677
+)
+"heuristics.ml" 6 128 134 "heuristics.ml" 6 128 144
+type(
+  ('b, int, 'c) Map.t -> ('b, 'd) Set.t -> ('b, int, 'c) Map.t
+)
+ident(
+  def update_map "heuristics.ml" 12 357 359 "heuristics.ml" 17 668 677
+)
+"heuristics.ml" 6 128 145 "heuristics.ml" 6 128 154
+type(
+  ('b, int, 'c) Map.t
+)
+ident(
+  def count_map "heuristics.ml" 6 128 155 "heuristics.ml" 10 294 351
+)
+"heuristics.ml" 6 128 155 "heuristics.ml" 6 128 162
+type(
+  ('b, 'd) Set.t
+)
+ident(
+  def lit_set "heuristics.ml" 7 165 169 "heuristics.ml" 10 294 351
+)
+"heuristics.ml" 7 165 173 "heuristics.ml" 7 165 184
+type(
+  'e -> ('e, int, 'f) Map.t -> ('e, int, 'f) Map.t
+)
+ident(
+  def update_elem "heuristics.ml" 10 294 298 "heuristics.ml" 10 294 351
+)
+"heuristics.ml" 7 165 185 "heuristics.ml" 7 165 192
+type(
+  'e
+)
+ident(
+  def literal "heuristics.ml" 7 165 193 "heuristics.ml" 8 202 286
+)
+"heuristics.ml" 7 165 193 "heuristics.ml" 7 165 199
+type(
+  ('e, int, 'f) Map.t
+)
+ident(
+  def counts "heuristics.ml" 8 202 208 "heuristics.ml" 8 202 286
+)
+"heuristics.ml" 8 202 208 "heuristics.ml" 8 202 218
+type(
+  ('e, int, 'f) Map.t ->
+  'e -> (int option -> int option) -> ('e, int, 'f) Map.t
+)
+ident(
+  ext_ref Core.Std.Map.change
+)
+"heuristics.ml" 8 202 219 "heuristics.ml" 8 202 225
+type(
+  ('e, int, 'f) Map.t
+)
+ident(
+  int_ref counts "heuristics.ml" 7 165 193 "heuristics.ml" 7 165 199
+)
+"heuristics.ml" 8 202 226 "heuristics.ml" 8 202 233
+type(
+  'e
+)
+ident(
+  int_ref literal "heuristics.ml" 7 165 185 "heuristics.ml" 7 165 192
+)
+"heuristics.ml" 8 202 246 "heuristics.ml" 8 202 250
+type(
+  int option
+)
+"heuristics.ml" 8 202 259 "heuristics.ml" 8 202 260
+type(
+  int
+)
+"heuristics.ml" 8 202 254 "heuristics.ml" 8 202 260
+type(
+  int option
+)
+"heuristics.ml" 8 202 268 "heuristics.ml" 8 202 269
+type(
+  int
+)
+ident(
+  def x "heuristics.ml" 8 202 273 "heuristics.ml" 8 202 285
+)
+"heuristics.ml" 8 202 263 "heuristics.ml" 8 202 269
+type(
+  int option
+)
+"heuristics.ml" 8 202 279 "heuristics.ml" 8 202 280
+type(
+  int
+)
+ident(
+  int_ref x "heuristics.ml" 8 202 268 "heuristics.ml" 8 202 269
+)
+"heuristics.ml" 8 202 281 "heuristics.ml" 8 202 282
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"heuristics.ml" 8 202 283 "heuristics.ml" 8 202 284
+type(
+  int
+)
+"heuristics.ml" 8 202 279 "heuristics.ml" 8 202 284
+type(
+  int
+)
+"heuristics.ml" 8 202 273 "heuristics.ml" 8 202 285
+type(
+  int option
+)
+"heuristics.ml" 8 202 235 "heuristics.ml" 8 202 285
+type(
+  int option -> int option
+)
+"heuristics.ml" 8 202 208 "heuristics.ml" 8 202 286
+call(
+  tail
+)
+type(
+  ('e, int, 'f) Map.t
+)
+"heuristics.ml" 7 165 193 "heuristics.ml" 8 202 286
+type(
+  ('e, int, 'f) Map.t -> ('e, int, 'f) Map.t
+)
+"heuristics.ml" 7 165 185 "heuristics.ml" 8 202 286
+type(
+  'e -> ('e, int, 'f) Map.t -> ('e, int, 'f) Map.t
+)
+"heuristics.ml" 10 294 298 "heuristics.ml" 10 294 312
+type(
+  ('b, 'd) Set.t ->
+  init:('b, int, 'c) Map.t ->
+  f:('b -> ('b, int, 'c) Map.t -> ('b, int, 'c) Map.t) -> ('b, int, 'c) Map.t
+)
+ident(
+  ext_ref Core.Std.Set.fold_right
+)
+"heuristics.ml" 10 294 313 "heuristics.ml" 10 294 320
+type(
+  ('b, 'd) Set.t
+)
+ident(
+  int_ref lit_set "heuristics.ml" 6 128 155 "heuristics.ml" 6 128 162
+)
+"heuristics.ml" 10 294 327 "heuristics.ml" 10 294 336
+type(
+  ('b, int, 'c) Map.t
+)
+ident(
+  int_ref count_map "heuristics.ml" 6 128 145 "heuristics.ml" 6 128 154
+)
+"heuristics.ml" 10 294 340 "heuristics.ml" 10 294 351
+type(
+  'b -> ('b, int, 'c) Map.t -> ('b, int, 'c) Map.t
+)
+ident(
+  int_ref update_elem "heuristics.ml" 7 165 173 "heuristics.ml" 7 165 184
+)
+"heuristics.ml" 10 294 298 "heuristics.ml" 10 294 351
+call(
+  tail
+)
+type(
+  ('b, int, 'c) Map.t
+)
+"heuristics.ml" 7 165 169 "heuristics.ml" 10 294 351
+type(
+  ('b, int, 'c) Map.t
+)
+"heuristics.ml" 6 128 155 "heuristics.ml" 10 294 351
+type(
+  ('b, 'd) Set.t -> ('b, int, 'c) Map.t
+)
+"heuristics.ml" 6 128 145 "heuristics.ml" 10 294 351
+type(
+  ('b, int, 'c) Map.t -> ('b, 'd) Set.t -> ('b, int, 'c) Map.t
+)
+"heuristics.ml" 12 357 363 "heuristics.ml" 12 357 375
+type(
+  int Cnf.Literal.Map.t
+)
+ident(
+  def final_counts "heuristics.ml" 13 444 446 "heuristics.ml" 17 668 677
+)
+"heuristics.ml" 12 357 378 "heuristics.ml" 12 357 392
+type(
+  (Cnf.Literal.t, 'a) Set.t list ->
+  init:int Cnf.Literal.Map.t ->
+  f:(int Cnf.Literal.Map.t ->
+     (Cnf.Literal.t, 'a) Set.t -> int Cnf.Literal.Map.t) ->
+  int Cnf.Literal.Map.t
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"heuristics.ml" 12 357 393 "heuristics.ml" 12 357 396
+type(
+  (Cnf.Literal.t, 'a) Set.t list
+)
+ident(
+  int_ref cnf "heuristics.ml" 5 101 122 "heuristics.ml" 5 101 125
+)
+"heuristics.ml" 12 357 404 "heuristics.ml" 12 357 425
+type(
+  int Cnf.Literal.Map.t
+)
+ident(
+  ext_ref Types.Cnf.Literal.Map.empty
+)
+"heuristics.ml" 12 357 430 "heuristics.ml" 12 357 440
+type(
+  int Cnf.Literal.Map.t -> (Cnf.Literal.t, 'a) Set.t -> int Cnf.Literal.Map.t
+)
+ident(
+  int_ref update_map "heuristics.ml" 6 128 134 "heuristics.ml" 6 128 144
+)
+"heuristics.ml" 12 357 378 "heuristics.ml" 12 357 440
+call(
+  stack
+)
+type(
+  int Cnf.Literal.Map.t
+)
+"heuristics.ml" 13 444 450 "heuristics.ml" 13 444 460
+type(
+  key:'g -> data:'h -> 'g * 'h -> 'g * 'h
+)
+ident(
+  def update_max "heuristics.ml" 16 571 573 "heuristics.ml" 17 668 677
+)
+"heuristics.ml" 13 444 473 "heuristics.ml" 13 444 484
+type(
+  'g
+)
+ident(
+  def old_max_elt "heuristics.ml" 14 497 501 "heuristics.ml" 14 497 565
+)
+"heuristics.ml" 13 444 486 "heuristics.ml" 13 444 493
+type(
+  'h
+)
+ident(
+  def old_max "heuristics.ml" 14 497 501 "heuristics.ml" 14 497 565
+)
+"heuristics.ml" 13 444 473 "heuristics.ml" 13 444 493
+type(
+  'g * 'h
+)
+"heuristics.ml" 14 497 505 "heuristics.ml" 14 497 509
+type(
+  'h
+)
+ident(
+  int_ref data "heuristics.ml" 13 444 466 "heuristics.ml" 14 497 565
+)
+"heuristics.ml" 14 497 510 "heuristics.ml" 14 497 511
+type(
+  'h -> 'h -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"heuristics.ml" 14 497 512 "heuristics.ml" 14 497 519
+type(
+  'h
+)
+ident(
+  int_ref old_max "heuristics.ml" 13 444 486 "heuristics.ml" 13 444 493
+)
+"heuristics.ml" 14 497 505 "heuristics.ml" 14 497 519
+type(
+  bool
+)
+"heuristics.ml" 14 497 527 "heuristics.ml" 14 497 530
+type(
+  'g
+)
+ident(
+  int_ref key "heuristics.ml" 13 444 461 "heuristics.ml" 14 497 565
+)
+"heuristics.ml" 14 497 532 "heuristics.ml" 14 497 536
+type(
+  'h
+)
+ident(
+  int_ref data "heuristics.ml" 13 444 466 "heuristics.ml" 14 497 565
+)
+"heuristics.ml" 14 497 527 "heuristics.ml" 14 497 536
+type(
+  'g * 'h
+)
+"heuristics.ml" 14 497 544 "heuristics.ml" 14 497 555
+type(
+  'g
+)
+ident(
+  int_ref old_max_elt "heuristics.ml" 13 444 473 "heuristics.ml" 13 444 484
+)
+"heuristics.ml" 14 497 557 "heuristics.ml" 14 497 564
+type(
+  'h
+)
+ident(
+  int_ref old_max "heuristics.ml" 13 444 486 "heuristics.ml" 13 444 493
+)
+"heuristics.ml" 14 497 544 "heuristics.ml" 14 497 564
+type(
+  'g * 'h
+)
+"heuristics.ml" 14 497 501 "heuristics.ml" 14 497 565
+type(
+  'g * 'h
+)
+"heuristics.ml" 13 444 472 "heuristics.ml" 14 497 565
+type(
+  'g * 'h -> 'g * 'h
+)
+"heuristics.ml" 13 444 466 "heuristics.ml" 14 497 565
+type(
+  data:'h -> 'g * 'h -> 'g * 'h
+)
+type(
+  'h
+)
+ident(
+  def data "heuristics.ml" 13 444 472 "heuristics.ml" 14 497 565
+)
+"heuristics.ml" 13 444 461 "heuristics.ml" 14 497 565
+type(
+  key:'g -> data:'h -> 'g * 'h -> 'g * 'h
+)
+type(
+  'g
+)
+ident(
+  def key "heuristics.ml" 13 444 466 "heuristics.ml" 14 497 565
+)
+"heuristics.ml" 16 571 578 "heuristics.ml" 16 571 585
+type(
+  Cnf.Literal.t
+)
+ident(
+  def max_elt "heuristics.ml" 17 668 670 "heuristics.ml" 17 668 677
+)
+"heuristics.ml" 16 571 587 "heuristics.ml" 16 571 588
+type(
+  int
+)
+"heuristics.ml" 16 571 578 "heuristics.ml" 16 571 588
+type(
+  Cnf.Literal.t * int
+)
+"heuristics.ml" 16 571 592 "heuristics.ml" 16 571 600
+type(
+  (Cnf.Literal.t, int, Cnf.Literal.comparator_witness) Map.t ->
+  init:Cnf.Literal.t * int ->
+  f:(key:Cnf.Literal.t ->
+     data:int -> Cnf.Literal.t * int -> Cnf.Literal.t * int) ->
+  Cnf.Literal.t * int
+)
+ident(
+  ext_ref Core.Std.Map.fold
+)
+"heuristics.ml" 16 571 601 "heuristics.ml" 16 571 613
+type(
+  int Cnf.Literal.Map.t
+)
+ident(
+  int_ref final_counts "heuristics.ml" 12 357 363 "heuristics.ml" 12 357 375
+)
+"heuristics.ml" 16 571 621 "heuristics.ml" 16 571 636
+type(
+  (Cnf.Literal.t, int, Cnf.Literal.comparator_witness) Map.t ->
+  Cnf.Literal.t * int
+)
+ident(
+  ext_ref Core.Std.Map.min_elt_exn
+)
+"heuristics.ml" 16 571 637 "heuristics.ml" 16 571 649
+type(
+  int Cnf.Literal.Map.t
+)
+ident(
+  int_ref final_counts "heuristics.ml" 12 357 363 "heuristics.ml" 12 357 375
+)
+"heuristics.ml" 16 571 621 "heuristics.ml" 16 571 649
+call(
+  stack
+)
+type(
+  Cnf.Literal.t * int
+)
+"heuristics.ml" 16 571 654 "heuristics.ml" 16 571 664
+type(
+  key:Cnf.Literal.t -> data:int -> Cnf.Literal.t * int -> Cnf.Literal.t * int
+)
+ident(
+  int_ref update_max "heuristics.ml" 13 444 450 "heuristics.ml" 13 444 460
+)
+"heuristics.ml" 16 571 592 "heuristics.ml" 16 571 664
+call(
+  stack
+)
+type(
+  Cnf.Literal.t * int
+)
+"heuristics.ml" 17 668 670 "heuristics.ml" 17 668 677
+type(
+  Cnf.Literal.t
+)
+ident(
+  int_ref max_elt "heuristics.ml" 16 571 578 "heuristics.ml" 16 571 585
+)
+"heuristics.ml" 16 571 573 "heuristics.ml" 17 668 677
+type(
+  Cnf.Literal.t
+)
+"heuristics.ml" 13 444 446 "heuristics.ml" 17 668 677
+type(
+  Cnf.Literal.t
+)
+"heuristics.ml" 12 357 359 "heuristics.ml" 17 668 677
+type(
+  Cnf.Literal.t
+)
+"heuristics.ml" 6 128 130 "heuristics.ml" 17 668 677
+type(
+  Cnf.Literal.t
+)
+"heuristics.ml" 5 101 122 "heuristics.ml" 17 668 677
+type(
+  (Cnf.Literal.t, 'a) Set.t list -> Cnf.Literal.t
+)
+"heuristics.ml" 20 770 774 "heuristics.ml" 20 770 787
+type(
+  (Cnf.Literal.t, 'a) Set.t list -> Cnf.Literal.t
+)
+ident(
+  def small_clauses "heuristics.ml" 24 980 980 "heuristics.ml" 1 0 -1
+)
+"heuristics.ml" 20 770 788 "heuristics.ml" 20 770 791
+type(
+  (Cnf.Literal.t, 'a) Set.t list
+)
+ident(
+  def cnf "heuristics.ml" 21 794 796 "heuristics.ml" 22 903 978
+)
+"heuristics.ml" 21 794 800 "heuristics.ml" 21 794 807
+type(
+  int
+)
+ident(
+  def maxsize "heuristics.ml" 22 903 905 "heuristics.ml" 22 903 978
+)
+"heuristics.ml" 21 794 810 "heuristics.ml" 21 794 824
+type(
+  (Cnf.Literal.t, 'a) Set.t list ->
+  init:int -> f:(int -> (Cnf.Literal.t, 'a) Set.t -> int) -> int
+)
+ident(
+  ext_ref Core.Std.List.fold_left
+)
+"heuristics.ml" 21 794 825 "heuristics.ml" 21 794 828
+type(
+  (Cnf.Literal.t, 'a) Set.t list
+)
+ident(
+  int_ref cnf "heuristics.ml" 20 770 788 "heuristics.ml" 20 770 791
+)
+"heuristics.ml" 21 794 835 "heuristics.ml" 21 794 848
+type(
+  int
+)
+ident(
+  ext_ref Core.Std.Int.max_value
+)
+"heuristics.ml" 21 794 857 "heuristics.ml" 21 794 863
+type(
+  int
+)
+ident(
+  def oldmax "heuristics.ml" 21 794 864 "heuristics.ml" 21 794 898
+)
+"heuristics.ml" 21 794 864 "heuristics.ml" 21 794 865
+type(
+  (Cnf.Literal.t, 'a) Set.t
+)
+ident(
+  def s "heuristics.ml" 21 794 869 "heuristics.ml" 21 794 898
+)
+"heuristics.ml" 21 794 869 "heuristics.ml" 21 794 876
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Core.Std.Int.max
+)
+"heuristics.ml" 21 794 877 "heuristics.ml" 21 794 883
+type(
+  int
+)
+ident(
+  int_ref oldmax "heuristics.ml" 21 794 857 "heuristics.ml" 21 794 863
+)
+"heuristics.ml" 21 794 885 "heuristics.ml" 21 794 895
+type(
+  (Cnf.Literal.t, 'a) Set.t -> int
+)
+ident(
+  ext_ref Core.Std.Set.length
+)
+"heuristics.ml" 21 794 896 "heuristics.ml" 21 794 897
+type(
+  (Cnf.Literal.t, 'a) Set.t
+)
+ident(
+  int_ref s "heuristics.ml" 21 794 864 "heuristics.ml" 21 794 865
+)
+"heuristics.ml" 21 794 885 "heuristics.ml" 21 794 897
+call(
+  stack
+)
+type(
+  int
+)
+"heuristics.ml" 21 794 869 "heuristics.ml" 21 794 898
+call(
+  tail
+)
+type(
+  int
+)
+"heuristics.ml" 21 794 864 "heuristics.ml" 21 794 898
+type(
+  (Cnf.Literal.t, 'a) Set.t -> int
+)
+"heuristics.ml" 21 794 857 "heuristics.ml" 21 794 898
+type(
+  int -> (Cnf.Literal.t, 'a) Set.t -> int
+)
+"heuristics.ml" 21 794 810 "heuristics.ml" 21 794 899
+call(
+  stack
+)
+type(
+  int
+)
+"heuristics.ml" 22 903 905 "heuristics.ml" 22 903 921
+type(
+  (Cnf.Literal.t, 'a) Set.t list -> Cnf.Literal.t
+)
+ident(
+  int_ref most_unsatisfied "heuristics.ml" 5 101 105 "heuristics.ml" 5 101 121
+)
+"heuristics.ml" 22 903 923 "heuristics.ml" 22 903 934
+type(
+  (Cnf.Literal.t, 'a) Set.t list ->
+  f:((Cnf.Literal.t, 'a) Set.t -> bool) -> (Cnf.Literal.t, 'a) Set.t list
+)
+ident(
+  ext_ref Core.Std.List.filter
+)
+"heuristics.ml" 22 903 935 "heuristics.ml" 22 903 938
+type(
+  (Cnf.Literal.t, 'a) Set.t list
+)
+ident(
+  int_ref cnf "heuristics.ml" 20 770 788 "heuristics.ml" 20 770 791
+)
+"heuristics.ml" 22 903 947 "heuristics.ml" 22 903 948
+type(
+  (Cnf.Literal.t, 'a) Set.t
+)
+ident(
+  def s "heuristics.ml" 22 903 952 "heuristics.ml" 22 903 976
+)
+"heuristics.ml" 22 903 953 "heuristics.ml" 22 903 963
+type(
+  (Cnf.Literal.t, 'a) Set.t -> int
+)
+ident(
+  ext_ref Core.Std.Set.length
+)
+"heuristics.ml" 22 903 964 "heuristics.ml" 22 903 965
+type(
+  (Cnf.Literal.t, 'a) Set.t
+)
+ident(
+  int_ref s "heuristics.ml" 22 903 947 "heuristics.ml" 22 903 948
+)
+"heuristics.ml" 22 903 953 "heuristics.ml" 22 903 965
+call(
+  stack
+)
+type(
+  int
+)
+"heuristics.ml" 22 903 967 "heuristics.ml" 22 903 968
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"heuristics.ml" 22 903 969 "heuristics.ml" 22 903 976
+type(
+  int
+)
+ident(
+  int_ref maxsize "heuristics.ml" 21 794 800 "heuristics.ml" 21 794 807
+)
+"heuristics.ml" 22 903 952 "heuristics.ml" 22 903 976
+type(
+  bool
+)
+"heuristics.ml" 22 903 947 "heuristics.ml" 22 903 976
+type(
+  (Cnf.Literal.t, 'a) Set.t -> bool
+)
+"heuristics.ml" 22 903 923 "heuristics.ml" 22 903 977
+call(
+  stack
+)
+type(
+  (Cnf.Literal.t, 'a) Set.t list
+)
+"heuristics.ml" 22 903 905 "heuristics.ml" 22 903 978
+call(
+  tail
+)
+type(
+  Cnf.Literal.t
+)
+"heuristics.ml" 21 794 796 "heuristics.ml" 22 903 978
+type(
+  Cnf.Literal.t
+)
+"heuristics.ml" 20 770 788 "heuristics.ml" 22 903 978
+type(
+  (Cnf.Literal.t, 'a) Set.t list -> Cnf.Literal.t
+)
+"heuristics.ml" 24 980 984 "heuristics.ml" 24 980 996
+type(
+  [< `Most_unsatisfied | `Small_clauses ] ->
+  (Cnf.Literal.t, 'a) Set.t list -> Cnf.Literal.t
+)
+ident(
+  def next_literal "heuristics.ml" 27 1074 1109 "heuristics.ml" 1 0 -1
+)
+"heuristics.ml" 24 980 997 "heuristics.ml" 24 980 1006
+type(
+  [< `Most_unsatisfied | `Small_clauses ] as 'b
+)
+ident(
+  def heuristic "heuristics.ml" 25 1009 1011 "heuristics.ml" 27 1074 1109
+)
+"heuristics.ml" 25 1009 1017 "heuristics.ml" 25 1009 1026
+type(
+  'b
+)
+ident(
+  int_ref heuristic "heuristics.ml" 24 980 997 "heuristics.ml" 24 980 1006
+)
+"heuristics.ml" 26 1032 1036 "heuristics.ml" 26 1032 1053
+type(
+  'b
+)
+"heuristics.ml" 26 1032 1057 "heuristics.ml" 26 1032 1073
+type(
+  (Cnf.Literal.t, 'a) Set.t list -> Cnf.Literal.t
+)
+ident(
+  int_ref most_unsatisfied "heuristics.ml" 5 101 105 "heuristics.ml" 5 101 121
+)
+"heuristics.ml" 27 1074 1078 "heuristics.ml" 27 1074 1092
+type(
+  'b
+)
+"heuristics.ml" 27 1074 1096 "heuristics.ml" 27 1074 1109
+type(
+  (Cnf.Literal.t, 'a) Set.t list -> Cnf.Literal.t
+)
+ident(
+  int_ref small_clauses "heuristics.ml" 20 770 774 "heuristics.ml" 20 770 787
+)
+"heuristics.ml" 25 1009 1011 "heuristics.ml" 27 1074 1109
+type(
+  (Cnf.Literal.t, 'a) Set.t list -> Cnf.Literal.t
+)
+"heuristics.ml" 24 980 997 "heuristics.ml" 27 1074 1109
+type(
+  'b -> (Cnf.Literal.t, 'a) Set.t list -> Cnf.Literal.t
+)
