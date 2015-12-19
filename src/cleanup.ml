@@ -35,7 +35,6 @@ let unit_clause_elimination cnf =
 let pure_literal_elimination cnf =
   let all_literals = List.fold_left cnf ~init:(Cnf.Literal.Set.empty) ~f:(Set.union) in
   let pure_literals = Set.filter all_literals ~f:(fun var -> not (Set.mem all_literals (reverse_term var))) in
-  printf "The pure literals are %s\n" (List.to_string ~f:(Cnf.Literal.to_string) (Set.elements pure_literals));
   fixed_literals_to_new_cnf pure_literals cnf 
 
 (* Repeatedly applies UCE and PLE until we reach a fixed point. Returns the new CNF and the assignment that got it there.*)

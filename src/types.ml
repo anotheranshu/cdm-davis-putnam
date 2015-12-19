@@ -54,17 +54,15 @@ end
 
 
 module Asgn_trace = struct
-  type choice = {true_chosen : bool; false_chosen : bool; variable : string} with sexp
+  type choice = {true_chosen : bool; false_chosen : bool; variable : string; current : bool} with sexp
   type t = Forced of bool String.Map.t | Choice of choice with sexp
 
   let to_string = function
   | Forced mapping ->
       let elem_to_string (lit, b) = Printf.sprintf "(%s, %B)" lit b in
       Printf.sprintf "Forced: %s" (List.to_string ~f:elem_to_string (Map.to_alist mapping))
-  | Choice {true_chosen; false_chosen; variable} ->
-      let true_num = if true_chosen then 1 else 0 in
-      let false_num = if false_chosen then 1 else 0 in
-      Printf.sprintf "Choosing %s. True: %d, False %d" variable true_num false_num
+  | Choice {true_chosen; false_chosen; variable; current} ->
+      Printf.sprintf "Choosing %s to be %B. True chosen?: %B, False chosen?: %B" variable current true_chosen false_chosen
 end
 
 (* current_cnf is the CNF we're trying to solve.  Continue is true if in the next step we should split on a new variable,

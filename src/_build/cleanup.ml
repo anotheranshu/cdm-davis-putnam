@@ -23,26 +23,6 @@ let fixed_literals_to_new_cnf fixed_lits old_cnf =
   if (List.exists new_cnf ~f:(fun s -> Set.length s = 0)) then
     raise (Unsolvable old_cnf)
   else (new_cnf, assignment)
-(*
-let fixed_literals_to_new_cnf fixed_lits old_cnf =
-  let assignment = String.Map.of_alist_exn
-    (List.map (Set.elements fixed_lits) ~f:(function | Cnf.Literal.Neg s -> (s, false) | Cnf.Literal.Pure s -> (s, true)))
-  in
-  let remove_variable var cnf =
-      List.map cnf 
-        ~f:(fun clause -> 
-          if Set.mem clause var 
-          then Cnf.Literal.Set.empty 
-          else 
-            let newclause = Set.remove clause (reverse_term var) in
-            if (Set.length newclause = 0) then raise (Unsolvable cnf) else newclause
-        )
-  in
-  let new_cnf = Set.fold_right fixed_lits ~init:old_cnf ~f:remove_variable in
-  let clause_nonempty clause = (0 < (Set.length clause)) in 
-  let new_cnf = List.filter new_cnf ~f:clause_nonempty in
-  (new_cnf, assignment)
-*)
 
 let unit_clause_elimination cnf =
   let unit_clauses = List.filter cnf ~f:(fun set -> (Set.length set) = 1) in
@@ -55,7 +35,6 @@ let unit_clause_elimination cnf =
 let pure_literal_elimination cnf =
   let all_literals = List.fold_left cnf ~init:(Cnf.Literal.Set.empty) ~f:(Set.union) in
   let pure_literals = Set.filter all_literals ~f:(fun var -> not (Set.mem all_literals (reverse_term var))) in
-  printf "The pure literals are %s\n" (List.to_string ~f:(Cnf.Literal.to_string) (Set.elements pure_literals));
   fixed_literals_to_new_cnf pure_literals cnf 
 
 (* Repeatedly applies UCE and PLE until we reach a fixed point. Returns the new CNF and the assignment that got it there.*)
@@ -67,9 +46,7 @@ let rec cleanup_cnf cnf =
     | `Right x -> Some x
   in
   let (cnf1, assignment1) = unit_clause_elimination cnf in
-  printf "Got past UCE! The CNF is now %s\n" (Cnf.to_string cnf1); 
   let (cnf2, assignment2) = pure_literal_elimination cnf1 in
-  printf "Got past PLE! \n%!";
   let assignment = 
     Map.merge assignment1 assignment2 ~f
   in

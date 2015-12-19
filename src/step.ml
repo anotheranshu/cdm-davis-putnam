@@ -30,8 +30,8 @@ let split_new_variable state =
   let (s, asgn) = single_lit_to_asgn next_literal in
   let this_choice =
     if asgn
-    then Asgn_trace.({true_chosen = true; false_chosen = false; variable = s})
-    else Asgn_trace.({true_chosen = false; false_chosen = true; variable = s})
+    then Asgn_trace.({true_chosen = true; false_chosen = false; variable = s; current = true})
+    else Asgn_trace.({true_chosen = false; false_chosen = true; variable = s; current = false})
   in
   try
     let (new_cnf, _) = 
@@ -61,7 +61,7 @@ let second_choice state =
   | (Asgn_trace.Choice choice, cnf)::remaining ->
       let asgn = not (choice.Asgn_trace.true_chosen) in
       let lit = asgn_to_single_lit (choice.Asgn_trace.variable, asgn) in
-      let new_choice = Asgn_trace.({true_chosen = true; false_chosen = true; variable = choice.variable}) in
+      let new_choice = Asgn_trace.({true_chosen = true; false_chosen = true; variable = choice.variable; current = asgn}) in
       try
         let (new_cnf, _) =
           Cleanup.fixed_literals_to_new_cnf (Cnf.Literal.Set.singleton lit) cnf

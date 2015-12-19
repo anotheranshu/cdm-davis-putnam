@@ -1,454 +1,3100 @@
-"davisputnam.ml" 3 15 19 "davisputnam.ml" 3 15 31
-type(
-  string -> unit -> unit
-)
-ident(
-  def process_file "davisputnam.ml" 15 453 453 "davisputnam.ml" 1 0 -1
-)
-"davisputnam.ml" 3 15 32 "davisputnam.ml" 3 15 40
+"davisputnam.ml" 16 208 212 "davisputnam.ml" 16 208 223
 type(
   string
 )
 ident(
-  def filename "davisputnam.ml" 3 15 41 "davisputnam.ml" 12 414 448
+  def help_string "davisputnam.ml" 29 804 804 "davisputnam.ml" 1 0 -1
 )
-"davisputnam.ml" 3 15 41 "davisputnam.ml" 3 15 43
+"davisputnam.ml" 17 226 228 "davisputnam.ml" 27 799 802
+type(
+  string
+)
+"davisputnam.ml" 29 804 808 "davisputnam.ml" 29 804 816
+type(
+  'a -> 'a
+)
+ident(
+  def to_latex "davisputnam.ml" 31 824 824 "davisputnam.ml" 1 0 -1
+)
+"davisputnam.ml" 29 804 817 "davisputnam.ml" 29 804 818
+type(
+  'a
+)
+ident(
+  def s "davisputnam.ml" 29 804 821 "davisputnam.ml" 29 804 822
+)
+"davisputnam.ml" 29 804 821 "davisputnam.ml" 29 804 822
+type(
+  'a
+)
+ident(
+  int_ref s "davisputnam.ml" 29 804 817 "davisputnam.ml" 29 804 818
+)
+"davisputnam.ml" 29 804 817 "davisputnam.ml" 29 804 822
+type(
+  'a -> 'a
+)
+"davisputnam.ml" 31 824 828 "davisputnam.ml" 31 824 842
+type(
+  (Asgn_trace.t * 'a) list -> bool String.Map.t
+)
+ident(
+  def get_assignment "davisputnam.ml" 40 1242 1242 "davisputnam.ml" 1 0 -1
+)
+"davisputnam.ml" 31 824 843 "davisputnam.ml" 31 824 848
+type(
+  (Asgn_trace.t * 'a) list
+)
+ident(
+  def stack "davisputnam.ml" 32 851 853 "davisputnam.ml" 38 1210 1240
+)
+"davisputnam.ml" 32 851 857 "davisputnam.ml" 32 851 863
+type(
+  Asgn_trace.t * 'b -> bool String.Map.t
+)
+ident(
+  def to_map "davisputnam.ml" 37 1030 1032 "davisputnam.ml" 38 1210 1240
+)
+"davisputnam.ml" 32 851 864 "davisputnam.ml" 32 851 868
+type(
+  Asgn_trace.t * 'b
+)
+ident(
+  def elem "davisputnam.ml" 33 871 875 "davisputnam.ml" 35 927 1024
+)
+"davisputnam.ml" 33 871 881 "davisputnam.ml" 33 871 885
+type(
+  Asgn_trace.t * 'b
+)
+ident(
+  int_ref elem "davisputnam.ml" 32 851 864 "davisputnam.ml" 32 851 868
+)
+"davisputnam.ml" 34 891 916 "davisputnam.ml" 34 891 917
+type(
+  bool String.Map.t
+)
+ident(
+  def m "davisputnam.ml" 34 891 925 "davisputnam.ml" 34 891 926
+)
+"davisputnam.ml" 34 891 898 "davisputnam.ml" 34 891 917
+type(
+  Asgn_trace.t
+)
+"davisputnam.ml" 34 891 919 "davisputnam.ml" 34 891 920
+type(
+  'b
+)
+"davisputnam.ml" 34 891 898 "davisputnam.ml" 34 891 920
+type(
+  Asgn_trace.t * 'b
+)
+"davisputnam.ml" 34 891 925 "davisputnam.ml" 34 891 926
+type(
+  bool String.Map.t
+)
+ident(
+  int_ref m "davisputnam.ml" 34 891 916 "davisputnam.ml" 34 891 917
+)
+"davisputnam.ml" 35 927 952 "davisputnam.ml" 35 927 953
+type(
+  Asgn_trace.choice
+)
+ident(
+  def c "davisputnam.ml" 35 927 961 "davisputnam.ml" 35 927 1024
+)
+"davisputnam.ml" 35 927 934 "davisputnam.ml" 35 927 953
+type(
+  Asgn_trace.t
+)
+"davisputnam.ml" 35 927 955 "davisputnam.ml" 35 927 956
+type(
+  'b
+)
+"davisputnam.ml" 35 927 934 "davisputnam.ml" 35 927 956
+type(
+  Asgn_trace.t * 'b
+)
+"davisputnam.ml" 35 927 961 "davisputnam.ml" 35 927 981
+type(
+  string -> bool -> bool String.Map.t
+)
+ident(
+  ext_ref Core.Std.String.Map.singleton
+)
+"davisputnam.ml" 35 927 982 "davisputnam.ml" 35 927 983
+type(
+  Asgn_trace.choice
+)
+ident(
+  int_ref c "davisputnam.ml" 35 927 952 "davisputnam.ml" 35 927 953
+)
+"davisputnam.ml" 35 927 982 "davisputnam.ml" 35 927 1003
+type(
+  string
+)
+"davisputnam.ml" 35 927 1004 "davisputnam.ml" 35 927 1005
+type(
+  Asgn_trace.choice
+)
+ident(
+  int_ref c "davisputnam.ml" 35 927 952 "davisputnam.ml" 35 927 953
+)
+"davisputnam.ml" 35 927 1004 "davisputnam.ml" 35 927 1024
+type(
+  bool
+)
+"davisputnam.ml" 35 927 961 "davisputnam.ml" 35 927 1024
+call(
+  tail
+)
+type(
+  bool String.Map.t
+)
+"davisputnam.ml" 33 871 875 "davisputnam.ml" 35 927 1024
+type(
+  bool String.Map.t
+)
+"davisputnam.ml" 32 851 864 "davisputnam.ml" 35 927 1024
+type(
+  Asgn_trace.t * 'b -> bool String.Map.t
+)
+"davisputnam.ml" 37 1030 1032 "davisputnam.ml" 37 1030 1041
+type(
+  bool String.Map.t list ->
+  init:bool String.Map.t ->
+  f:(bool String.Map.t -> bool String.Map.t -> bool String.Map.t) ->
+  bool String.Map.t
+)
+ident(
+  ext_ref Core.Std.List.fold
+)
+"davisputnam.ml" 37 1030 1049 "davisputnam.ml" 37 1030 1065
+type(
+  bool String.Map.t
+)
+ident(
+  ext_ref Core.Std.String.Map.empty
+)
+"davisputnam.ml" 37 1030 1071 "davisputnam.ml" 37 1030 1087
+type(
+  bool String.Map.t ->
+  bool String.Map.t ->
+  f:(key:string ->
+     [ `Both of bool * bool | `Left of bool | `Right of bool ] -> bool option) ->
+  bool String.Map.t
+)
+ident(
+  ext_ref Core.Std.String.Map.merge
+)
+"davisputnam.ml" 37 1030 1101 "davisputnam.ml" 37 1030 1104
+type(
+  [ `Both of bool * bool | `Left of bool | `Right of bool ]
+)
+ident(
+  def res "davisputnam.ml" 37 1030 1108 "davisputnam.ml" 37 1030 1206
+)
+"davisputnam.ml" 37 1030 1114 "davisputnam.ml" 37 1030 1117
+type(
+  [ `Both of bool * bool | `Left of bool | `Right of bool ]
+)
+ident(
+  int_ref res "davisputnam.ml" 37 1030 1101 "davisputnam.ml" 37 1030 1104
+)
+"davisputnam.ml" 37 1030 1131 "davisputnam.ml" 37 1030 1132
+type(
+  bool
+)
+ident(
+  def x "davisputnam.ml" 37 1030 1136 "davisputnam.ml" 37 1030 1142
+)
+"davisputnam.ml" 37 1030 1125 "davisputnam.ml" 37 1030 1132
+type(
+  [ `Both of bool * bool | `Left of bool | `Right of bool ]
+)
+"davisputnam.ml" 37 1030 1141 "davisputnam.ml" 37 1030 1142
+type(
+  bool
+)
+ident(
+  int_ref x "davisputnam.ml" 37 1030 1131 "davisputnam.ml" 37 1030 1132
+)
+"davisputnam.ml" 37 1030 1136 "davisputnam.ml" 37 1030 1142
+type(
+  bool option
+)
+"davisputnam.ml" 37 1030 1152 "davisputnam.ml" 37 1030 1153
+type(
+  bool
+)
+ident(
+  def x "davisputnam.ml" 37 1030 1157 "davisputnam.ml" 37 1030 1163
+)
+"davisputnam.ml" 37 1030 1145 "davisputnam.ml" 37 1030 1153
+type(
+  [ `Both of bool * bool | `Left of bool | `Right of bool ]
+)
+"davisputnam.ml" 37 1030 1162 "davisputnam.ml" 37 1030 1163
+type(
+  bool
+)
+ident(
+  int_ref x "davisputnam.ml" 37 1030 1152 "davisputnam.ml" 37 1030 1153
+)
+"davisputnam.ml" 37 1030 1157 "davisputnam.ml" 37 1030 1163
+type(
+  bool option
+)
+"davisputnam.ml" 37 1030 1172 "davisputnam.ml" 37 1030 1173
+type(
+  bool * bool
+)
+"davisputnam.ml" 37 1030 1166 "davisputnam.ml" 37 1030 1173
+type(
+  [ `Both of bool * bool | `Left of bool | `Right of bool ]
+)
+"davisputnam.ml" 37 1030 1177 "davisputnam.ml" 37 1030 1185
+type(
+  string -> bool option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"davisputnam.ml" 37 1030 1186 "davisputnam.ml" 37 1030 1206
+type(
+  string
+)
+"davisputnam.ml" 37 1030 1177 "davisputnam.ml" 37 1030 1206
+call(
+  tail
+)
+type(
+  bool option
+)
+"davisputnam.ml" 37 1030 1108 "davisputnam.ml" 37 1030 1206
+type(
+  bool option
+)
+"davisputnam.ml" 37 1030 1101 "davisputnam.ml" 37 1030 1206
+type(
+  [ `Both of bool * bool | `Left of bool | `Right of bool ] -> bool option
+)
+"davisputnam.ml" 37 1030 1096 "davisputnam.ml" 37 1030 1206
+type(
+  key:string ->
+  [ `Both of bool * bool | `Left of bool | `Right of bool ] -> bool option
+)
+type(
+  string
+)
+ident(
+  def key "davisputnam.ml" 37 1030 1101 "davisputnam.ml" 37 1030 1206
+)
+"davisputnam.ml" 37 1030 1071 "davisputnam.ml" 37 1030 1207
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  bool String.Map.t -> bool String.Map.t -> bool String.Map.t
+)
+"davisputnam.ml" 38 1210 1215 "davisputnam.ml" 38 1210 1223
+type(
+  (Asgn_trace.t * 'a) list ->
+  f:(Asgn_trace.t * 'a -> bool String.Map.t) -> bool String.Map.t list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"davisputnam.ml" 38 1210 1227 "davisputnam.ml" 38 1210 1233
+type(
+  Asgn_trace.t * 'a -> bool String.Map.t
+)
+ident(
+  int_ref to_map "davisputnam.ml" 32 851 857 "davisputnam.ml" 32 851 863
+)
+"davisputnam.ml" 38 1210 1234 "davisputnam.ml" 38 1210 1239
+type(
+  (Asgn_trace.t * 'a) list
+)
+ident(
+  int_ref stack "davisputnam.ml" 31 824 843 "davisputnam.ml" 31 824 848
+)
+"davisputnam.ml" 38 1210 1215 "davisputnam.ml" 38 1210 1239
+call(
+  stack
+)
+type(
+  bool String.Map.t list
+)
+"davisputnam.ml" 37 1030 1032 "davisputnam.ml" 38 1210 1240
+call(
+  tail
+)
+type(
+  bool String.Map.t
+)
+"davisputnam.ml" 32 851 853 "davisputnam.ml" 38 1210 1240
+type(
+  bool String.Map.t
+)
+"davisputnam.ml" 31 824 843 "davisputnam.ml" 38 1210 1240
+type(
+  (Asgn_trace.t * 'a) list -> bool String.Map.t
+)
+"davisputnam.ml" 40 1242 1246 "davisputnam.ml" 40 1242 1257
+type(
+  unit -> step_cmd
+)
+ident(
+  def get_command "davisputnam.ml" 73 2175 2175 "davisputnam.ml" 1 0 -1
+)
+"davisputnam.ml" 40 1242 1258 "davisputnam.ml" 40 1242 1260
 type(
   unit
 )
-"davisputnam.ml" 4 46 52 "davisputnam.ml" 4 46 55
+"davisputnam.ml" 41 1263 1269 "davisputnam.ml" 41 1263 1274
+type(
+  string option
+)
+ident(
+  def s_opt "davisputnam.ml" 42 1319 1321 "davisputnam.ml" 71 2170 2173
+)
+"davisputnam.ml" 41 1263 1277 "davisputnam.ml" 41 1263 1298
+type(
+  ?fix_win_eol:bool -> in_channel -> string option
+)
+ident(
+  ext_ref Core.Std.In_channel.input_line
+)
+"davisputnam.ml" 41 1263 1299 "davisputnam.ml" 41 1263 1315
 type(
   in_channel
 )
 ident(
-  def inx "davisputnam.ml" 5 88 90 "davisputnam.ml" 12 414 448
+  ext_ref Core.Std.In_channel.stdin
 )
-"davisputnam.ml" 4 46 58 "davisputnam.ml" 4 46 75
+"davisputnam.ml" 41 1263 1277 "davisputnam.ml" 41 1263 1315
+call(
+  stack
+)
+type(
+  string option
+)
+"davisputnam.ml" 42 1319 1327 "davisputnam.ml" 42 1319 1332
+type(
+  string option
+)
+ident(
+  int_ref s_opt "davisputnam.ml" 41 1263 1269 "davisputnam.ml" 41 1263 1274
+)
+"davisputnam.ml" 43 1338 1342 "davisputnam.ml" 43 1338 1346
+type(
+  string option
+)
+"davisputnam.ml" 43 1338 1350 "davisputnam.ml" 43 1338 1357
+type(
+  step_cmd
+)
+"davisputnam.ml" 44 1359 1368 "davisputnam.ml" 44 1359 1369
+type(
+  string
+)
+ident(
+  def s "davisputnam.ml" 45 1375 1379 "davisputnam.ml" 70 2164 2169
+)
+"davisputnam.ml" 44 1359 1363 "davisputnam.ml" 44 1359 1369
+type(
+  string option
+)
+"davisputnam.ml" 45 1375 1385 "davisputnam.ml" 45 1375 1397
+type(
+  ?drop:(char -> bool) -> string -> string
+)
+ident(
+  ext_ref Core.Std.String.strip
+)
+"davisputnam.ml" 45 1375 1398 "davisputnam.ml" 45 1375 1399
+type(
+  string
+)
+ident(
+  int_ref s "davisputnam.ml" 44 1359 1368 "davisputnam.ml" 44 1359 1369
+)
+"davisputnam.ml" 45 1375 1385 "davisputnam.ml" 45 1375 1399
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 46 1405 1411 "davisputnam.ml" 46 1405 1426
+type(
+  string
+)
+"davisputnam.ml" 46 1405 1430 "davisputnam.ml" 46 1405 1443
+type(
+  step_cmd
+)
+"davisputnam.ml" 47 1444 1450 "davisputnam.ml" 47 1444 1463
+type(
+  string
+)
+"davisputnam.ml" 47 1444 1467 "davisputnam.ml" 47 1444 1478
+type(
+  step_cmd
+)
+"davisputnam.ml" 48 1479 1485 "davisputnam.ml" 48 1479 1505
+type(
+  string
+)
+"davisputnam.ml" 48 1479 1509 "davisputnam.ml" 48 1479 1527
+type(
+  step_cmd
+)
+"davisputnam.ml" 49 1528 1534 "davisputnam.ml" 49 1528 1541
+type(
+  string
+)
+"davisputnam.ml" 49 1528 1545 "davisputnam.ml" 49 1528 1550
+type(
+  step_cmd
+)
+"davisputnam.ml" 50 1551 1557 "davisputnam.ml" 50 1551 1563
+type(
+  string
+)
+"davisputnam.ml" 50 1551 1567 "davisputnam.ml" 50 1551 1571
+type(
+  step_cmd
+)
+"davisputnam.ml" 51 1572 1578 "davisputnam.ml" 51 1572 1587
+type(
+  string
+)
+"davisputnam.ml" 51 1572 1599 "davisputnam.ml" 51 1572 1600
+type(
+  int
+)
+"davisputnam.ml" 51 1572 1591 "davisputnam.ml" 51 1572 1600
+type(
+  step_cmd
+)
+"davisputnam.ml" 52 1601 1607 "davisputnam.ml" 52 1601 1613
+type(
+  string
+)
+"davisputnam.ml" 52 1601 1617 "davisputnam.ml" 52 1601 1621
+type(
+  step_cmd
+)
+"davisputnam.ml" 53 1622 1628 "davisputnam.ml" 53 1622 1629
+type(
+  string
+)
+"davisputnam.ml" 54 1635 1647 "davisputnam.ml" 54 1635 1665
+type(
+  string -> prefix:string -> string option
+)
+ident(
+  ext_ref Core.Std.String.chop_prefix
+)
+"davisputnam.ml" 54 1635 1666 "davisputnam.ml" 54 1635 1667
+type(
+  string
+)
+ident(
+  int_ref s "davisputnam.ml" 44 1359 1368 "davisputnam.ml" 44 1359 1369
+)
+"davisputnam.ml" 54 1635 1676 "davisputnam.ml" 54 1635 1685
+type(
+  string
+)
+"davisputnam.ml" 54 1635 1647 "davisputnam.ml" 54 1635 1685
+call(
+  stack
+)
+type(
+  string option
+)
+"davisputnam.ml" 55 1691 1704 "davisputnam.ml" 55 1691 1709
+type(
+  string
+)
+ident(
+  def n_str "davisputnam.ml" 56 1715 1725 "davisputnam.ml" 59 1801 1823
+)
+"davisputnam.ml" 55 1691 1699 "davisputnam.ml" 55 1691 1709
+type(
+  string option
+)
+"davisputnam.ml" 57 1729 1750 "davisputnam.ml" 57 1729 1763
+type(
+  string -> int
+)
+ident(
+  ext_ref Core.Std.Int.of_string
+)
+"davisputnam.ml" 57 1729 1765 "davisputnam.ml" 57 1729 1777
+type(
+  ?drop:(char -> bool) -> string -> string
+)
+ident(
+  ext_ref Core.Std.String.strip
+)
+"davisputnam.ml" 57 1729 1778 "davisputnam.ml" 57 1729 1783
+type(
+  string
+)
+ident(
+  int_ref n_str "davisputnam.ml" 55 1691 1704 "davisputnam.ml" 55 1691 1709
+)
+"davisputnam.ml" 57 1729 1765 "davisputnam.ml" 57 1729 1783
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 57 1729 1750 "davisputnam.ml" 57 1729 1784
+call(
+  stack
+)
+type(
+  int
+)
+"davisputnam.ml" 57 1729 1741 "davisputnam.ml" 57 1729 1785
+type(
+  step_cmd
+)
+"davisputnam.ml" 59 1801 1811 "davisputnam.ml" 59 1801 1812
+type(
+  exn
+)
+"davisputnam.ml" 59 1801 1816 "davisputnam.ml" 59 1801 1823
+type(
+  step_cmd
+)
+"davisputnam.ml" 56 1715 1725 "davisputnam.ml" 59 1801 1823
+type(
+  step_cmd
+)
+"davisputnam.ml" 61 1834 1842 "davisputnam.ml" 61 1834 1846
+type(
+  string option
+)
+"davisputnam.ml" 62 1852 1866 "davisputnam.ml" 62 1852 1884
+type(
+  string -> prefix:string -> string option
+)
+ident(
+  ext_ref Core.Std.String.chop_prefix
+)
+"davisputnam.ml" 62 1852 1885 "davisputnam.ml" 62 1852 1886
+type(
+  string
+)
+ident(
+  int_ref s "davisputnam.ml" 44 1359 1368 "davisputnam.ml" 44 1359 1369
+)
+"davisputnam.ml" 62 1852 1895 "davisputnam.ml" 62 1852 1913
+type(
+  string
+)
+"davisputnam.ml" 62 1852 1866 "davisputnam.ml" 62 1852 1913
+call(
+  stack
+)
+type(
+  string option
+)
+"davisputnam.ml" 63 1919 1934 "davisputnam.ml" 63 1919 1935
+type(
+  string
+)
+ident(
+  def v "davisputnam.ml" 63 1919 1939 "davisputnam.ml" 63 1919 1972
+)
+"davisputnam.ml" 63 1919 1929 "davisputnam.ml" 63 1919 1935
+type(
+  string option
+)
+"davisputnam.ml" 63 1919 1957 "davisputnam.ml" 63 1919 1969
+type(
+  ?drop:(char -> bool) -> string -> string
+)
+ident(
+  ext_ref Core.Std.String.strip
+)
+"davisputnam.ml" 63 1919 1970 "davisputnam.ml" 63 1919 1971
+type(
+  string
+)
+ident(
+  int_ref v "davisputnam.ml" 63 1919 1934 "davisputnam.ml" 63 1919 1935
+)
+"davisputnam.ml" 63 1919 1957 "davisputnam.ml" 63 1919 1971
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 63 1919 1939 "davisputnam.ml" 63 1919 1972
+type(
+  step_cmd
+)
+"davisputnam.ml" 64 1973 1983 "davisputnam.ml" 64 1973 1987
+type(
+  string option
+)
+"davisputnam.ml" 65 1993 2009 "davisputnam.ml" 65 1993 2027
+type(
+  string -> prefix:string -> string option
+)
+ident(
+  ext_ref Core.Std.String.chop_prefix
+)
+"davisputnam.ml" 65 1993 2028 "davisputnam.ml" 65 1993 2029
+type(
+  string
+)
+ident(
+  int_ref s "davisputnam.ml" 44 1359 1368 "davisputnam.ml" 44 1359 1369
+)
+"davisputnam.ml" 65 1993 2038 "davisputnam.ml" 65 1993 2056
+type(
+  string
+)
+"davisputnam.ml" 65 1993 2009 "davisputnam.ml" 65 1993 2056
+call(
+  stack
+)
+type(
+  string option
+)
+"davisputnam.ml" 66 2062 2079 "davisputnam.ml" 66 2062 2080
+type(
+  string
+)
+ident(
+  def h "davisputnam.ml" 66 2062 2084 "davisputnam.ml" 66 2062 2117
+)
+"davisputnam.ml" 66 2062 2074 "davisputnam.ml" 66 2062 2080
+type(
+  string option
+)
+"davisputnam.ml" 66 2062 2102 "davisputnam.ml" 66 2062 2114
+type(
+  ?drop:(char -> bool) -> string -> string
+)
+ident(
+  ext_ref Core.Std.String.strip
+)
+"davisputnam.ml" 66 2062 2115 "davisputnam.ml" 66 2062 2116
+type(
+  string
+)
+ident(
+  int_ref h "davisputnam.ml" 66 2062 2079 "davisputnam.ml" 66 2062 2080
+)
+"davisputnam.ml" 66 2062 2102 "davisputnam.ml" 66 2062 2116
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 66 2062 2084 "davisputnam.ml" 66 2062 2117
+type(
+  step_cmd
+)
+"davisputnam.ml" 67 2118 2130 "davisputnam.ml" 67 2118 2134
+type(
+  string option
+)
+"davisputnam.ml" 67 2118 2138 "davisputnam.ml" 67 2118 2145
+type(
+  step_cmd
+)
+"davisputnam.ml" 65 1993 2003 "davisputnam.ml" 67 2118 2145
+type(
+  step_cmd
+)
+"davisputnam.ml" 62 1852 1860 "davisputnam.ml" 68 2146 2155
+type(
+  step_cmd
+)
+"davisputnam.ml" 54 1635 1641 "davisputnam.ml" 69 2156 2163
+type(
+  step_cmd
+)
+"davisputnam.ml" 45 1375 1379 "davisputnam.ml" 70 2164 2169
+type(
+  step_cmd
+)
+"davisputnam.ml" 42 1319 1321 "davisputnam.ml" 71 2170 2173
+type(
+  step_cmd
+)
+"davisputnam.ml" 41 1263 1265 "davisputnam.ml" 71 2170 2173
+type(
+  step_cmd
+)
+"davisputnam.ml" 40 1242 1258 "davisputnam.ml" 71 2170 2173
+type(
+  unit -> step_cmd
+)
+"davisputnam.ml" 75 2207 2211 "davisputnam.ml" 75 2207 2233
+type(
+  string -> [> `Most_unsatisfied | `Small_clauses ]
+)
+ident(
+  def parse_heuristic_string "davisputnam.ml" 81 2372 2372 "davisputnam.ml" 1 0 -1
+)
+"davisputnam.ml" 75 2207 2234 "davisputnam.ml" 75 2207 2235
+type(
+  string
+)
+ident(
+  def s "davisputnam.ml" 76 2238 2240 "davisputnam.ml" 79 2335 2370
+)
+"davisputnam.ml" 76 2238 2246 "davisputnam.ml" 76 2238 2247
+type(
+  string
+)
+ident(
+  int_ref s "davisputnam.ml" 75 2207 2234 "davisputnam.ml" 75 2207 2235
+)
+"davisputnam.ml" 77 2253 2257 "davisputnam.ml" 77 2253 2275
+type(
+  string
+)
+"davisputnam.ml" 77 2253 2279 "davisputnam.ml" 77 2253 2296
+type(
+  [> `Most_unsatisfied | `Small_clauses ] as 'a
+)
+"davisputnam.ml" 78 2297 2301 "davisputnam.ml" 78 2297 2316
+type(
+  string
+)
+"davisputnam.ml" 78 2297 2320 "davisputnam.ml" 78 2297 2334
+type(
+  'a
+)
+"davisputnam.ml" 79 2335 2339 "davisputnam.ml" 79 2335 2340
+type(
+  string
+)
+"davisputnam.ml" 79 2335 2344 "davisputnam.ml" 79 2335 2349
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"davisputnam.ml" 79 2335 2350 "davisputnam.ml" 79 2335 2370
+type(
+  exn
+)
+"davisputnam.ml" 79 2335 2344 "davisputnam.ml" 79 2335 2370
+type(
+  'a
+)
+"davisputnam.ml" 76 2238 2240 "davisputnam.ml" 79 2335 2370
+type(
+  'a
+)
+"davisputnam.ml" 75 2207 2234 "davisputnam.ml" 79 2335 2370
+type(
+  string -> 'a
+)
+"davisputnam.ml" 81 2372 2380 "davisputnam.ml" 81 2372 2392
+type(
+  int option -> State.t ref -> unit
+)
+ident(
+  def step_wrapper "davisputnam.ml" 81 2372 2372 "davisputnam.ml" 1 0 -1
+)
+"davisputnam.ml" 81 2372 2393 "davisputnam.ml" 81 2372 2403
+type(
+  int option
+)
+ident(
+  def steps_left "davisputnam.ml" 81 2372 2404 "davisputnam.ml" 93 2685 2688
+)
+"davisputnam.ml" 81 2372 2404 "davisputnam.ml" 81 2372 2413
+type(
+  State.t ref
+)
+ident(
+  def state_ref "davisputnam.ml" 82 2416 2418 "davisputnam.ml" 93 2685 2688
+)
+"davisputnam.ml" 82 2416 2422 "davisputnam.ml" 82 2416 2427
+type(
+  State.t
+)
+ident(
+  def state "davisputnam.ml" 83 2444 2446 "davisputnam.ml" 93 2685 2688
+)
+"davisputnam.ml" 82 2416 2431 "davisputnam.ml" 82 2416 2440
+type(
+  State.t ref
+)
+ident(
+  int_ref state_ref "davisputnam.ml" 81 2372 2404 "davisputnam.ml" 81 2372 2413
+)
+"davisputnam.ml" 82 2416 2430 "davisputnam.ml" 82 2416 2440
+type(
+  State.t
+)
+type(
+  State.t ref -> State.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"davisputnam.ml" 83 2444 2452 "davisputnam.ml" 83 2444 2462
+type(
+  int option
+)
+ident(
+  int_ref steps_left "davisputnam.ml" 81 2372 2393 "davisputnam.ml" 81 2372 2403
+)
+"davisputnam.ml" 84 2468 2472 "davisputnam.ml" 84 2468 2476
+type(
+  int option
+)
+"davisputnam.ml" 84 2468 2480 "davisputnam.ml" 84 2468 2482
+type(
+  unit
+)
+"davisputnam.ml" 85 2483 2492 "davisputnam.ml" 85 2483 2493
+type(
+  int
+)
+ident(
+  def n "davisputnam.ml" 86 2499 2503 "davisputnam.ml" 92 2677 2684
+)
+"davisputnam.ml" 85 2483 2487 "davisputnam.ml" 85 2483 2493
+type(
+  int option
+)
+"davisputnam.ml" 86 2499 2507 "davisputnam.ml" 86 2499 2508
+type(
+  int
+)
+ident(
+  int_ref n "davisputnam.ml" 85 2483 2492 "davisputnam.ml" 85 2483 2493
+)
+"davisputnam.ml" 86 2499 2509 "davisputnam.ml" 86 2499 2510
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"davisputnam.ml" 86 2499 2511 "davisputnam.ml" 86 2499 2512
+type(
+  int
+)
+"davisputnam.ml" 86 2499 2507 "davisputnam.ml" 86 2499 2512
+type(
+  bool
+)
+"davisputnam.ml" 87 2520 2532 "davisputnam.ml" 87 2520 2537
+type(
+  State.t
+)
+ident(
+  int_ref state "davisputnam.ml" 82 2416 2422 "davisputnam.ml" 82 2416 2427
+)
+"davisputnam.ml" 87 2520 2532 "davisputnam.ml" 87 2520 2555
+type(
+  Cnf.t
+)
+"davisputnam.ml" 88 2561 2569 "davisputnam.ml" 88 2561 2571
+type(
+  Cnf.t
+)
+"davisputnam.ml" 88 2561 2575 "davisputnam.ml" 88 2561 2577
+type(
+  unit
+)
+"davisputnam.ml" 89 2578 2586 "davisputnam.ml" 89 2578 2587
+type(
+  Cnf.t
+)
+"davisputnam.ml" 90 2593 2601 "davisputnam.ml" 90 2593 2610
+type(
+  State.t ref
+)
+ident(
+  int_ref state_ref "davisputnam.ml" 81 2372 2404 "davisputnam.ml" 81 2372 2413
+)
+"davisputnam.ml" 90 2593 2614 "davisputnam.ml" 90 2593 2623
+type(
+  State.t -> State.t
+)
+ident(
+  ext_ref Step.step
+)
+"davisputnam.ml" 90 2593 2624 "davisputnam.ml" 90 2593 2629
+type(
+  State.t
+)
+ident(
+  int_ref state "davisputnam.ml" 82 2416 2422 "davisputnam.ml" 82 2416 2427
+)
+"davisputnam.ml" 90 2593 2614 "davisputnam.ml" 90 2593 2629
+call(
+  stack
+)
+type(
+  State.t
+)
+"davisputnam.ml" 90 2593 2601 "davisputnam.ml" 90 2593 2629
+type(
+  unit
+)
+type(
+  State.t ref -> State.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"davisputnam.ml" 91 2631 2639 "davisputnam.ml" 91 2631 2651
+type(
+  int option -> State.t ref -> unit
+)
+ident(
+  int_ref step_wrapper "davisputnam.ml" 81 2372 2380 "davisputnam.ml" 81 2372 2392
+)
+"davisputnam.ml" 91 2631 2659 "davisputnam.ml" 91 2631 2660
+type(
+  int
+)
+ident(
+  int_ref n "davisputnam.ml" 85 2483 2492 "davisputnam.ml" 85 2483 2493
+)
+"davisputnam.ml" 91 2631 2661 "davisputnam.ml" 91 2631 2662
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"davisputnam.ml" 91 2631 2663 "davisputnam.ml" 91 2631 2664
+type(
+  int
+)
+"davisputnam.ml" 91 2631 2659 "davisputnam.ml" 91 2631 2664
+type(
+  int
+)
+"davisputnam.ml" 91 2631 2653 "davisputnam.ml" 91 2631 2665
+type(
+  int option
+)
+"davisputnam.ml" 91 2631 2667 "davisputnam.ml" 91 2631 2676
+type(
+  State.t ref
+)
+ident(
+  int_ref state_ref "davisputnam.ml" 81 2372 2404 "davisputnam.ml" 81 2372 2413
+)
+"davisputnam.ml" 91 2631 2639 "davisputnam.ml" 91 2631 2676
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 90 2593 2601 "davisputnam.ml" 91 2631 2676
+type(
+  unit
+)
+"davisputnam.ml" 87 2520 2526 "davisputnam.ml" 92 2677 2684
+type(
+  unit
+)
+"davisputnam.ml" 86 2499 2503 "davisputnam.ml" 92 2677 2684
+type(
+  unit
+)
+type(
+  unit
+)
+"davisputnam.ml" 83 2444 2446 "davisputnam.ml" 93 2685 2688
+type(
+  unit
+)
+"davisputnam.ml" 82 2416 2418 "davisputnam.ml" 93 2685 2688
+type(
+  unit
+)
+"davisputnam.ml" 81 2372 2404 "davisputnam.ml" 93 2685 2688
+type(
+  State.t ref -> unit
+)
+"davisputnam.ml" 81 2372 2393 "davisputnam.ml" 93 2685 2688
+type(
+  int option -> State.t ref -> unit
+)
+"davisputnam.ml" 95 2691 2695 "davisputnam.ml" 95 2691 2704
+type(
+  Cnf.t -> bool -> State.heuristic -> unit
+)
+ident(
+  def step_mode "davisputnam.ml" 143 4700 4700 "davisputnam.ml" 1 0 -1
+)
+"davisputnam.ml" 95 2691 2705 "davisputnam.ml" 95 2691 2708
+type(
+  Cnf.t
+)
+ident(
+  def cnf "davisputnam.ml" 95 2691 2709 "davisputnam.ml" 140 4685 4697
+)
+"davisputnam.ml" 95 2691 2709 "davisputnam.ml" 95 2691 2714
+type(
+  bool
+)
+ident(
+  def latex "davisputnam.ml" 95 2691 2715 "davisputnam.ml" 140 4685 4697
+)
+"davisputnam.ml" 95 2691 2715 "davisputnam.ml" 95 2691 2724
+type(
+  State.heuristic
+)
+ident(
+  def heuristic "davisputnam.ml" 96 2727 2729 "davisputnam.ml" 140 4685 4697
+)
+"davisputnam.ml" 96 2727 2733 "davisputnam.ml" 96 2727 2738
+type(
+  State.t ref
+)
+ident(
+  def state "davisputnam.ml" 97 2775 2777 "davisputnam.ml" 140 4685 4697
+)
+"davisputnam.ml" 96 2727 2741 "davisputnam.ml" 96 2727 2744
+type(
+  State.t -> State.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"davisputnam.ml" 96 2727 2746 "davisputnam.ml" 96 2727 2755
+type(
+  State.heuristic -> Cnf.t -> State.t
+)
+ident(
+  ext_ref Step.init
+)
+"davisputnam.ml" 96 2727 2756 "davisputnam.ml" 96 2727 2765
+type(
+  State.heuristic
+)
+ident(
+  int_ref heuristic "davisputnam.ml" 95 2691 2715 "davisputnam.ml" 95 2691 2724
+)
+"davisputnam.ml" 96 2727 2766 "davisputnam.ml" 96 2727 2769
+type(
+  Cnf.t
+)
+ident(
+  int_ref cnf "davisputnam.ml" 95 2691 2705 "davisputnam.ml" 95 2691 2708
+)
+"davisputnam.ml" 96 2727 2746 "davisputnam.ml" 96 2727 2769
+call(
+  stack
+)
+type(
+  State.t
+)
+"davisputnam.ml" 96 2727 2741 "davisputnam.ml" 96 2727 2770
+type(
+  State.t ref
+)
+"davisputnam.ml" 97 2775 2781 "davisputnam.ml" 97 2775 2784
+type(
+  unit -> unit
+)
+ident(
+  def rep "davisputnam.ml" 132 4419 4421 "davisputnam.ml" 140 4685 4697
+)
+"davisputnam.ml" 97 2775 2785 "davisputnam.ml" 97 2775 2787
+type(
+  unit
+)
+"davisputnam.ml" 98 2790 2798 "davisputnam.ml" 98 2790 2801
+type(
+  step_cmd
+)
+ident(
+  def cmd "davisputnam.ml" 99 2822 2826 "davisputnam.ml" 130 4365 4413
+)
+"davisputnam.ml" 98 2790 2804 "davisputnam.ml" 98 2790 2815
+type(
+  unit -> step_cmd
+)
+ident(
+  int_ref get_command "davisputnam.ml" 40 1242 1246 "davisputnam.ml" 40 1242 1257
+)
+"davisputnam.ml" 98 2790 2816 "davisputnam.ml" 98 2790 2818
+type(
+  unit
+)
+"davisputnam.ml" 98 2790 2804 "davisputnam.ml" 98 2790 2818
+call(
+  stack
+)
+type(
+  step_cmd
+)
+"davisputnam.ml" 99 2822 2832 "davisputnam.ml" 99 2822 2835
+type(
+  step_cmd
+)
+ident(
+  int_ref cmd "davisputnam.ml" 98 2790 2798 "davisputnam.ml" 98 2790 2801
+)
+"davisputnam.ml" 100 2841 2855 "davisputnam.ml" 100 2841 2856
+type(
+  int
+)
+ident(
+  def n "davisputnam.ml" 100 2841 2860 "davisputnam.ml" 100 2841 2887
+)
+"davisputnam.ml" 100 2841 2847 "davisputnam.ml" 100 2841 2856
+type(
+  step_cmd
+)
+"davisputnam.ml" 100 2841 2860 "davisputnam.ml" 100 2841 2872
+type(
+  int option -> State.t ref -> unit
+)
+ident(
+  int_ref step_wrapper "davisputnam.ml" 81 2372 2380 "davisputnam.ml" 81 2372 2392
+)
+"davisputnam.ml" 100 2841 2879 "davisputnam.ml" 100 2841 2880
+type(
+  int
+)
+ident(
+  int_ref n "davisputnam.ml" 100 2841 2855 "davisputnam.ml" 100 2841 2856
+)
+"davisputnam.ml" 100 2841 2874 "davisputnam.ml" 100 2841 2880
+type(
+  int option
+)
+"davisputnam.ml" 100 2841 2882 "davisputnam.ml" 100 2841 2887
+type(
+  State.t ref
+)
+ident(
+  int_ref state "davisputnam.ml" 96 2727 2733 "davisputnam.ml" 96 2727 2738
+)
+"davisputnam.ml" 100 2841 2860 "davisputnam.ml" 100 2841 2887
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 101 2888 2894 "davisputnam.ml" 101 2888 2907
+type(
+  step_cmd
+)
+"davisputnam.ml" 102 2911 2921 "davisputnam.ml" 102 2911 2933
+type(
+  string
+)
+ident(
+  def stack_string "davisputnam.ml" 103 3008 3016 "davisputnam.ml" 103 3008 3051
+)
+"davisputnam.ml" 102 2911 2936 "davisputnam.ml" 102 2911 2950
+type(
+  f:(Asgn_trace.t *
+     (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list -> string) ->
+  (Asgn_trace.t * (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list)
+  list -> string
+)
+ident(
+  ext_ref Core.Std.List.to_string
+)
+"davisputnam.ml" 102 2911 2955 "davisputnam.ml" 102 2911 2981
+type(
+  Asgn_trace.t * (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list ->
+  string
+)
+ident(
+  ext_ref Types.State.stack_elem_to_string
+)
+"davisputnam.ml" 102 2911 2986 "davisputnam.ml" 102 2911 2991
+type(
+  State.t ref
+)
+ident(
+  int_ref state "davisputnam.ml" 96 2727 2733 "davisputnam.ml" 96 2727 2738
+)
+"davisputnam.ml" 102 2911 2983 "davisputnam.ml" 102 2911 2991
+type(
+  State.t
+)
+"davisputnam.ml" 102 2911 2983 "davisputnam.ml" 102 2911 3004
+type(
+  (Asgn_trace.t * (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list)
+  list
+)
+"davisputnam.ml" 102 2911 2936 "davisputnam.ml" 102 2911 3004
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 103 3008 3016 "davisputnam.ml" 103 3008 3029
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"davisputnam.ml" 103 3008 3030 "davisputnam.ml" 103 3008 3038
+type(
+  (string -> unit, out_channel, unit) format
+)
+"davisputnam.ml" 103 3008 3039 "davisputnam.ml" 103 3008 3051
+type(
+  string
+)
+ident(
+  int_ref stack_string "davisputnam.ml" 102 2911 2921 "davisputnam.ml" 102 2911 2933
+)
+"davisputnam.ml" 103 3008 3016 "davisputnam.ml" 103 3008 3051
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 102 2911 2917 "davisputnam.ml" 103 3008 3051
+type(
+  unit
+)
+"davisputnam.ml" 104 3052 3075 "davisputnam.ml" 104 3052 3076
+type(
+  string
+)
+ident(
+  def s "davisputnam.ml" 105 3080 3086 "davisputnam.ml" 110 3388 3395
+)
+"davisputnam.ml" 104 3052 3058 "davisputnam.ml" 104 3052 3076
+type(
+  step_cmd
+)
+"davisputnam.ml" 105 3080 3090 "davisputnam.ml" 105 3080 3095
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  def stack "davisputnam.ml" 107 3131 3139 "davisputnam.ml" 109 3305 3387
+)
+"davisputnam.ml" 105 3080 3101 "davisputnam.ml" 105 3080 3106
+type(
+  State.t ref
+)
+ident(
+  int_ref state "davisputnam.ml" 96 2727 2733 "davisputnam.ml" 96 2727 2738
+)
+"davisputnam.ml" 105 3080 3098 "davisputnam.ml" 105 3080 3106
+type(
+  State.t
+)
+"davisputnam.ml" 105 3080 3098 "davisputnam.ml" 105 3080 3119
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"davisputnam.ml" 107 3131 3145 "davisputnam.ml" 107 3131 3153
+type(
+  (string, bool, String.comparator_witness) Map.t -> string -> bool option
+)
+ident(
+  ext_ref Core.Std.Map.find
+)
+"davisputnam.ml" 107 3131 3155 "davisputnam.ml" 107 3131 3169
+type(
+  (Asgn_trace.t * Cnf.t) list -> bool String.Map.t
+)
+ident(
+  int_ref get_assignment "davisputnam.ml" 31 824 828 "davisputnam.ml" 31 824 842
+)
+"davisputnam.ml" 107 3131 3170 "davisputnam.ml" 107 3131 3175
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+ident(
+  int_ref stack "davisputnam.ml" 105 3080 3090 "davisputnam.ml" 105 3080 3095
+)
+"davisputnam.ml" 107 3131 3155 "davisputnam.ml" 107 3131 3175
+call(
+  stack
+)
+type(
+  bool String.Map.t
+)
+"davisputnam.ml" 107 3131 3177 "davisputnam.ml" 107 3131 3178
+type(
+  string
+)
+ident(
+  int_ref s "davisputnam.ml" 104 3052 3075 "davisputnam.ml" 104 3052 3076
+)
+"davisputnam.ml" 107 3131 3145 "davisputnam.ml" 107 3131 3178
+call(
+  stack
+)
+type(
+  bool option
+)
+"davisputnam.ml" 108 3184 3194 "davisputnam.ml" 108 3184 3198
+type(
+  bool option
+)
+"davisputnam.ml" 108 3184 3202 "davisputnam.ml" 108 3184 3215
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"davisputnam.ml" 108 3184 3216 "davisputnam.ml" 108 3184 3302
+type(
+  (string -> unit, out_channel, unit) format
+)
+"davisputnam.ml" 108 3184 3303 "davisputnam.ml" 108 3184 3304
+type(
+  string
+)
+ident(
+  int_ref s "davisputnam.ml" 104 3052 3075 "davisputnam.ml" 104 3052 3076
+)
+"davisputnam.ml" 108 3184 3202 "davisputnam.ml" 108 3184 3304
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 109 3305 3320 "davisputnam.ml" 109 3305 3321
+type(
+  bool
+)
+ident(
+  def b "davisputnam.ml" 109 3305 3325 "davisputnam.ml" 109 3305 3387
+)
+"davisputnam.ml" 109 3305 3315 "davisputnam.ml" 109 3305 3321
+type(
+  bool option
+)
+"davisputnam.ml" 109 3305 3325 "davisputnam.ml" 109 3305 3338
+type(
+  (string -> bool -> unit, out_channel, unit) format ->
+  string -> bool -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"davisputnam.ml" 109 3305 3339 "davisputnam.ml" 109 3305 3383
+type(
+  (string -> bool -> unit, out_channel, unit) format
+)
+"davisputnam.ml" 109 3305 3384 "davisputnam.ml" 109 3305 3385
+type(
+  string
+)
+ident(
+  int_ref s "davisputnam.ml" 104 3052 3075 "davisputnam.ml" 104 3052 3076
+)
+"davisputnam.ml" 109 3305 3386 "davisputnam.ml" 109 3305 3387
+type(
+  bool
+)
+ident(
+  int_ref b "davisputnam.ml" 109 3305 3320 "davisputnam.ml" 109 3305 3321
+)
+"davisputnam.ml" 109 3305 3325 "davisputnam.ml" 109 3305 3387
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 107 3131 3139 "davisputnam.ml" 109 3305 3387
+type(
+  unit
+)
+"davisputnam.ml" 105 3080 3086 "davisputnam.ml" 110 3388 3395
+type(
+  unit
+)
+"davisputnam.ml" 111 3396 3402 "davisputnam.ml" 111 3396 3413
+type(
+  step_cmd
+)
+"davisputnam.ml" 112 3417 3428 "davisputnam.ml" 112 3417 3433
+type(
+  bool
+)
+ident(
+  int_ref latex "davisputnam.ml" 95 2691 2709 "davisputnam.ml" 95 2691 2714
+)
+"davisputnam.ml" 113 3439 3449 "davisputnam.ml" 113 3439 3462
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"davisputnam.ml" 113 3439 3463 "davisputnam.ml" 113 3439 3471
+type(
+  (string -> unit, out_channel, unit) format
+)
+"davisputnam.ml" 113 3439 3473 "davisputnam.ml" 113 3439 3481
+type(
+  string -> string
+)
+ident(
+  int_ref to_latex "davisputnam.ml" 29 804 808 "davisputnam.ml" 29 804 816
+)
+"davisputnam.ml" 113 3439 3483 "davisputnam.ml" 113 3439 3496
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list -> string
+)
+ident(
+  ext_ref Types.Cnf.to_string
+)
+"davisputnam.ml" 113 3439 3501 "davisputnam.ml" 113 3439 3506
+type(
+  State.t ref
+)
+ident(
+  int_ref state "davisputnam.ml" 96 2727 2733 "davisputnam.ml" 96 2727 2738
+)
+"davisputnam.ml" 113 3439 3498 "davisputnam.ml" 113 3439 3506
+type(
+  State.t
+)
+"davisputnam.ml" 113 3439 3498 "davisputnam.ml" 113 3439 3525
+type(
+  Cnf.t
+)
+"davisputnam.ml" 113 3439 3483 "davisputnam.ml" 113 3439 3526
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 113 3439 3473 "davisputnam.ml" 113 3439 3527
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 113 3439 3449 "davisputnam.ml" 113 3439 3528
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 115 3542 3552 "davisputnam.ml" 115 3542 3565
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"davisputnam.ml" 115 3542 3566 "davisputnam.ml" 115 3542 3574
+type(
+  (string -> unit, out_channel, unit) format
+)
+"davisputnam.ml" 115 3542 3576 "davisputnam.ml" 115 3542 3589
+type(
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list -> string
+)
+ident(
+  ext_ref Types.Cnf.to_string
+)
+"davisputnam.ml" 115 3542 3594 "davisputnam.ml" 115 3542 3599
+type(
+  State.t ref
+)
+ident(
+  int_ref state "davisputnam.ml" 96 2727 2733 "davisputnam.ml" 96 2727 2738
+)
+"davisputnam.ml" 115 3542 3591 "davisputnam.ml" 115 3542 3599
+type(
+  State.t
+)
+"davisputnam.ml" 115 3542 3591 "davisputnam.ml" 115 3542 3618
+type(
+  Cnf.t
+)
+"davisputnam.ml" 115 3542 3576 "davisputnam.ml" 115 3542 3619
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 115 3542 3552 "davisputnam.ml" 115 3542 3620
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 112 3417 3425 "davisputnam.ml" 115 3542 3620
+type(
+  unit
+)
+"davisputnam.ml" 116 3621 3627 "davisputnam.ml" 116 3621 3645
+type(
+  step_cmd
+)
+"davisputnam.ml" 117 3649 3659 "davisputnam.ml" 117 3649 3669
+type(
+  bool String.Map.t
+)
+ident(
+  def assignment "davisputnam.ml" 118 3715 3721 "davisputnam.ml" 119 3840 3927
+)
+"davisputnam.ml" 117 3649 3672 "davisputnam.ml" 117 3649 3686
+type(
+  (Asgn_trace.t * Cnf.t) list -> bool String.Map.t
+)
+ident(
+  int_ref get_assignment "davisputnam.ml" 31 824 828 "davisputnam.ml" 31 824 842
+)
+"davisputnam.ml" 117 3649 3691 "davisputnam.ml" 117 3649 3696
+type(
+  State.t ref
+)
+ident(
+  int_ref state "davisputnam.ml" 96 2727 2733 "davisputnam.ml" 96 2727 2738
+)
+"davisputnam.ml" 117 3649 3688 "davisputnam.ml" 117 3649 3696
+type(
+  State.t
+)
+"davisputnam.ml" 117 3649 3688 "davisputnam.ml" 117 3649 3709
+type(
+  (Asgn_trace.t * Cnf.t) list
+)
+"davisputnam.ml" 117 3649 3672 "davisputnam.ml" 117 3649 3710
+call(
+  stack
+)
+type(
+  bool String.Map.t
+)
+"davisputnam.ml" 118 3715 3725 "davisputnam.ml" 118 3715 3728
+type(
+  string
+)
+ident(
+  def str "davisputnam.ml" 119 3840 3846 "davisputnam.ml" 119 3840 3927
+)
+"davisputnam.ml" 118 3715 3732 "davisputnam.ml" 118 3715 3740
+type(
+  (string, bool, String.comparator_witness) Map.t ->
+  init:string -> f:(key:string -> data:bool -> string -> string) -> string
+)
+ident(
+  ext_ref Core.Std.Map.fold
+)
+"davisputnam.ml" 118 3715 3741 "davisputnam.ml" 118 3715 3751
+type(
+  bool String.Map.t
+)
+ident(
+  int_ref assignment "davisputnam.ml" 117 3649 3659 "davisputnam.ml" 117 3649 3669
+)
+"davisputnam.ml" 118 3715 3759 "davisputnam.ml" 118 3715 3762
+type(
+  string
+)
+"davisputnam.ml" 118 3715 3783 "davisputnam.ml" 118 3715 3784
+type(
+  string
+)
+ident(
+  def s "davisputnam.ml" 118 3715 3788 "davisputnam.ml" 118 3715 3828
+)
+"davisputnam.ml" 118 3715 3788 "davisputnam.ml" 118 3715 3802
+type(
+  (string -> string -> bool -> string, unit, string) format ->
+  string -> string -> bool -> string
+)
+ident(
+  ext_ref Core.Std.Printf.sprintf
+)
+"davisputnam.ml" 118 3715 3803 "davisputnam.ml" 118 3715 3817
+type(
+  (string -> string -> bool -> string, unit, string) format
+)
+"davisputnam.ml" 118 3715 3818 "davisputnam.ml" 118 3715 3819
+type(
+  string
+)
+ident(
+  int_ref s "davisputnam.ml" 118 3715 3783 "davisputnam.ml" 118 3715 3784
+)
+"davisputnam.ml" 118 3715 3820 "davisputnam.ml" 118 3715 3823
+type(
+  string
+)
+ident(
+  int_ref key "davisputnam.ml" 118 3715 3772 "davisputnam.ml" 118 3715 3828
+)
+"davisputnam.ml" 118 3715 3824 "davisputnam.ml" 118 3715 3828
+type(
+  bool
+)
+ident(
+  int_ref data "davisputnam.ml" 118 3715 3777 "davisputnam.ml" 118 3715 3828
+)
+"davisputnam.ml" 118 3715 3788 "davisputnam.ml" 118 3715 3828
+call(
+  tail
+)
+type(
+  string
+)
+"davisputnam.ml" 118 3715 3783 "davisputnam.ml" 118 3715 3828
+type(
+  string -> string
+)
+"davisputnam.ml" 118 3715 3777 "davisputnam.ml" 118 3715 3828
+type(
+  data:bool -> string -> string
+)
+type(
+  bool
+)
+ident(
+  def data "davisputnam.ml" 118 3715 3783 "davisputnam.ml" 118 3715 3828
+)
+"davisputnam.ml" 118 3715 3772 "davisputnam.ml" 118 3715 3828
+type(
+  key:string -> data:bool -> string -> string
+)
+type(
+  string
+)
+ident(
+  def key "davisputnam.ml" 118 3715 3777 "davisputnam.ml" 118 3715 3828
+)
+"davisputnam.ml" 118 3715 3732 "davisputnam.ml" 118 3715 3829
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 118 3715 3831 "davisputnam.ml" 118 3715 3832
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"davisputnam.ml" 118 3715 3833 "davisputnam.ml" 118 3715 3836
+type(
+  string
+)
+"davisputnam.ml" 118 3715 3731 "davisputnam.ml" 118 3715 3836
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 119 3840 3849 "davisputnam.ml" 119 3840 3854
+type(
+  bool
+)
+ident(
+  int_ref latex "davisputnam.ml" 95 2691 2709 "davisputnam.ml" 95 2691 2714
+)
+"davisputnam.ml" 119 3840 3860 "davisputnam.ml" 119 3840 3873
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"davisputnam.ml" 119 3840 3874 "davisputnam.ml" 119 3840 3880
+type(
+  (string -> unit, out_channel, unit) format
+)
+"davisputnam.ml" 119 3840 3882 "davisputnam.ml" 119 3840 3890
+type(
+  string -> string
+)
+ident(
+  int_ref to_latex "davisputnam.ml" 29 804 808 "davisputnam.ml" 29 804 816
+)
+"davisputnam.ml" 119 3840 3891 "davisputnam.ml" 119 3840 3894
+type(
+  string
+)
+ident(
+  int_ref str "davisputnam.ml" 118 3715 3725 "davisputnam.ml" 118 3715 3728
+)
+"davisputnam.ml" 119 3840 3882 "davisputnam.ml" 119 3840 3894
+call(
+  stack
+)
+type(
+  string
+)
+"davisputnam.ml" 119 3840 3860 "davisputnam.ml" 119 3840 3895
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 119 3840 3901 "davisputnam.ml" 119 3840 3914
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"davisputnam.ml" 119 3840 3915 "davisputnam.ml" 119 3840 3923
+type(
+  (string -> unit, out_channel, unit) format
+)
+"davisputnam.ml" 119 3840 3924 "davisputnam.ml" 119 3840 3927
+type(
+  string
+)
+ident(
+  int_ref str "davisputnam.ml" 118 3715 3725 "davisputnam.ml" 118 3715 3728
+)
+"davisputnam.ml" 119 3840 3901 "davisputnam.ml" 119 3840 3927
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 119 3840 3846 "davisputnam.ml" 119 3840 3927
+type(
+  unit
+)
+"davisputnam.ml" 118 3715 3721 "davisputnam.ml" 119 3840 3927
+type(
+  unit
+)
+"davisputnam.ml" 117 3649 3655 "davisputnam.ml" 119 3840 3927
+type(
+  unit
+)
+"davisputnam.ml" 120 3928 3951 "davisputnam.ml" 120 3928 3952
+type(
+  string
+)
+ident(
+  def s "davisputnam.ml" 121 3958 3966 "davisputnam.ml" 125 4107 4184
+)
+"davisputnam.ml" 120 3928 3934 "davisputnam.ml" 120 3928 3952
+type(
+  step_cmd
+)
+"davisputnam.ml" 122 3971 3985 "davisputnam.ml" 122 3971 4000
+type(
+  State.t
+)
+ident(
+  def immutable_state "davisputnam.ml" 123 4013 4023 "davisputnam.ml" 123 4013 4093
+)
+"davisputnam.ml" 122 3971 4004 "davisputnam.ml" 122 3971 4009
+type(
+  State.t ref
+)
+ident(
+  int_ref state "davisputnam.ml" 96 2727 2733 "davisputnam.ml" 96 2727 2738
+)
+"davisputnam.ml" 122 3971 4003 "davisputnam.ml" 122 3971 4009
+type(
+  State.t
+)
+type(
+  State.t ref -> State.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"davisputnam.ml" 123 4013 4023 "davisputnam.ml" 123 4013 4028
+type(
+  State.t ref
+)
+ident(
+  int_ref state "davisputnam.ml" 96 2727 2733 "davisputnam.ml" 96 2727 2738
+)
+"davisputnam.ml" 123 4013 4033 "davisputnam.ml" 123 4013 4048
+type(
+  State.t
+)
+ident(
+  int_ref immutable_state "davisputnam.ml" 122 3971 3985 "davisputnam.ml" 122 3971 4000
+)
+"davisputnam.ml" 123 4013 4067 "davisputnam.ml" 123 4013 4089
+type(
+  string -> State.heuristic
+)
+ident(
+  int_ref parse_heuristic_string "davisputnam.ml" 75 2207 2211 "davisputnam.ml" 75 2207 2233
+)
+"davisputnam.ml" 123 4013 4090 "davisputnam.ml" 123 4013 4091
+type(
+  string
+)
+ident(
+  int_ref s "davisputnam.ml" 120 3928 3951 "davisputnam.ml" 120 3928 3952
+)
+"davisputnam.ml" 123 4013 4067 "davisputnam.ml" 123 4013 4091
+call(
+  stack
+)
+type(
+  State.heuristic
+)
+"davisputnam.ml" 123 4013 4032 "davisputnam.ml" 123 4013 4093
+type(
+  State.t
+)
+"davisputnam.ml" 123 4013 4023 "davisputnam.ml" 123 4013 4093
+type(
+  unit
+)
+type(
+  State.t ref -> State.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"davisputnam.ml" 122 3971 3981 "davisputnam.ml" 123 4013 4093
+type(
+  unit
+)
+"davisputnam.ml" 125 4107 4117 "davisputnam.ml" 125 4107 4137
+type(
+  exn
+)
+"davisputnam.ml" 125 4107 4141 "davisputnam.ml" 125 4107 4154
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"davisputnam.ml" 125 4107 4155 "davisputnam.ml" 125 4107 4182
+type(
+  (string -> unit, out_channel, unit) format
+)
+"davisputnam.ml" 125 4107 4183 "davisputnam.ml" 125 4107 4184
+type(
+  string
+)
+ident(
+  int_ref s "davisputnam.ml" 120 3928 3951 "davisputnam.ml" 120 3928 3952
+)
+"davisputnam.ml" 125 4107 4141 "davisputnam.ml" 125 4107 4184
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 121 3958 3966 "davisputnam.ml" 125 4107 4184
+type(
+  unit
+)
+"davisputnam.ml" 127 4195 4201 "davisputnam.ml" 127 4195 4206
+type(
+  step_cmd
+)
+"davisputnam.ml" 127 4195 4210 "davisputnam.ml" 127 4195 4222
+type(
+  int option -> State.t ref -> unit
+)
+ident(
+  int_ref step_wrapper "davisputnam.ml" 81 2372 2380 "davisputnam.ml" 81 2372 2392
+)
+"davisputnam.ml" 127 4195 4223 "davisputnam.ml" 127 4195 4227
+type(
+  int option
+)
+"davisputnam.ml" 127 4195 4228 "davisputnam.ml" 127 4195 4233
+type(
+  State.t ref
+)
+ident(
+  int_ref state "davisputnam.ml" 96 2727 2733 "davisputnam.ml" 96 2727 2738
+)
+"davisputnam.ml" 127 4195 4210 "davisputnam.ml" 127 4195 4233
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 128 4234 4240 "davisputnam.ml" 128 4234 4244
+type(
+  step_cmd
+)
+"davisputnam.ml" 128 4234 4248 "davisputnam.ml" 128 4234 4252
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"davisputnam.ml" 128 4234 4253 "davisputnam.ml" 128 4234 4254
+type(
+  int
+)
+"davisputnam.ml" 128 4234 4248 "davisputnam.ml" 128 4234 4254
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 129 4255 4261 "davisputnam.ml" 129 4255 4268
+type(
+  step_cmd
+)
+"davisputnam.ml" 129 4255 4272 "davisputnam.ml" 129 4255 4285
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"davisputnam.ml" 129 4255 4286 "davisputnam.ml" 129 4255 4364
+type(
+  (unit, out_channel, unit) format
+)
+"davisputnam.ml" 129 4255 4272 "davisputnam.ml" 129 4255 4364
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 130 4365 4371 "davisputnam.ml" 130 4365 4375
+type(
+  step_cmd
+)
+"davisputnam.ml" 130 4365 4379 "davisputnam.ml" 130 4365 4392
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"davisputnam.ml" 130 4365 4393 "davisputnam.ml" 130 4365 4401
+type(
+  (string -> unit, out_channel, unit) format
+)
+"davisputnam.ml" 130 4365 4402 "davisputnam.ml" 130 4365 4413
+type(
+  string
+)
+ident(
+  int_ref help_string "davisputnam.ml" 16 208 212 "davisputnam.ml" 16 208 223
+)
+"davisputnam.ml" 130 4365 4379 "davisputnam.ml" 130 4365 4413
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 99 2822 2826 "davisputnam.ml" 130 4365 4413
+type(
+  unit
+)
+"davisputnam.ml" 98 2790 2794 "davisputnam.ml" 130 4365 4413
+type(
+  unit
+)
+"davisputnam.ml" 97 2775 2785 "davisputnam.ml" 130 4365 4413
+type(
+  unit -> unit
+)
+"davisputnam.ml" 132 4419 4429 "davisputnam.ml" 132 4419 4433
+type(
+  unit -> unit
+)
+ident(
+  def repl "davisputnam.ml" 132 4419 4421 "davisputnam.ml" 140 4685 4697
+)
+"davisputnam.ml" 132 4419 4434 "davisputnam.ml" 132 4419 4436
+type(
+  unit
+)
+"davisputnam.ml" 133 4439 4447 "davisputnam.ml" 133 4439 4462
+type(
+  State.t
+)
+ident(
+  def immutable_state "davisputnam.ml" 134 4475 4479 "davisputnam.ml" 139 4620 4684
+)
+"davisputnam.ml" 133 4439 4466 "davisputnam.ml" 133 4439 4471
+type(
+  State.t ref
+)
+ident(
+  int_ref state "davisputnam.ml" 96 2727 2733 "davisputnam.ml" 96 2727 2738
+)
+"davisputnam.ml" 133 4439 4465 "davisputnam.ml" 133 4439 4471
+type(
+  State.t
+)
+type(
+  State.t ref -> State.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"davisputnam.ml" 135 4484 4496 "davisputnam.ml" 135 4484 4511
+type(
+  State.t
+)
+ident(
+  int_ref immutable_state "davisputnam.ml" 133 4439 4447 "davisputnam.ml" 133 4439 4462
+)
+"davisputnam.ml" 135 4484 4496 "davisputnam.ml" 135 4484 4529
+type(
+  Cnf.t
+)
+"davisputnam.ml" 136 4535 4543 "davisputnam.ml" 136 4535 4545
+type(
+  Cnf.t
+)
+"davisputnam.ml" 136 4535 4549 "davisputnam.ml" 136 4535 4562
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"davisputnam.ml" 136 4535 4563 "davisputnam.ml" 136 4535 4581
+type(
+  (unit, out_channel, unit) format
+)
+"davisputnam.ml" 136 4535 4549 "davisputnam.ml" 136 4535 4581
+call(
+  stack
+)
+type(
+  unit
+)
+"davisputnam.ml" 137 4582 4590 "davisputnam.ml" 137 4582 4591
+type(
+  Cnf.t
+)
+"davisputnam.ml" 137 4582 4595 "davisputnam.ml" 137 4582 4598
+type(
+  unit -> unit
+)
+ident(
+  int_ref rep "davisputnam.ml" 97 2775 2781 "davisputnam.ml" 97 2775 2784
+)
+"davisputnam.ml" 137 4582 4599 "davisputnam.ml" 137 4582 4601
+type(
+  unit
+)
+"davisputnam.ml" 137 4582 4595 "davisputnam.ml" 137 4582 4601
+call(
+  stack
+)
+type(
+  unit
+)
+"davisputnam.ml" 137 4582 4603 "davisputnam.ml" 137 4582 4607
+type(
+  unit -> unit
+)
+ident(
+  int_ref repl "davisputnam.ml" 132 4419 4429 "davisputnam.ml" 132 4419 4433
+)
+"davisputnam.ml" 137 4582 4608 "davisputnam.ml" 137 4582 4610
+type(
+  unit
+)
+"davisputnam.ml" 137 4582 4603 "davisputnam.ml" 137 4582 4610
+call(
+  stack
+)
+type(
+  unit
+)
+"davisputnam.ml" 137 4582 4595 "davisputnam.ml" 137 4582 4610
+type(
+  unit
+)
+"davisputnam.ml" 135 4484 4490 "davisputnam.ml" 137 4582 4610
+type(
+  unit
+)
+"davisputnam.ml" 139 4620 4645 "davisputnam.ml" 139 4620 4646
+type(
+  Cnf.t
+)
+"davisputnam.ml" 139 4620 4626 "davisputnam.ml" 139 4620 4646
+type(
+  exn
+)
+"davisputnam.ml" 139 4620 4650 "davisputnam.ml" 139 4620 4663
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"davisputnam.ml" 139 4620 4664 "davisputnam.ml" 139 4620 4684
+type(
+  (unit, out_channel, unit) format
+)
+"davisputnam.ml" 139 4620 4650 "davisputnam.ml" 139 4620 4684
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 134 4475 4479 "davisputnam.ml" 139 4620 4684
+type(
+  unit
+)
+"davisputnam.ml" 133 4439 4443 "davisputnam.ml" 139 4620 4684
+type(
+  unit
+)
+"davisputnam.ml" 132 4419 4434 "davisputnam.ml" 139 4620 4684
+type(
+  unit -> unit
+)
+"davisputnam.ml" 140 4685 4690 "davisputnam.ml" 140 4685 4694
+type(
+  unit -> unit
+)
+ident(
+  int_ref repl "davisputnam.ml" 132 4419 4429 "davisputnam.ml" 132 4419 4433
+)
+"davisputnam.ml" 140 4685 4695 "davisputnam.ml" 140 4685 4697
+type(
+  unit
+)
+"davisputnam.ml" 140 4685 4690 "davisputnam.ml" 140 4685 4697
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 132 4419 4421 "davisputnam.ml" 140 4685 4697
+type(
+  unit
+)
+"davisputnam.ml" 97 2775 2777 "davisputnam.ml" 140 4685 4697
+type(
+  unit
+)
+"davisputnam.ml" 96 2727 2729 "davisputnam.ml" 140 4685 4697
+type(
+  unit
+)
+"davisputnam.ml" 95 2691 2715 "davisputnam.ml" 140 4685 4697
+type(
+  State.heuristic -> unit
+)
+"davisputnam.ml" 95 2691 2709 "davisputnam.ml" 140 4685 4697
+type(
+  bool -> State.heuristic -> unit
+)
+"davisputnam.ml" 95 2691 2705 "davisputnam.ml" 140 4685 4697
+type(
+  Cnf.t -> bool -> State.heuristic -> unit
+)
+"davisputnam.ml" 143 4700 4704 "davisputnam.ml" 143 4700 4716
+type(
+  bool -> bool -> bool -> bool -> string -> string -> unit -> unit
+)
+ident(
+  def process_file "davisputnam.ml" 159 5332 5332 "davisputnam.ml" 1 0 -1
+)
+"davisputnam.ml" 143 4700 4717 "davisputnam.ml" 143 4700 4722
+type(
+  bool
+)
+ident(
+  def quiet "davisputnam.ml" 143 4700 4723 "davisputnam.ml" 156 5324 5327
+)
+"davisputnam.ml" 143 4700 4723 "davisputnam.ml" 143 4700 4735
+type(
+  bool
+)
+ident(
+  def step_through "davisputnam.ml" 143 4700 4736 "davisputnam.ml" 156 5324 5327
+)
+"davisputnam.ml" 143 4700 4736 "davisputnam.ml" 143 4700 4744
+type(
+  bool
+)
+ident(
+  def cnf_only "davisputnam.ml" 143 4700 4745 "davisputnam.ml" 156 5324 5327
+)
+"davisputnam.ml" 143 4700 4745 "davisputnam.ml" 143 4700 4750
+type(
+  bool
+)
+ident(
+  def latex "davisputnam.ml" 143 4700 4751 "davisputnam.ml" 156 5324 5327
+)
+"davisputnam.ml" 143 4700 4751 "davisputnam.ml" 143 4700 4767
+type(
+  string
+)
+ident(
+  def heuristic_string "davisputnam.ml" 143 4700 4768 "davisputnam.ml" 156 5324 5327
+)
+"davisputnam.ml" 143 4700 4768 "davisputnam.ml" 143 4700 4776
+type(
+  string
+)
+ident(
+  def filename "davisputnam.ml" 143 4700 4777 "davisputnam.ml" 156 5324 5327
+)
+"davisputnam.ml" 143 4700 4777 "davisputnam.ml" 143 4700 4779
+type(
+  unit
+)
+"davisputnam.ml" 144 4782 4788 "davisputnam.ml" 144 4782 4791
+type(
+  in_channel
+)
+ident(
+  def inx "davisputnam.ml" 145 4824 4826 "davisputnam.ml" 156 5324 5327
+)
+"davisputnam.ml" 144 4782 4794 "davisputnam.ml" 144 4782 4811
 type(
   ?binary:bool -> string -> in_channel
 )
 ident(
   ext_ref Core.Std.In_channel.create
 )
-"davisputnam.ml" 4 46 76 "davisputnam.ml" 4 46 84
+"davisputnam.ml" 144 4782 4812 "davisputnam.ml" 144 4782 4820
 type(
   string
 )
 ident(
-  int_ref filename "davisputnam.ml" 3 15 32 "davisputnam.ml" 3 15 40
+  int_ref filename "davisputnam.ml" 143 4700 4768 "davisputnam.ml" 143 4700 4776
 )
-"davisputnam.ml" 4 46 58 "davisputnam.ml" 4 46 84
+"davisputnam.ml" 144 4782 4794 "davisputnam.ml" 144 4782 4820
 call(
   stack
 )
 type(
   in_channel
 )
-"davisputnam.ml" 5 88 94 "davisputnam.ml" 5 88 100
+"davisputnam.ml" 145 4824 4830 "davisputnam.ml" 145 4824 4836
 type(
   Lexing.lexbuf
 )
 ident(
-  def lexbuf "davisputnam.ml" 6 130 132 "davisputnam.ml" 12 414 448
+  def lexbuf "davisputnam.ml" 146 4866 4868 "davisputnam.ml" 156 5324 5327
 )
-"davisputnam.ml" 5 88 103 "davisputnam.ml" 5 88 122
+"davisputnam.ml" 145 4824 4839 "davisputnam.ml" 145 4824 4858
 type(
   in_channel -> Lexing.lexbuf
 )
 ident(
   ext_ref Lexing.from_channel
 )
-"davisputnam.ml" 5 88 123 "davisputnam.ml" 5 88 126
+"davisputnam.ml" 145 4824 4859 "davisputnam.ml" 145 4824 4862
 type(
   in_channel
 )
 ident(
-  int_ref inx "davisputnam.ml" 4 46 52 "davisputnam.ml" 4 46 55
+  int_ref inx "davisputnam.ml" 144 4782 4788 "davisputnam.ml" 144 4782 4791
 )
-"davisputnam.ml" 5 88 103 "davisputnam.ml" 5 88 126
+"davisputnam.ml" 145 4824 4839 "davisputnam.ml" 145 4824 4862
 call(
   stack
 )
 type(
   Lexing.lexbuf
 )
-"davisputnam.ml" 6 130 136 "davisputnam.ml" 6 130 139
+"davisputnam.ml" 146 4866 4872 "davisputnam.ml" 146 4866 4875
 type(
-  Types.Ast.t
+  Ast.t
 )
 ident(
-  def ast "davisputnam.ml" 7 176 178 "davisputnam.ml" 12 414 448
+  def ast "davisputnam.ml" 147 4912 4914 "davisputnam.ml" 156 5324 5327
 )
-"davisputnam.ml" 6 130 142 "davisputnam.ml" 6 130 153
+"davisputnam.ml" 146 4866 4878 "davisputnam.ml" 146 4866 4889
 type(
-  (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Types.Ast.t
+  (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Ast.t
 )
 ident(
   ext_ref Parser.main
 )
-"davisputnam.ml" 6 130 154 "davisputnam.ml" 6 130 165
+"davisputnam.ml" 146 4866 4890 "davisputnam.ml" 146 4866 4901
 type(
   Lexing.lexbuf -> Parser.token
 )
 ident(
   ext_ref Lexer.token
 )
-"davisputnam.ml" 6 130 166 "davisputnam.ml" 6 130 172
+"davisputnam.ml" 146 4866 4902 "davisputnam.ml" 146 4866 4908
 type(
   Lexing.lexbuf
 )
 ident(
-  int_ref lexbuf "davisputnam.ml" 5 88 94 "davisputnam.ml" 5 88 100
+  int_ref lexbuf "davisputnam.ml" 145 4824 4830 "davisputnam.ml" 145 4824 4836
 )
-"davisputnam.ml" 6 130 142 "davisputnam.ml" 6 130 172
+"davisputnam.ml" 146 4866 4878 "davisputnam.ml" 146 4866 4908
 call(
   stack
 )
 type(
-  Types.Ast.t
+  Ast.t
 )
-"davisputnam.ml" 7 176 178 "davisputnam.ml" 7 176 184
+"davisputnam.ml" 147 4912 4918 "davisputnam.ml" 147 4912 4921
 type(
-  (string -> unit, out_channel, unit) format -> string -> unit
+  Cnf.Literal.Set.t list
 )
 ident(
-  ext_ref Core.Std.printf
+  def cnf "davisputnam.ml" 148 4957 4959 "davisputnam.ml" 156 5324 5327
 )
-"davisputnam.ml" 7 176 185 "davisputnam.ml" 7 176 199
+"davisputnam.ml" 147 4912 4924 "davisputnam.ml" 147 4912 4949
 type(
-  (string -> unit, out_channel, unit) format
-)
-"davisputnam.ml" 7 176 201 "davisputnam.ml" 7 176 220
-type(
-  Types.Ast.t -> string
-)
-ident(
-  ext_ref Types.Ast.to_string
-)
-"davisputnam.ml" 7 176 221 "davisputnam.ml" 7 176 224
-type(
-  Types.Ast.t
-)
-ident(
-  int_ref ast "davisputnam.ml" 6 130 136 "davisputnam.ml" 6 130 139
-)
-"davisputnam.ml" 7 176 201 "davisputnam.ml" 7 176 224
-call(
-  stack
-)
-type(
-  string
-)
-"davisputnam.ml" 7 176 178 "davisputnam.ml" 7 176 225
-call(
-  stack
-)
-type(
-  unit
-)
-"davisputnam.ml" 8 227 233 "davisputnam.ml" 8 227 236
-type(
-  Types.Cnf.Literal.Set.t list
-)
-ident(
-  def cnf "davisputnam.ml" 9 272 274 "davisputnam.ml" 12 414 448
-)
-"davisputnam.ml" 8 227 239 "davisputnam.ml" 8 227 264
-type(
-  Types.Ast.t -> Types.Cnf.Literal.Set.t list
+  Ast.t -> Cnf.Literal.Set.t list
 )
 ident(
   ext_ref Naivecnf.transform_to_cnf
 )
-"davisputnam.ml" 8 227 265 "davisputnam.ml" 8 227 268
+"davisputnam.ml" 147 4912 4950 "davisputnam.ml" 147 4912 4953
 type(
-  Types.Ast.t
+  Ast.t
 )
 ident(
-  int_ref ast "davisputnam.ml" 6 130 136 "davisputnam.ml" 6 130 139
+  int_ref ast "davisputnam.ml" 146 4866 4872 "davisputnam.ml" 146 4866 4875
 )
-"davisputnam.ml" 8 227 239 "davisputnam.ml" 8 227 268
+"davisputnam.ml" 147 4912 4924 "davisputnam.ml" 147 4912 4953
 call(
   stack
 )
 type(
-  Types.Cnf.Literal.Set.t list
+  Cnf.Literal.Set.t list
 )
-"davisputnam.ml" 9 272 274 "davisputnam.ml" 9 272 280
+"davisputnam.ml" 148 4957 4963 "davisputnam.ml" 148 4957 4972
+type(
+  [> `Most_unsatisfied | `Small_clauses ]
+)
+ident(
+  def heuristic "davisputnam.ml" 149 5018 5021 "davisputnam.ml" 156 5324 5327
+)
+"davisputnam.ml" 148 4957 4975 "davisputnam.ml" 148 4957 4997
+type(
+  string -> ([> `Most_unsatisfied | `Small_clauses ] as 'a)
+)
+ident(
+  int_ref parse_heuristic_string "davisputnam.ml" 75 2207 2211 "davisputnam.ml" 75 2207 2233
+)
+"davisputnam.ml" 148 4957 4998 "davisputnam.ml" 148 4957 5014
+type(
+  string
+)
+ident(
+  int_ref heuristic_string "davisputnam.ml" 143 4700 4751 "davisputnam.ml" 143 4700 4767
+)
+"davisputnam.ml" 148 4957 4975 "davisputnam.ml" 148 4957 5014
+call(
+  stack
+)
+type(
+  'a
+)
+"davisputnam.ml" 149 5018 5024 "davisputnam.ml" 149 5018 5029
+type(
+  bool
+)
+ident(
+  int_ref quiet "davisputnam.ml" 143 4700 4717 "davisputnam.ml" 143 4700 4722
+)
+"davisputnam.ml" 149 5018 5035 "davisputnam.ml" 149 5018 5037
+type(
+  unit
+)
+"davisputnam.ml" 149 5018 5043 "davisputnam.ml" 149 5018 5049
 type(
   (string -> unit, out_channel, unit) format -> string -> unit
 )
 ident(
   ext_ref Core.Std.printf
 )
-"davisputnam.ml" 9 272 281 "davisputnam.ml" 9 272 303
+"davisputnam.ml" 149 5018 5050 "davisputnam.ml" 149 5018 5074
 type(
   (string -> unit, out_channel, unit) format
 )
-"davisputnam.ml" 9 272 305 "davisputnam.ml" 9 272 324
+"davisputnam.ml" 149 5018 5076 "davisputnam.ml" 149 5018 5089
 type(
-  (Types.Cnf.Literal.t, Types.Cnf.Literal.comparator_witness) Set.t list ->
-  string
+  (Cnf.Literal.t, Cnf.Literal.comparator_witness) Set.t list -> string
 )
 ident(
   ext_ref Types.Cnf.to_string
 )
-"davisputnam.ml" 9 272 325 "davisputnam.ml" 9 272 328
+"davisputnam.ml" 149 5018 5090 "davisputnam.ml" 149 5018 5093
 type(
-  Types.Cnf.Literal.Set.t list
+  Cnf.Literal.Set.t list
 )
 ident(
-  int_ref cnf "davisputnam.ml" 8 227 233 "davisputnam.ml" 8 227 236
+  int_ref cnf "davisputnam.ml" 147 4912 4918 "davisputnam.ml" 147 4912 4921
 )
-"davisputnam.ml" 9 272 305 "davisputnam.ml" 9 272 328
+"davisputnam.ml" 149 5018 5076 "davisputnam.ml" 149 5018 5093
 call(
   stack
 )
 type(
   string
 )
-"davisputnam.ml" 9 272 274 "davisputnam.ml" 9 272 329
+"davisputnam.ml" 149 5018 5043 "davisputnam.ml" 149 5018 5094
 call(
   stack
 )
 type(
   unit
 )
-"davisputnam.ml" 10 331 336 "davisputnam.ml" 10 331 346
+"davisputnam.ml" 149 5018 5021 "davisputnam.ml" 149 5018 5094
 type(
-  Types.State.t -> bool
+  unit
+)
+"davisputnam.ml" 150 5097 5102 "davisputnam.ml" 150 5097 5110
+type(
+  bool
+)
+ident(
+  int_ref cnf_only "davisputnam.ml" 143 4700 4736 "davisputnam.ml" 143 4700 4744
+)
+"davisputnam.ml" 150 5097 5116 "davisputnam.ml" 150 5097 5118
+type(
+  unit
+)
+"davisputnam.ml" 151 5126 5133 "davisputnam.ml" 151 5126 5145
+type(
+  bool
+)
+ident(
+  int_ref step_through "davisputnam.ml" 143 4700 4723 "davisputnam.ml" 143 4700 4735
+)
+"davisputnam.ml" 151 5126 5151 "davisputnam.ml" 151 5126 5160
+type(
+  Cnf.t -> bool -> State.heuristic -> unit
+)
+ident(
+  int_ref step_mode "davisputnam.ml" 95 2691 2695 "davisputnam.ml" 95 2691 2704
+)
+"davisputnam.ml" 151 5126 5161 "davisputnam.ml" 151 5126 5164
+type(
+  Cnf.Literal.Set.t list
+)
+ident(
+  int_ref cnf "davisputnam.ml" 147 4912 4918 "davisputnam.ml" 147 4912 4921
+)
+"davisputnam.ml" 151 5126 5165 "davisputnam.ml" 151 5126 5170
+type(
+  bool
+)
+ident(
+  int_ref latex "davisputnam.ml" 143 4700 4745 "davisputnam.ml" 143 4700 4750
+)
+"davisputnam.ml" 151 5126 5171 "davisputnam.ml" 151 5126 5180
+type(
+  State.heuristic
+)
+ident(
+  int_ref heuristic "davisputnam.ml" 148 4957 4963 "davisputnam.ml" 148 4957 4972
+)
+"davisputnam.ml" 151 5126 5151 "davisputnam.ml" 151 5126 5180
+call(
+  tail
+)
+type(
+  unit
+)
+"davisputnam.ml" 152 5188 5197 "davisputnam.ml" 152 5188 5207
+type(
+  State.t -> bool
 )
 ident(
   ext_ref Step.solve
 )
-"davisputnam.ml" 10 331 348 "davisputnam.ml" 10 331 357
+"davisputnam.ml" 152 5188 5209 "davisputnam.ml" 152 5188 5218
 type(
-  Types.State.heuristic -> Types.Cnf.t -> Types.State.t
+  State.heuristic -> Cnf.t -> State.t
 )
 ident(
   ext_ref Step.init
 )
-"davisputnam.ml" 10 331 358 "davisputnam.ml" 10 331 375
+"davisputnam.ml" 152 5188 5219 "davisputnam.ml" 152 5188 5236
 type(
-  Types.State.heuristic
+  State.heuristic
 )
-"davisputnam.ml" 10 331 376 "davisputnam.ml" 10 331 379
+"davisputnam.ml" 152 5188 5237 "davisputnam.ml" 152 5188 5240
 type(
-  Types.Cnf.Literal.Set.t list
+  Cnf.Literal.Set.t list
 )
 ident(
-  int_ref cnf "davisputnam.ml" 8 227 233 "davisputnam.ml" 8 227 236
+  int_ref cnf "davisputnam.ml" 147 4912 4918 "davisputnam.ml" 147 4912 4921
 )
-"davisputnam.ml" 10 331 348 "davisputnam.ml" 10 331 379
+"davisputnam.ml" 152 5188 5209 "davisputnam.ml" 152 5188 5240
 call(
   stack
 )
 type(
-  Types.State.t
+  State.t
 )
-"davisputnam.ml" 10 331 336 "davisputnam.ml" 10 331 380
+"davisputnam.ml" 152 5188 5197 "davisputnam.ml" 152 5188 5241
 call(
   stack
 )
 type(
   bool
 )
-"davisputnam.ml" 11 381 388 "davisputnam.ml" 11 381 394
+"davisputnam.ml" 153 5242 5253 "davisputnam.ml" 153 5242 5259
 type(
   (unit, out_channel, unit) format -> unit
 )
 ident(
   ext_ref Core.Std.printf
 )
-"davisputnam.ml" 11 381 395 "davisputnam.ml" 11 381 413
+"davisputnam.ml" 153 5242 5260 "davisputnam.ml" 153 5242 5278
 type(
   (unit, out_channel, unit) format
 )
-"davisputnam.ml" 11 381 388 "davisputnam.ml" 11 381 413
+"davisputnam.ml" 153 5242 5253 "davisputnam.ml" 153 5242 5278
 call(
   tail
 )
 type(
   unit
 )
-"davisputnam.ml" 12 414 421 "davisputnam.ml" 12 414 427
+"davisputnam.ml" 154 5279 5290 "davisputnam.ml" 154 5279 5296
 type(
   (unit, out_channel, unit) format -> unit
 )
 ident(
   ext_ref Core.Std.printf
 )
-"davisputnam.ml" 12 414 428 "davisputnam.ml" 12 414 448
+"davisputnam.ml" 154 5279 5297 "davisputnam.ml" 154 5279 5317
 type(
   (unit, out_channel, unit) format
 )
-"davisputnam.ml" 12 414 421 "davisputnam.ml" 12 414 448
+"davisputnam.ml" 154 5279 5290 "davisputnam.ml" 154 5279 5317
 call(
   tail
 )
 type(
   unit
 )
-"davisputnam.ml" 10 331 333 "davisputnam.ml" 12 414 448
+"davisputnam.ml" 152 5188 5194 "davisputnam.ml" 154 5279 5317
 type(
   unit
 )
-"davisputnam.ml" 9 272 274 "davisputnam.ml" 12 414 448
+"davisputnam.ml" 151 5126 5130 "davisputnam.ml" 155 5318 5323
 type(
   unit
 )
-"davisputnam.ml" 8 227 229 "davisputnam.ml" 12 414 448
+"davisputnam.ml" 150 5097 5099 "davisputnam.ml" 156 5324 5327
 type(
   unit
 )
-"davisputnam.ml" 7 176 178 "davisputnam.ml" 12 414 448
+"davisputnam.ml" 149 5018 5021 "davisputnam.ml" 156 5324 5327
 type(
   unit
 )
-"davisputnam.ml" 6 130 132 "davisputnam.ml" 12 414 448
+"davisputnam.ml" 148 4957 4959 "davisputnam.ml" 156 5324 5327
 type(
   unit
 )
-"davisputnam.ml" 5 88 90 "davisputnam.ml" 12 414 448
+"davisputnam.ml" 147 4912 4914 "davisputnam.ml" 156 5324 5327
 type(
   unit
 )
-"davisputnam.ml" 4 46 48 "davisputnam.ml" 12 414 448
+"davisputnam.ml" 146 4866 4868 "davisputnam.ml" 156 5324 5327
 type(
   unit
 )
-"davisputnam.ml" 3 15 41 "davisputnam.ml" 12 414 448
+"davisputnam.ml" 145 4824 4826 "davisputnam.ml" 156 5324 5327
+type(
+  unit
+)
+"davisputnam.ml" 144 4782 4784 "davisputnam.ml" 156 5324 5327
+type(
+  unit
+)
+"davisputnam.ml" 143 4700 4777 "davisputnam.ml" 156 5324 5327
 type(
   unit -> unit
 )
-"davisputnam.ml" 3 15 32 "davisputnam.ml" 12 414 448
+"davisputnam.ml" 143 4700 4768 "davisputnam.ml" 156 5324 5327
 type(
   string -> unit -> unit
 )
-"davisputnam.ml" 15 453 457 "davisputnam.ml" 15 453 461
+"davisputnam.ml" 143 4700 4751 "davisputnam.ml" 156 5324 5327
 type(
-  (string -> unit -> unit, unit -> unit) Command.Spec.t
+  string -> string -> unit -> unit
+)
+"davisputnam.ml" 143 4700 4745 "davisputnam.ml" 156 5324 5327
+type(
+  bool -> string -> string -> unit -> unit
+)
+"davisputnam.ml" 143 4700 4736 "davisputnam.ml" 156 5324 5327
+type(
+  bool -> bool -> string -> string -> unit -> unit
+)
+"davisputnam.ml" 143 4700 4723 "davisputnam.ml" 156 5324 5327
+type(
+  bool -> bool -> bool -> string -> string -> unit -> unit
+)
+"davisputnam.ml" 143 4700 4717 "davisputnam.ml" 156 5324 5327
+type(
+  bool -> bool -> bool -> bool -> string -> string -> unit -> unit
+)
+"davisputnam.ml" 159 5332 5336 "davisputnam.ml" 159 5332 5340
+type(
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   unit -> unit)
+  Command.Spec.t
 )
 ident(
-  def spec "davisputnam.ml" 22 537 537 "davisputnam.ml" 1 0 -1
+  def spec "davisputnam.ml" 171 5892 5892 "davisputnam.ml" 1 0 -1
 )
-"davisputnam.ml" 17 491 493 "davisputnam.ml" 17 491 498
+"davisputnam.ml" 161 5370 5372 "davisputnam.ml" 161 5370 5377
 type(
-  (string -> unit -> unit, string -> unit -> unit) t
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   bool -> bool -> bool -> bool -> string -> string -> unit -> unit)
+  t
 )
 ident(
   ext_ref Core.Std.Command.Spec.empty
 )
-"davisputnam.ml" 18 499 501 "davisputnam.ml" 18 499 503
+"davisputnam.ml" 162 5378 5380 "davisputnam.ml" 162 5378 5382
 type(
-  (string -> unit -> unit, string -> unit -> unit) t ->
-  string param -> (string -> unit -> unit, unit -> unit) t
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   bool -> bool -> bool -> bool -> string -> string -> unit -> unit)
+  t ->
+  bool param ->
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   bool -> bool -> bool -> string -> string -> unit -> unit)
+  t
 )
 ident(
   ext_ref Core.Std.Command.Spec.( +> )
 )
-"davisputnam.ml" 18 499 504 "davisputnam.ml" 18 499 508
+"davisputnam.ml" 162 5378 5383 "davisputnam.ml" 162 5378 5387
 type(
-  string anons -> string param
+  ?aliases:string list -> string -> bool flag -> doc:string -> bool param
 )
 ident(
-  ext_ref Core.Std.Command.Spec.anon
+  ext_ref Core.Std.Command.Spec.flag
 )
-"davisputnam.ml" 18 499 510 "davisputnam.ml" 18 499 520
+"davisputnam.ml" 162 5378 5388 "davisputnam.ml" 162 5378 5392
 type(
   string
 )
-"davisputnam.ml" 18 499 521 "davisputnam.ml" 18 499 523
+"davisputnam.ml" 162 5378 5393 "davisputnam.ml" 162 5378 5399
 type(
-  string -> string Arg_type.t -> string anons
+  bool flag
 )
 ident(
-  ext_ref Core.Std.Command.Spec.( %: )
+  ext_ref Core.Std.Command.Spec.no_arg
 )
-"davisputnam.ml" 18 499 524 "davisputnam.ml" 18 499 530
+"davisputnam.ml" 162 5378 5405 "davisputnam.ml" 162 5378 5468
+type(
+  string
+)
+"davisputnam.ml" 162 5378 5383 "davisputnam.ml" 162 5378 5468
+call(
+  stack
+)
+type(
+  bool param
+)
+"davisputnam.ml" 161 5370 5372 "davisputnam.ml" 162 5378 5468
+call(
+  stack
+)
+type(
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   bool -> bool -> bool -> string -> string -> unit -> unit)
+  t
+)
+"davisputnam.ml" 163 5469 5471 "davisputnam.ml" 163 5469 5473
+type(
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   bool -> bool -> bool -> string -> string -> unit -> unit)
+  t ->
+  bool param ->
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   bool -> bool -> string -> string -> unit -> unit)
+  t
+)
+ident(
+  ext_ref Core.Std.Command.Spec.( +> )
+)
+"davisputnam.ml" 163 5469 5474 "davisputnam.ml" 163 5469 5478
+type(
+  ?aliases:string list -> string -> bool flag -> doc:string -> bool param
+)
+ident(
+  ext_ref Core.Std.Command.Spec.flag
+)
+"davisputnam.ml" 163 5469 5479 "davisputnam.ml" 163 5469 5483
+type(
+  string
+)
+"davisputnam.ml" 163 5469 5484 "davisputnam.ml" 163 5469 5490
+type(
+  bool flag
+)
+ident(
+  ext_ref Core.Std.Command.Spec.no_arg
+)
+"davisputnam.ml" 163 5469 5496 "davisputnam.ml" 163 5469 5572
+type(
+  string
+)
+"davisputnam.ml" 163 5469 5474 "davisputnam.ml" 163 5469 5572
+call(
+  stack
+)
+type(
+  bool param
+)
+"davisputnam.ml" 161 5370 5372 "davisputnam.ml" 163 5469 5572
+call(
+  stack
+)
+type(
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   bool -> bool -> string -> string -> unit -> unit)
+  t
+)
+"davisputnam.ml" 164 5573 5575 "davisputnam.ml" 164 5573 5577
+type(
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   bool -> bool -> string -> string -> unit -> unit)
+  t ->
+  bool param ->
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   bool -> string -> string -> unit -> unit)
+  t
+)
+ident(
+  ext_ref Core.Std.Command.Spec.( +> )
+)
+"davisputnam.ml" 164 5573 5578 "davisputnam.ml" 164 5573 5582
+type(
+  ?aliases:string list -> string -> bool flag -> doc:string -> bool param
+)
+ident(
+  ext_ref Core.Std.Command.Spec.flag
+)
+"davisputnam.ml" 164 5573 5583 "davisputnam.ml" 164 5573 5595
+type(
+  string
+)
+"davisputnam.ml" 164 5573 5596 "davisputnam.ml" 164 5573 5602
+type(
+  bool flag
+)
+ident(
+  ext_ref Core.Std.Command.Spec.no_arg
+)
+"davisputnam.ml" 164 5573 5608 "davisputnam.ml" 164 5573 5652
+type(
+  string
+)
+"davisputnam.ml" 164 5573 5578 "davisputnam.ml" 164 5573 5652
+call(
+  stack
+)
+type(
+  bool param
+)
+"davisputnam.ml" 161 5370 5372 "davisputnam.ml" 164 5573 5652
+call(
+  stack
+)
+type(
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   bool -> string -> string -> unit -> unit)
+  t
+)
+"davisputnam.ml" 165 5653 5655 "davisputnam.ml" 165 5653 5657
+type(
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   bool -> string -> string -> unit -> unit)
+  t ->
+  bool param ->
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   string -> string -> unit -> unit)
+  t
+)
+ident(
+  ext_ref Core.Std.Command.Spec.( +> )
+)
+"davisputnam.ml" 165 5653 5658 "davisputnam.ml" 165 5653 5662
+type(
+  ?aliases:string list -> string -> bool flag -> doc:string -> bool param
+)
+ident(
+  ext_ref Core.Std.Command.Spec.flag
+)
+"davisputnam.ml" 165 5653 5663 "davisputnam.ml" 165 5653 5672
+type(
+  string
+)
+"davisputnam.ml" 165 5653 5673 "davisputnam.ml" 165 5653 5679
+type(
+  bool flag
+)
+ident(
+  ext_ref Core.Std.Command.Spec.no_arg
+)
+"davisputnam.ml" 165 5653 5685 "davisputnam.ml" 165 5653 5713
+type(
+  string
+)
+"davisputnam.ml" 165 5653 5658 "davisputnam.ml" 165 5653 5713
+call(
+  stack
+)
+type(
+  bool param
+)
+"davisputnam.ml" 161 5370 5372 "davisputnam.ml" 165 5653 5713
+call(
+  stack
+)
+type(
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   string -> string -> unit -> unit)
+  t
+)
+"davisputnam.ml" 166 5714 5716 "davisputnam.ml" 166 5714 5718
+type(
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   string -> string -> unit -> unit)
+  t ->
+  string param ->
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   string -> unit -> unit)
+  t
+)
+ident(
+  ext_ref Core.Std.Command.Spec.( +> )
+)
+"davisputnam.ml" 166 5714 5719 "davisputnam.ml" 166 5714 5723
+type(
+  ?aliases:string list -> string -> string flag -> doc:string -> string param
+)
+ident(
+  ext_ref Core.Std.Command.Spec.flag
+)
+"davisputnam.ml" 166 5714 5724 "davisputnam.ml" 166 5714 5728
+type(
+  string
+)
+"davisputnam.ml" 166 5714 5730 "davisputnam.ml" 166 5714 5751
+type(
+  string -> string Arg_type.t -> string flag
+)
+ident(
+  ext_ref Core.Std.Command.Spec.optional_with_default
+)
+"davisputnam.ml" 166 5714 5752 "davisputnam.ml" 166 5714 5770
+type(
+  string
+)
+"davisputnam.ml" 166 5714 5771 "davisputnam.ml" 166 5714 5777
 type(
   string Arg_type.t
 )
 ident(
   ext_ref Core.Std.Command.Spec.string
 )
-"davisputnam.ml" 18 499 510 "davisputnam.ml" 18 499 530
+"davisputnam.ml" 166 5714 5730 "davisputnam.ml" 166 5714 5777
 call(
   stack
 )
 type(
-  string anons
+  string flag
 )
-"davisputnam.ml" 18 499 504 "davisputnam.ml" 18 499 531
+"davisputnam.ml" 166 5714 5784 "davisputnam.ml" 166 5714 5853
+type(
+  string
+)
+"davisputnam.ml" 166 5714 5719 "davisputnam.ml" 166 5714 5853
 call(
   stack
 )
 type(
   string param
 )
-"davisputnam.ml" 17 491 493 "davisputnam.ml" 18 499 531
+"davisputnam.ml" 161 5370 5372 "davisputnam.ml" 166 5714 5853
 call(
   stack
 )
 type(
-  (string -> unit -> unit, unit -> unit) t
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   string -> unit -> unit)
+  t
 )
-"davisputnam.ml" 22 537 541 "davisputnam.ml" 22 537 548
+"davisputnam.ml" 167 5854 5856 "davisputnam.ml" 167 5854 5858
+type(
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   string -> unit -> unit)
+  t ->
+  string param ->
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   unit -> unit)
+  t
+)
+ident(
+  ext_ref Core.Std.Command.Spec.( +> )
+)
+"davisputnam.ml" 167 5854 5859 "davisputnam.ml" 167 5854 5863
+type(
+  string anons -> string param
+)
+ident(
+  ext_ref Core.Std.Command.Spec.anon
+)
+"davisputnam.ml" 167 5854 5865 "davisputnam.ml" 167 5854 5875
+type(
+  string
+)
+"davisputnam.ml" 167 5854 5876 "davisputnam.ml" 167 5854 5878
+type(
+  string -> string Arg_type.t -> string anons
+)
+ident(
+  ext_ref Core.Std.Command.Spec.( %: )
+)
+"davisputnam.ml" 167 5854 5879 "davisputnam.ml" 167 5854 5885
+type(
+  string Arg_type.t
+)
+ident(
+  ext_ref Core.Std.Command.Spec.string
+)
+"davisputnam.ml" 167 5854 5865 "davisputnam.ml" 167 5854 5885
+call(
+  stack
+)
+type(
+  string anons
+)
+"davisputnam.ml" 167 5854 5859 "davisputnam.ml" 167 5854 5886
+call(
+  stack
+)
+type(
+  string param
+)
+"davisputnam.ml" 161 5370 5372 "davisputnam.ml" 167 5854 5886
+call(
+  stack
+)
+type(
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   unit -> unit)
+  t
+)
+"davisputnam.ml" 171 5892 5896 "davisputnam.ml" 171 5892 5903
 type(
   Command.t
 )
 ident(
-  def command "davisputnam.ml" 30 749 749 "davisputnam.ml" 1 0 -1
+  def command "davisputnam.ml" 179 6104 6104 "davisputnam.ml" 1 0 -1
 )
-"davisputnam.ml" 23 551 553 "davisputnam.ml" 23 551 566
+"davisputnam.ml" 172 5906 5908 "davisputnam.ml" 172 5906 5921
 type(
-  (string -> unit -> unit, unit) Command.basic_command
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit, unit)
+  Command.basic_command
 )
 ident(
   ext_ref Core.Std.Command.basic
 )
-"davisputnam.ml" 24 567 580 "davisputnam.ml" 24 567 636
+"davisputnam.ml" 173 5922 5935 "davisputnam.ml" 173 5922 5991
 type(
   string
 )
-"davisputnam.ml" 25 637 654 "davisputnam.ml" 25 637 656
+"davisputnam.ml" 174 5992 6009 "davisputnam.ml" 174 5992 6011
 type(
   unit
 )
-"davisputnam.ml" 25 637 660 "davisputnam.ml" 25 637 716
+"davisputnam.ml" 174 5992 6015 "davisputnam.ml" 174 5992 6071
 type(
   string
 )
-"davisputnam.ml" 25 637 654 "davisputnam.ml" 25 637 716
+"davisputnam.ml" 174 5992 6009 "davisputnam.ml" 174 5992 6071
 type(
   unit -> string
 )
-"davisputnam.ml" 26 718 722 "davisputnam.ml" 26 718 726
+"davisputnam.ml" 175 6073 6077 "davisputnam.ml" 175 6073 6081
 type(
-  (string -> unit -> unit, unit -> unit) Command.Spec.t
+  (bool -> bool -> bool -> bool -> string -> string -> unit -> unit,
+   unit -> unit)
+  Command.Spec.t
 )
 ident(
-  int_ref spec "davisputnam.ml" 15 453 457 "davisputnam.ml" 15 453 461
+  int_ref spec "davisputnam.ml" 159 5332 5336 "davisputnam.ml" 159 5332 5340
 )
-"davisputnam.ml" 27 727 731 "davisputnam.ml" 27 727 743
+"davisputnam.ml" 176 6082 6086 "davisputnam.ml" 176 6082 6098
 type(
-  string -> unit -> unit
+  bool -> bool -> bool -> bool -> string -> string -> unit -> unit
 )
 ident(
-  int_ref process_file "davisputnam.ml" 3 15 19 "davisputnam.ml" 3 15 31
+  int_ref process_file "davisputnam.ml" 143 4700 4704 "davisputnam.ml" 143 4700 4716
 )
-"davisputnam.ml" 23 551 553 "davisputnam.ml" 27 727 743
+"davisputnam.ml" 172 5906 5908 "davisputnam.ml" 176 6082 6098
 call(
   stack
 )
 type(
   Command.t
 )
-"davisputnam.ml" 30 749 753 "davisputnam.ml" 30 749 755
+"davisputnam.ml" 179 6104 6108 "davisputnam.ml" 179 6104 6110
 type(
   unit
 )
-"davisputnam.ml" 30 749 758 "davisputnam.ml" 30 749 769
+"davisputnam.ml" 179 6104 6113 "davisputnam.ml" 179 6104 6124
 type(
   ?version:string ->
   ?build_info:string ->
@@ -458,22 +3104,22 @@ type(
 ident(
   ext_ref Core.Std.Command.run
 )
-"davisputnam.ml" 30 749 779 "davisputnam.ml" 30 749 784
+"davisputnam.ml" 179 6104 6134 "davisputnam.ml" 179 6104 6139
 type(
   string
 )
-"davisputnam.ml" 30 749 797 "davisputnam.ml" 30 749 802
+"davisputnam.ml" 179 6104 6152 "davisputnam.ml" 179 6104 6157
 type(
   string
 )
-"davisputnam.ml" 30 749 803 "davisputnam.ml" 30 749 810
+"davisputnam.ml" 179 6104 6158 "davisputnam.ml" 179 6104 6165
 type(
   Command.t
 )
 ident(
-  int_ref command "davisputnam.ml" 22 537 541 "davisputnam.ml" 22 537 548
+  int_ref command "davisputnam.ml" 171 5892 5896 "davisputnam.ml" 171 5892 5903
 )
-"davisputnam.ml" 30 749 758 "davisputnam.ml" 30 749 810
+"davisputnam.ml" 179 6104 6113 "davisputnam.ml" 179 6104 6165
 call(
   stack
 )
