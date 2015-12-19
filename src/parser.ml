@@ -1,5 +1,3 @@
-open Types
-
 type token =
   | EOF
   | IDENT of (string)
@@ -11,9 +9,9 @@ type token =
 
 open Parsing;;
 let _ = parse_error;;
-# 2 "parser.mly"
+# 2 "src_lex_parse/parser.mly"
   open Types
-# 15 "parser.ml"
+# 15 "src_lex_parse/parser.ml"
 let yytransl_const = [|
     0 (* EOF *);
   258 (* NEG *);
@@ -140,46 +138,46 @@ let yyact = [|
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 1 : 'expr) in
     Obj.repr(
-# 15 "parser.mly"
+# 15 "src_lex_parse/parser.mly"
              ( _1 )
-# 144 "parser.ml"
+# 144 "src_lex_parse/parser.ml"
                : Ast.t))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 0 : string) in
     Obj.repr(
-# 18 "parser.mly"
+# 18 "src_lex_parse/parser.mly"
               ( Ast.Ident _1 )
-# 151 "parser.ml"
+# 151 "src_lex_parse/parser.ml"
                : 'expr))
 ; (fun __caml_parser_env ->
     let _2 = (Parsing.peek_val __caml_parser_env 1 : 'expr) in
     Obj.repr(
-# 19 "parser.mly"
+# 19 "src_lex_parse/parser.mly"
                        ( _2 )
-# 158 "parser.ml"
+# 158 "src_lex_parse/parser.ml"
                : 'expr))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 2 : 'expr) in
     let _3 = (Parsing.peek_val __caml_parser_env 0 : 'expr) in
     Obj.repr(
-# 20 "parser.mly"
+# 20 "src_lex_parse/parser.mly"
                  ( Ast.Bin (_1, _3, Binop.Or) )
-# 166 "parser.ml"
+# 166 "src_lex_parse/parser.ml"
                : 'expr))
 ; (fun __caml_parser_env ->
     let _1 = (Parsing.peek_val __caml_parser_env 2 : 'expr) in
     let _3 = (Parsing.peek_val __caml_parser_env 0 : 'expr) in
     Obj.repr(
-# 21 "parser.mly"
+# 21 "src_lex_parse/parser.mly"
                   ( Ast.Bin (_1, _3, Binop.And) )
-# 174 "parser.ml"
+# 174 "src_lex_parse/parser.ml"
                : 'expr))
 ; (fun __caml_parser_env ->
     let _2 = (Parsing.peek_val __caml_parser_env 0 : 'expr) in
     Obj.repr(
-# 22 "parser.mly"
+# 22 "src_lex_parse/parser.mly"
                           ( Ast.Neg _2 )
-# 181 "parser.ml"
+# 181 "src_lex_parse/parser.ml"
                : 'expr))
 (* Entry main *)
 ; (fun __caml_parser_env -> raise (Parsing.YYexit (Parsing.peek_val __caml_parser_env 0)))

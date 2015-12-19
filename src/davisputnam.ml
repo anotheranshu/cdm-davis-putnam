@@ -26,7 +26,14 @@ let help_string =
    \'help\': Shows this help message\n
   "
 
-let to_latex s = s
+
+let to_latex s = String.Search_pattern.(
+  let s1 = replace_all (create "&") ~in_:s ~with_:"\\wedge" in
+  let s2 = replace_all (create "|") ~in_:s1 ~with_:"\\vee" in
+  let s3 = replace_all (create "{") ~in_:s2 ~with_:"\\{" in
+  replace_all (create "}") ~in_:s3 ~with_:"\\}"
+)
+
 
 let get_assignment stack =
   let to_map elem =
@@ -81,7 +88,14 @@ let parse_heuristic_string s =
 let rec step_wrapper steps_left state_ref =
   let state = !state_ref in
   match steps_left with
-  | None -> ()
+  | None -> (
+    match state.State.current_cnf with
+      | [] -> ()
+      | _ -> (
+        state_ref := Step.step state;
+        step_wrapper None state_ref
+      )
+    )
   | Some n -> (
     if (n > 0) then 
       match state.State.current_cnf with
@@ -146,7 +160,7 @@ let process_file quiet step_through cnf_only latex heuristic_string filename () 
   let ast = Parser.main Lexer.token lexbuf in
   let cnf = Naivecnf.transform_to_cnf ast in
   let heuristic = parse_heuristic_string heuristic_string in
-  (if quiet then () else printf "Initial CNF is %s \n%!" (Cnf.to_string cnf));
+  (if quiet then () else printf "%s \n%!" (if latex then to_latex (Cnf.to_string cnf) else Cnf.to_string cnf));
   if cnf_only then () else (
     if step_through then step_mode cnf latex heuristic else (
       if Step.solve (Step.init `Most_unsatisfied cnf)
@@ -159,11 +173,11 @@ let process_file quiet step_through cnf_only latex heuristic_string filename () 
 let spec =
   let open Command.Spec in
   empty
-  +> flag "-q" no_arg ~doc:"Quiet mode.  Only prints whether input is satisfiable or not."
-  +> flag "-s" no_arg ~doc:"Step-through mode.  Presents a GDB-like interface to step through solving."
-  +> flag "--just-cnf" no_arg ~doc:"Just print out the CNF and then terminate."
-  +> flag "--latex" no_arg ~doc:"All commands output latex."
-  +> flag "-h" (optional_with_default "most_unsatisfied" string) ~doc:"Specify which heuristic to use.  Default: most unsatisfied clauses."
+  +> flag "-q" no_arg ~doc:" Quiet mode.  Only prints whether input is satisfiable or not."
+  +> flag "-s" no_arg ~doc:" Step-through mode.  Presents a GDB-like interface to step through solving."
+  +> flag "--just-cnf" no_arg ~doc:" Just print out the CNF and then terminate."
+  +> flag "--latex" no_arg ~doc:" All commands output latex."
+  +> flag "-h" (optional_with_default "most_unsatisfied" string) ~doc:"string Specify which heuristic to use.  Default: most unsatisfied clauses."
   +> anon ("filename" %: string)
 ;;
 

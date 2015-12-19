@@ -1,9 +1,9 @@
-# 1 "lexer.mll"
+# 1 "src_lex_parse/lexer.mll"
  
   open Parser
   exception Eof
 
-# 7 "lexer.ml"
+# 7 "src_lex_parse/lexer.ml"
 let __ocaml_lex_tables = {
   Lexing.lex_base = 
    "\000\000\248\255\075\000\160\000\235\000\054\001\253\255\254\255\
@@ -177,49 +177,49 @@ let rec token lexbuf =
 and __ocaml_lex_token_rec lexbuf __ocaml_lex_state =
   match Lexing.engine __ocaml_lex_tables __ocaml_lex_state lexbuf with
       | 0 ->
-# 6 "lexer.mll"
+# 6 "src_lex_parse/lexer.mll"
                                       ( token lexbuf )
-# 183 "lexer.ml"
+# 183 "src_lex_parse/lexer.ml"
 
   | 1 ->
-# 7 "lexer.mll"
+# 7 "src_lex_parse/lexer.mll"
                                       ( RPAREN )
-# 188 "lexer.ml"
+# 188 "src_lex_parse/lexer.ml"
 
   | 2 ->
-# 8 "lexer.mll"
+# 8 "src_lex_parse/lexer.mll"
                                       ( LPAREN )
-# 193 "lexer.ml"
+# 193 "src_lex_parse/lexer.ml"
 
   | 3 ->
-# 9 "lexer.mll"
+# 9 "src_lex_parse/lexer.mll"
                                       ( NEG )
-# 198 "lexer.ml"
+# 198 "src_lex_parse/lexer.ml"
 
   | 4 ->
-# 10 "lexer.mll"
+# 10 "src_lex_parse/lexer.mll"
                                       ( OR )
-# 203 "lexer.ml"
+# 203 "src_lex_parse/lexer.ml"
 
   | 5 ->
-# 11 "lexer.mll"
+# 11 "src_lex_parse/lexer.mll"
                                       ( AND )
-# 208 "lexer.ml"
+# 208 "src_lex_parse/lexer.ml"
 
   | 6 ->
 let
-# 12 "lexer.mll"
+# 12 "src_lex_parse/lexer.mll"
                                                            ident
-# 214 "lexer.ml"
+# 214 "src_lex_parse/lexer.ml"
 = Lexing.sub_lexeme lexbuf lexbuf.Lexing.lex_start_pos lexbuf.Lexing.lex_curr_pos in
-# 12 "lexer.mll"
+# 12 "src_lex_parse/lexer.mll"
                                                                  ( IDENT ident )
-# 218 "lexer.ml"
+# 218 "src_lex_parse/lexer.ml"
 
   | 7 ->
-# 13 "lexer.mll"
+# 13 "src_lex_parse/lexer.mll"
                                       ( EOF )
-# 223 "lexer.ml"
+# 223 "src_lex_parse/lexer.ml"
 
   | __ocaml_lex_state -> lexbuf.Lexing.refill_buff lexbuf; __ocaml_lex_token_rec lexbuf __ocaml_lex_state
 
